@@ -48,40 +48,41 @@ What's even more exciting is that we have successfully:
 **We also look forward to your joining and contribution!**
 
 More interesting applications reflecting the **"Small and Beautiful"** characteristics of tools:
-    * **Seven-Color Card** Plan
-    - Green Card: Gene Interpretation Application
-    - Red Card: [Complication Management Application](https://xhk.xiaoyibao.com.cn/)
-    - Cyan Card: Patient Quality of Life Community Application
 
-    <img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/iShot_2026-04-27_10.35.14.png" />
+* **Seven-Color Card** Plan
+  * Green Card: Gene Interpretation Application
+  * Red Card: [Complication Management Application](https://xhk.xiaoyibao.com.cn/)
+  * Cyan Card: Patient Quality of Life Community Application
 
-    - White Card: Nutritional Support Application
+<img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/iShot_2026-04-27_10.35.14.png" />
 
-    <img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/eff325f187091b42f876602b02ca6812.png" />
+* White Card: Nutritional Support Application
 
-    - Blue Card: Doctor-Patient Communication Application
-    - Purple Card: [Psychological Care Application](https://my-google-ai-studio-applet-425817031228.us-west1.run.app/)
+<img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/eff325f187091b42f876602b02ca6812.png" />
 
-    <img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427104012254.png" />
+* Blue Card: Doctor-Patient Communication Application
+* Purple Card: [Psychological Care Application](https://my-google-ai-studio-applet-425817031228.us-west1.run.app/)
 
-    - Orange Card: Rehabilitation Management Application
+<img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427104012254.png" />
+
+* Orange Card: Rehabilitation Management Application
 
 ### The community actively promotes various ecosystem activities, encouraging participating developers not only to gain public welfare value but also to continuously grow and acquire more professional capabilities. We build a stage for young people to speak and become the main force of the community
 
 **Young power is especially welcome**, with a clear and effective growth path from volunteer to community manager!
 
-    *   🎉 **OpenCare Community [AI Treasure Hunt Plan](https://wiki.xiao-x-bao.com.cn):** Promoting patients' autonomous construction of agents to empower the patient community.
-    *   💗 **Complication Response - [Red Card Project](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git):** Calling for family members of tumor patients to eliminate ignorance and prioritize the role of the primary complication manager!
-      
-    *   🎉 **GitHub/GitCode Code Contribution:** Open source is our DNA! We have open-sourced 3 project repositories:
-        *   [PancrePal](https://github.com/PancrePal-xiaoyibao/miniapp-uniapp)
-        *   [MinerU-xyb](https://github.com/PancrePal-xiaoyibao/miniapp-uniapp)
-        *   [fastgpt-on-wechat](https://github.com/hanfangyuan4396/fastgpt-on-wechat)
-        *   [Gemini-2.0 Patient Demo](https://github.com/PancrePal-xiaoyibao/gemini2.0-xiaoyibao)
-     
+* 🎉 **OpenCare Community [AI Treasure Hunt Plan](https://wiki.xiao-x-bao.com.cn):** Promoting patients' autonomous construction of agents to empower the patient community.
+* 💗 **Complication Response - [Red Card Project](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git):** Calling for family members of tumor patients to eliminate ignorance and prioritize the role of the primary complication manager!
+
+* 🎉 **GitHub/GitCode Code Contribution:** Open source is our DNA! We have open-sourced 3 project repositories:
+  * [PancrePal](https://github.com/PancrePal-xiaoyibao/miniapp-uniapp)
+  * [MinerU-xyb](https://github.com/PancrePal-xiaoyibao/miniapp-uniapp)
+  * [fastgpt-on-wechat](https://github.com/hanfangyuan4396/fastgpt-on-wechat)
+  * [Gemini-2.0 Patient Demo](https://github.com/PancrePal-xiaoyibao/gemini2.0-xiaoyibao)
+
 * 👏 **Exploration and Practice of Open Source Medical Models** [Google_Medgemma3 Test](https://github.com/PancrePal-xiaoyibao/MedGemma3_test_xyb)
 
-    Looking forward to more developers joining to perfect the community and contribute open-source power!
+Looking forward to more developers joining to perfect the community and contribute open-source power!
 
 * 🎉 **Patient Co-creation Wiki:** [OpenCare Community "Pancreatic Tumor Complications Patient Co-creation Bible"](https://bfz.xiao-x-bao.com.cn), gathering patient wisdom and sharing valuable experience.
 
