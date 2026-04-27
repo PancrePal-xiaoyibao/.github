@@ -329,7 +329,7 @@
 * [阶跃星辰](https://www.stepfun.com/) 的小伙伴 @Sunny 付凯老师 @simin @jack 主动联系项目，给予了慷慨的 token 捐赠，在 2024 人工智能大会上宣传小胰宝，产品 @陈雪丹和研发负责人 @halo 帮助对 prompt 优化提供了技术支持。2026年，stepfun支持社区构建以 **openclaw + llm-wiki + skillshub**的新生态探索！
 * [Opendatalab-MinerU](https://github.com/OpenDatalab/minerU): 感谢这个开源项目提供了 API 测试机会，让我们加快了小肺宝上线和小胰宝的知识库增强。
 * [UCloud](https://github.com/ucloud): 感谢 UCloud[优刻得云计算]在了解到小肺宝上线的资源缺口后，慷慨捐赠服务器资源，对于小肺宝的上线和性能提升直接提供了支援。
-* [Siliconflow](https://siliconflow.cn): 感谢 Siliconflow[硅流流动]在了解到小胰宝上线的资源缺口后，慷慨捐赠Token和GPU资源，对于小x宝的上线和性能提升直接提供了支援。
+* [Siliconflow](https://siliconflow.cn): 感谢 Siliconflow[硅基流动]在了解到小胰宝上线的资源缺口后，慷慨捐赠Token和GPU资源，对于小x宝的上线和性能提升直接提供了支援。
 * [Gewechat](https://github.com/Devo919/Gewechat): 在 cmc 成员田老师介绍后，[Gewechat 团队](www.geweapi.com) 迅速决定加入和支持小 x 宝社区，提供微信机器人服务协议和能力支持，大幅度改善用户体验，对所有 x 宝应用都是巨大贡献；
 * [Get笔记](https://www.biji.com/openapi?tab=docs): 感谢 ❤️[Get笔记](https:https://www.biji.com/) 团队❤️: [Get笔记](https://www.biji.com/) 是 AI 时代的笔记软件新典范，直接支持社区**知识星云**的构建，推动病友自主构建个人知识库并分享传播。欢迎大家使用[get笔记cli](https://github.com/iswalle/getnote-cli), [get-biji-skills](https://github.com/iswalle/getnote-openclaw);
 * [Gitcode-Gstar](https://docs.gitcode.com/docs/help/home/page-intro/homepage):感谢❤️GitCode团队❤️的信任和邀请，我们有幸受邀加入了G-Star计划,成为GitCode G-Star公益行活动的💎首批成员！⚡感谢GitCode开源x公益的社区推动，让我们看到更多光，感受到更宽广的力量场！
