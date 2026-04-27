@@ -204,7 +204,7 @@ OpenCare（オープンケア）コミュニティとそのサブコミュニテ
 > ![](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2025/12/02/1764655044391-05625076-99f7-44ff-b42a-cca0fb9b9d4b.png)
 > | **2025-10  4つの主要な資金調達チャネルを開始。新しいコミュニティのポジショニングを定義。** <br>
 > | **2025-9   上海でのINCLUSION会議に参加。瑞金医院と提携し、初のAI + Blue Vestパイロットコミュニティを設立。** <br>
-<img width="400" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427095647179.png" />
+<img width="400" alt="image" src="assets/bund-2025.png" />
 > | **2025-8   Heartieチームとボランティアがホスピスケアリソースに注力。[ホスピスケア知識ベース](https://biji.com/topic/20jOyqxJ)をリリース。** <br>
 > | **2025-8   山西ベスーン医院の王鋼鋼博士と協力し、リンパ腫AIアシスタントの構築を開始。** <br>
 > | **2025-7   CMCに最初の若手メンバー @Haixiang が加入。「小鈴鐺」(Little Bell) プロジェクトを開始。** <br>

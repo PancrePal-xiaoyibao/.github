@@ -204,7 +204,7 @@ Hecho con [contrib.rocks](https://contrib.rocks).
 > ![](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2025/12/02/1764655044391-05625076-99f7-44ff-b42a-cca0fb9b9d4b.png)
 > | **2025-10  Lanzamiento de 4 canales de recaudación de fondos | Nuevo posicionamiento comunitario: Apoyo a la autogestión de pacientes con IA + Comunidad Chaleco Azul + Apps.** <br>
 > | **2025-9   Participación en la Conferencia INCLUSION en Shanghái. Colaboración con el Hospital de Cáncer de Fudan y el Hospital Ruijin para establecer la primera comunidad piloto de IA + Chaleco Azul.** <br>
-<img width="400" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427095647179.png" />
+<img width="400" alt="image" src="assets/bund-2025.png" />
 > | **2025-8   El equipo Heartie y voluntarios se centraron en recursos de cuidados paliativos para pacientes con tumores. Lanzamiento de la [Base de Conocimientos de Cuidados Paliativos](https://biji.com/topic/20jOyqxJ)** <br>
 > | **2025-8   Colaboración con el Dr. Wang Ganggang para construir un asistente de IA para linfomas.** <br>
 > | **2025-7   CMC dio la bienvenida a su primer miembro joven @Haixiang. Lanzamiento de "Xiao Ling Dang" (Campanita). Quark Medical Model y Zhipu Z-Plan se unieron al plan "Glimmer to Greatness".** <br>
