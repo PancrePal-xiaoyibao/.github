@@ -192,8 +192,8 @@
 <img width="400" alt="image" src="http://pic.xiaoyibao.com.cn/images/20251209181705334.png" />
 > **2025年，小x宝公益AI开源社区，不仅通过积极创新和实干发展，在社区化基础上，推动了10+新AI项目上线，高效服务患者家属，更在AI时代开源公益理念的坚定践行中，找到了适合AI时代开源社区和小x宝自己的发展方法和体系。**
 > | **2026-1   社区首届黑客松开始筹备** <br>
-> | **2026-1   社区首次发布自有C-A-T发展框架，明确社区发展战略要素，并发布病情管理目标及[推荐工具](https://mp.weixin.qq.com/s/85PonZxFdXc1ihdNv5gUgA )** <br>
-![](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2025/12/02/1764655044391-05625076-99f7-44ff-b42a-cca0fb9b9d4b.png)
+> | **2026-1   社区首次发布自有C-A-T发展框架，明确社区发展战略要素，并发布病情管理目标及[推荐工具](https://mp.weixin.qq.com/s/85PonZxFdXc1ihdNv5gUgA )**  <br>
+![ACT framework](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2025/12/02/1764655044391-05625076-99f7-44ff-b42a-cca0fb9b9d4b.png)
 > | **2025-10  4大筹资通道，开始推动 ｜社区新定位：以AI能力+蓝马甲社群+垂直应用app，支持患者和家属的全病程自我管理需求，减少信息差，规范治疗，延长生命** <br>
 > | **2025-9   参加上海的外滩大会，2周年返场，携手复旦肿瘤医院乳腺外科护士长，介绍新的AI助手和应用经验 ｜ 携手瑞金医院金院长，建立第一个AI+蓝马甲试点社群** <br>
 <img width="400" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427095647179.png" />
