@@ -1,6 +1,6 @@
 [简体中文](README.md) | [English](README.en.md) | [Русский](README.ru.md) | [Español](README.es.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-# 🔥 [Comunidad OpenCare](https://info.xiao-x-bao.com.cn) y PancrePal: Iluminando la esperanza para pacientes con cáncer con IA ✨
+# 🔥 [Comunidad OpenCare](https://info.xiao-x-bao.com.cn) y PancrePal: Iluminando la esperanza para pacientes con cáncer/enfermedades raras/crónicas con IA ✨
 
 **Un proyecto de bienestar público de código abierto de Tiangong Kaiwu (<www.xiaoyibao.com.cn>) | Sigue nuestras cuentas oficiales de WeChat: 【小胰宝】 (PancrePal) y 【小胰宝助手】 (PancrePal Assistant) para las últimas actualizaciones.**
 
@@ -117,7 +117,7 @@ Contacto: (<service@xiaoyibao.com.cn>, <sam.qin@xiaoyibao.com.cn>) para cooperac
 
 ### 🌱 Proyectos en Crecimiento
 
-* **PancrePal:** Fundado por el paciente SamQin, ahora gestionado por la **Comunidad de Código Abierto PancrePal CMC x Fundación Tiangong Kaiwu**. ¡Gracias a todos los voluntarios! 💗👏
+* **PancrePal:** Fundado por el paciente SamQin, ahora gestionado por la **Comunidad de Código Abierto PancrePal CMC x Fundación Tiangong Kaiwu**. Hemos reunido a más de 190 miembros del equipo del ecosistema y más de 40 miembros del equipo de ejecución, construyendo una gestión organizacional estandarizada. ¡Gracias a todos los voluntarios! 💗👏
 * **PulmoPal:** Iniciado por Xiao Le/Mr. Wu/DaiJW, asistente de bienestar público para pacientes con cáncer de pulmón.
 * **AnusPal:** Iniciado por la paciente Tina y sus socios, brindando esperanza a pacientes con cáncer de ano.
 * **GastroPal:** Asistente inteligente para pacientes con cáncer de estómago.
@@ -133,6 +133,16 @@ Tienen como objetivo ayudar a **cientos de miles** de pacientes cada año a cerr
 
 **Creemos firmemente:**
 > **El cáncer tiene muchos tipos y el tratamiento evoluciona rápido. Debemos ayudar a los pacientes a mantener la calma, ver las cosas racionalmente y evitar el miedo innecesario.**
+
+---
+
+## Socios Desarrolladores de "De Destello a Grandeza"
+
+* [Desarrollador Vinlic](https://github.com/Vinlic): Proporcionó una aplicación de solución de servicio al cliente de WeChat corporativo, que admite comunicación privada 1v1 y análisis de imágenes en el diálogo, mejorando significativamente la experiencia del usuario y enriqueciendo el ecosistema.
+* [Desarrollador Fangyuan Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat): Un proyecto próspero basado en COW, que proporciona una conexión fluida con Dify y adaptado a Fastgpt, convirtiéndose así en una de las pilas tecnológicas de bots para PancrePal, AnusPal y PulmoPal. ¡Muchas gracias por los esfuerzos del proyecto!
+* [Desarrollador Francis](https://github.com/Tishon1532/chatgpt-on-wechat-win): Gracias @Tishon1532 por proporcionar la solución de robot de WeChat, que mejoró significativamente el uso y la experiencia de los grupos de pacientes en los grupos de WeChat, ampliando las ideas de aplicación de PancrePal en escenarios de mensajes de tarjeta; agregamos con éxito la búsqueda MetaSo, la estación de solicitud de canciones y otras escenas de alta frecuencia para los pacientes.
+* [Dify](https://github.com/langgenius/dify): PulmoPal utilizó el marco de código abierto DIFY, que admite el espacio de expansión para el Asistente de Cáncer de Pulmón RAG, incluido el acceso en un solo lugar para LLM, la expansión del sistema KB y, lo más importante, la alineación con las capacidades globales de RAG. Dify aún no se ha unido al ecosistema; ¡muchas gracias!
+* [peterwillcn](https://github.com/peterwillcn): Contribuyó con el código de implementación con un solo clic, consulte el [Readme de implementación con un solo clic](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/blob/main/src/README.md).
 
 ---
 
@@ -163,7 +173,6 @@ Contacto: (<service@xiaoyibao.com.cn>, <sam.qin@xiaoyibao.com.cn>)
 
 ## Información de Contacto
 
-* Autor: <sam.qin@xiaoyibao.com.cn>
 * Plan de cooperación 'De destello a grandeza': <sam.qin@xiaoyibao.com.cn>
 * Líder de la organización de bienestar público: hx.Huang, WeChat `hhxdeweixinxin`
 * Asesoría Legal: @JudyLU
@@ -178,5 +187,45 @@ Contacto: (<service@xiaoyibao.com.cn>, <sam.qin@xiaoyibao.com.cn>)
 
 Hecho con [contrib.rocks](https://contrib.rocks).
 
+
+**Novedades Recientes** <br>
+> | **2026-4   YIXI x Tongyi Lab: Presentación del proyecto comunitario de bienestar público PancrePal.** <br>
+<img width="400" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/935c9ece163ef194b17c0c4516380375.jpg" />  
+> | **2026-4   La cuenta pública oficial certificada de WeChat "PancrePal" (小胰宝), registrada por la fundación, publicó su primera entrada.** <br>
+> | **2026-4   Lanzamiento del proyecto "PancreButler" (胰管家) en cooperación con el equipo de enfermería del Centro de Páncreas del Hospital del Pueblo de la Provincia de Jiangsu, recibiendo reconocimiento de los líderes del hospital.** <br>
+> | **2026-4   Colaboración con el proyecto de prácticas de estudiantes de la Universidad Duke Kunshan (DKU), invitando a estudiantes a participar en proyectos de "IA + Comunidad + Empoderamiento". [Repositorio Dedicado](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Hub)，[Biblioteca de Documentos](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Wiki)** <br>
+> | **2026-3   El equipo 9A del Centro de Cáncer de la Universidad de Fudan publicó un artículo sobre el uso de PancrePal en pacientes ancianos con cáncer de páncreas. DOI: 10.3969/j.issn.1008-8296.2025.01.0** <br>
+> | **2026-2   Establecimiento del Grupo Sin Fronteras PBS, comunicación con pancan.org (EE. UU.) y lanzamiento de redes sociales (X/Facebook/Reddit/Discord/Twitter).** <br>
+> | **2026-2   Lanzamiento del Plan Comunitario "Chaleco Azul", brindando servicios comunitarios para pacientes de OpenCare y publicando un mapa de navegación comunitaria.** <br>
+<img width="400" alt="image" src="http://pic.xiaoyibao.com.cn/images/20251209181705334.png" />
+> **En 2025, la Comunidad de Código Abierto de IA para el Bienestar Público OpenCare lanzó más de 10 nuevos proyectos de IA para servir eficientemente a pacientes y familias.**
+> | **2026-1   Comienzo de los preparativos para el primer Hackatón de la comunidad.** <br>
+> | **2026-1   La comunidad lanzó su primer marco de desarrollo C-A-T y publicó objetivos de gestión de condiciones y [herramientas recomendadas](https://mp.weixin.qq.com/s/85PonZxFdXc1ihdNv5gUgA)** <br>
+> ![](https://fastly.jsdelivr.net/gh/bucketio/img0@main/2025/12/02/1764655044391-05625076-99f7-44ff-b42a-cca0fb9b9d4b.png)
+> | **2025-10  Lanzamiento de 4 canales de recaudación de fondos | Nuevo posicionamiento comunitario: Apoyo a la autogestión de pacientes con IA + Comunidad Chaleco Azul + Apps.** <br>
+> | **2025-9   Participación en la Conferencia INCLUSION en Shanghái. Colaboración con el Hospital de Cáncer de Fudan y el Hospital Ruijin para establecer la primera comunidad piloto de IA + Chaleco Azul.** <br>
+<img width="400" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427095647179.png" />
+> | **2025-8   El equipo Heartie y voluntarios se centraron en recursos de cuidados paliativos para pacientes con tumores. Lanzamiento de la [Base de Conocimientos de Cuidados Paliativos](https://biji.com/topic/20jOyqxJ)** <br>
+> | **2025-8   Colaboración con el Dr. Wang Ganggang para construir un asistente de IA para linfomas.** <br>
+> | **2025-7   CMC dio la bienvenida a su primer miembro joven @Haixiang. Lanzamiento de "Xiao Ling Dang" (Campanita). Quark Medical Model y Zhipu Z-Plan se unieron al plan "Glimmer to Greatness".** <br>
+> | **2025-6   El asistente psicológico "Heartie" (小馨宝) y el grupo de psicología comenzaron a trabajar plenamente con IA + transmisiones en vivo + talleres.** <br>
+> | **2025-5   Inicio del registro para "Puntos de Voluntariado" a través de una plataforma formal.** <br>
+> | **2025-4   Participación en Open Source Summer con proyectos como hardware de asistente psicológico y AI-Gateway.** <br>
+> | **2025-4   Creación del grupo SIG de psicología comunitaria para apoyar a voluntarios y familias.** <br>
+> | **2025-3   Primer [AMA (Ask me anything)](https://uei55ql5ok.feishu.cn/wiki/PUKGwtv6HiseBnkOWrQcndTpn9b) de la comunidad.** <br>
+> | **2025-3   Iteración de mecanismos comunitarios, aparición de #YanPal (小妍宝) y la organización de enfermedades raras #KHub.** <br>
+> | **2025-2   Aceleración del proyecto PinkPal (小粉宝) y lanzamiento de "StomachPal" (小胃宝). Participación en el roadshow de StepFun.** <br>
+> | **2025-1   Servicios estables durante el Año Nuevo Chino. Mejora de la eficiencia operativa mediante IA. Reflexión y optimización del sistema de RR.HH.** <br>
+> | **2025-1   Establecimiento de CMC e inicio de la comunalización. Lanzamiento del plan "Glimmer to Greatness".** <br>
+> | **2024-12  Inicio de StomachPal (小胃宝) | Confirmación de donación a la Fundación de Código Abierto | Diseño del Plan "Glimmer to Greatness".** <br>
+PancrePal fue seleccionado como el primer Proyecto de Bienestar Público OpenGood en COSCon'24. ![](https://fastly.jsdelivr.net/gh/bucketio/img6@main/2025/12/02/1764655112640-e4d20994-46f8-4f7f-8ef4-663572587178.png)
+> | **2024-11  Participación en CosCon2024. Premio al Caso Excelente 2024. Atención de socios de JetBrains.** <br>
+> | **2024-10  Lanzamiento de la versión interna de LungPal (小肺宝) | Inicio de pruebas comunitarias de PancrePal | Respuesta a calumnias y ajuste de mecanismos de autoprotección.** <br>
+> | **2024-9   Presentación en la Conferencia INCLUSION y donaciones de recursos de @Fastgpt y @KhowS.** <br>
+> | **2024-8   Promoción de aplicaciones para cáncer de pulmón y construcción de la plataforma RAG.** <br>
+> | **2024-7   Asistencia en la creación de "AnusPal" (小萌宝) para cáncer anal en colaboración con Tina.** <br>
+> | **2024-6   Aumento del uso de herramientas de IA en grupos de pacientes a pesar de la disminución de usuarios directos de PancrePal.** <br>
+> | **2024-5   Reconocimiento gradual de PancrePal por parte de las comunidades de código abierto e IA.** <br>
+
 ---
-*Contributed by Antigravity Gemini 3 Flash*
+*Contributed by OPC-driven power ❤️ fully capable AI-cli/bots/llms & ❤️ community members*

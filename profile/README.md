@@ -1,6 +1,6 @@
 [简体中文](README.md) | [English](README.en.md) | [Русский](README.ru.md) | [Español](README.es.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-# 🔥 [小X宝社区](https://info.xiao-x-bao.com.cn) & 小胰宝：用 AI 为肿瘤患者点亮希望之光 ✨
+# 🔥 [小X宝社区](https://info.xiao-x-bao.com.cn) & 小胰宝：用 AI 为肿瘤/罕见病/慢性病患者点亮希望之光 ✨
 
 **天工开物旗下公益开源项目 (<www.xiaoyibao.com.cn>) | 关注公众号【小胰宝】官方公众号，以及【小胰宝助手】-知识文章发布 获取最新进展**
 
@@ -147,7 +147,7 @@
 
 ### 🌱 正在成长中的项目
 
-* **小胰宝：** 由病友 SamQin 创立，现由 **小胰宝开源社区 CMC x 天工开物基金会** 管理。  我们聚集了 110+ 生态团队成员，40+ 执行团队成员，构建规范化组织管理。  **感谢所有默默奉献的志愿者伙伴们！**  💗👏
+* **小胰宝：** 由病友 SamQin 创立，现由 **小胰宝开源社区 CMC x 天工开物基金会** 管理。  我们聚集了 190+ 生态团队成员，40+ 执行团队成员，构建规范化组织管理。  **感谢所有默默奉献的志愿者伙伴们！**  💗👏
 * **小肺宝：**  由晓乐/吴老师/DaiJW 发起，面向肺癌患者提供 RAG 公益助手。  期待他们的应用为更多患者所知，发挥公益价值。  [https://chat.xiaofeibao.com.cn](https://chat.xiaofeibao.com.cn)
 * **小萌宝：**  由病友 Tina 和她的伙伴发起，面向肛管癌患者，提供 AI RAG 公益助手，用乐观和热情点燃治疗信心。
 * **小胃宝：**  由新团队主导，面向胃癌患者。  应用已上线 ([https://chat.xiaoweibao.com.cn](https://chat.xiaoweibao.com.cn))，正在寻找和推动全新 RAG 技术栈设计和运营合作。
@@ -316,6 +316,7 @@ COSCon'24上，小胰宝项目被评选为首届OpenGood公益项目。![](https
 * [开发者方圆 Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat):是一个非常蓬勃发展，基于COW改造的项目，提供了和Dify流畅对接能力，适配了Fastgpt，因此成为小胰宝，小萌宝，小肺宝的bot技术栈之一，非常感谢该项目的努力！
 * [开发者Francis](https://github.com/Tishon1532/chatgpt-on-wechat-win):感谢 @Tishon1532 提供了微信机器人解决方案，极大改善了微信群病友的使用和体验，拓展了小胰宝在卡片消息使用场景的应用思路，我们成功的加入了密塔搜索，点歌台等病友高频使用场景；
 * [Dify](https://github.com/langgenius/dify):  小肺宝使用了DIFY开源框架，支持提供了肺癌助手 RAG 的扩展空间，包括 LLMs 的一站式接入，KB 的体系扩展，以及最为重要的和全球化 RAG 能力对齐. Dify目前未加入生态，于此表示感谢！
+* [peterwillcn](https://github.com/peterwillcn): 贡献一键部署代码，请参阅 [一键部署 Readme](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/blob/main/src/README.md)。
 
 * 同时，也感谢其它为小胰宝上线提供支持的开源社区人士 @ -中国红客联盟 @wangzhitao-京东健康 @linan-律师，为小胰宝的发展提供关键资源，包括支持和保障。
 
@@ -325,35 +326,10 @@ COSCon'24上，小胰宝项目被评选为首届OpenGood公益项目。![](https
 
 ### 始终有一群人，愿意基于开源 AI 技术和人性温暖，制造出更多类似小胰宝的科技应用，帮助肿瘤患者和他们的家庭，有机会跨过信息鸿沟，选择科学规范治疗，获得更多的生命收益。这一点，聚集于生命所在，是无法以商业成功来衡量的。我们为此升级了捐助计划为“微光成炬”计划，欢迎关注和加入，以更大的能量，为弱者照亮攀登之路
 
-## 🔗 相关项目
-
-* [点击了解相关项目](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/issues/54)
-
----
-
-## 🗺️ 版本介绍和路线图
-
-参见 [路线图](roadmap.md)
-
-## 💻 本地部署
-
-推荐服务器部署，配置建议 2c2g3M40G 起步（阿里云 99 元），建议 4c8g-50G-5M。  FastGPT 和 Dify 都需要稳定资源，否则会增加运维压力。
-
-## ✨ 一键部署
-
-* 感谢 @peterwillcn 贡献一键部署代码，请参阅 [一键部署 Readme](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/blob/main/src/README.md)。
-* 模型部分以零一为例，可以随需修改。 推荐 Moonshot/StepFun/Glm-4 系列，不推荐 OpenAI。
-* Embedding 推荐国产大模型，比如 qwen 的 text-embedding-v2 或智谱的 Embedding 模型。
-
-## 📚 知识库项目
-
-感谢 @徐宇超 为小 X 宝提供知识库项目，方便非技术贡献者汇总知识。[项目地址：](https://xycjscs.github.io/KnowledgeBase-xiaoyibao/)
-
 ---
 
 ## 联系方式
 
-* 作者邮箱：<sam.qin@xiaoyibao.com.cn>
 * 微光成炬计划：<sam.qin@xiaoyibao.com.cn>
 * 公益组织负责人：hx.Huang，微信 `hhxdeweixinxin`
 * 法律顾问：@JudyLU

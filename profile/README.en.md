@@ -1,6 +1,6 @@
 [简体中文](README.md) | [English](README.en.md) | [Русский](README.ru.md) | [Español](README.es.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-# 🔥 [OpenCare Community](https://info.xiao-x-bao.com.cn) & PancrePal: Lighting the Hope for Cancer Patients with AI ✨
+# 🔥 [OpenCare Community](https://info.xiao-x-bao.com.cn) & PancrePal: Lighting the Hope for Cancer/Rare/Chronic Disease Patients with AI ✨
 
 **An NGO Open-Source Project by Tiangong Kaiwu (<www.xiaoyibao.com.cn>) | Follow our official WeChat accounts: 【小胰宝】 (PancrePal) and 【小胰宝助手】 (PancrePal Assistant) and X (@PancrePal) for the latest updates.**
 
@@ -109,6 +109,8 @@ Welcome to contact us (<service@xiaoyibao.com.cn>, <sam.qin@xiaoyibao.com.cn>) f
 * ‼️ **Volunteer Responsibilities:** [Click Here](https://faq.xiao-x-bao.com.cn)
 * ❤️ **Join Us:** [Click Here](https://iamin.xiao-x-bao.com.cn)
 * 😊 **Community Tasks:** [Dream Projects](https://task.xiaoyibao.com.cn) are fully transparent, waiting for you to create!
+* 📺 **Project Demo:** [Watch Demo Video](../../opencare_video.mp4)
+
 * 👌 **First Contribution:** Instructors help you complete your [First Good Issue](https://myfirst.xiaoyibao.com.cn)
 
 <img width="345" alt="image" src="https://github.com/user-attachments/assets/cdfb2fb4-ddf6-42c3-b5cf-30296bf5e76a" />
@@ -148,7 +150,7 @@ Welcome to contact us (<service@xiaoyibao.com.cn>, <sam.qin@xiaoyibao.com.cn>) f
 
 ### 🌱 Projects in Growth
 
-* **PancrePal:** Founded by patient SamQin, now managed by **PancrePal Open Source Community CMC x Tiangong Kaiwu Foundation**. We have gathered 110+ ecosystem team members and 40+ execution team members, building standardized organizational management. **Thanks to all the silently dedicated volunteer partners!** 💗👏
+* **PancrePal:** Founded by patient SamQin, now managed by **PancrePal Open Source Community CMC x Tiangong Kaiwu Foundation**. We have gathered 190+ ecosystem team members and 40+ execution team members, building standardized organizational management. **Thanks to all the silently dedicated volunteer partners!** 💗👏
 * **LungPal:** Initiated by Xiao Le/Mr. Wu/DaiJW, providing a RAG public welfare assistant for lung cancer patients. Looking forward to their application being known by more patients and playing its public welfare value. [https://chat.xiaofeibao.com.cn](https://chat.xiaofeibao.com.cn)
 * **AnusPal:** Initiated by patient Tina and her partners, providing an AI RAG public welfare assistant for anal cancer patients, igniting treatment confidence with optimism and enthusiasm.
 * **StomachPal:** Led by a new team for stomach cancer patients. The application is online ([https://chat.xiaoweibao.com.cn](https://chat.xiaoweibao.com.cn)), seeking and promoting new RAG tech stack design and operational cooperation.
@@ -321,6 +323,7 @@ Using the community project open-source framework, including the technology fram
 * [Developer Fangyuan Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat): A thriving project based on COW, providing smooth docking with Dify and adapted to Fastgpt, thus becoming one of the bot tech stacks for PancrePal, AnusPal, and LungPal. Many thanks for the project's efforts!
 * [Developer Francis](https://github.com/Tishon1532/chatgpt-on-wechat-win): Thanks @Tishon1532 for providing the WeChat robot solution, which significantly improved the use and experience for patient groups in WeChat groups, expanding the application ideas of PancrePal in card message scenarios; we successfully added MetaSo search, song request station, and other high-frequency scenes for patients.
 * [Dify](https://github.com/langgenius/dify): LungPal used the DIFY open-source framework, supporting the expansion space for Lung Cancer Assistant RAG, including one-stop access for LLMs, KB system expansion, and most importantly, alignment with global RAG capabilities. Dify has not joined the ecosystem yet; many thanks here!
+* [peterwillcn](https://github.com/peterwillcn): Contributed one-click deployment code, please see [One-click Deployment Readme](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/blob/main/src/README.md).
 * Meanwhile, thanks to other open-source community members @ -China Red Hacker Alliance @wangzhitao-JDHealth @linan-Lawyer for providing key resources and protection for PancrePal's development.
 * Special thanks to ❤️[Clivia Studio](www.hub.oaifree.cn)❤️: Clivia is a college student and a passionate young person in AI technology and public welfare practice. He not only completed the construction and launch of StomachPal but also generously donated community public welfare Token resources. We look forward to more young partners like him joining the community to fly their youth and practice their dreams!
 
@@ -340,25 +343,9 @@ The joining of the above partners not only witnesses the values of the open-sour
 
 See [Roadmap](roadmap.md)
 
-## 💻 Local Deployment
-
-Recommended server deployment, configuration suggested starting from 2c2g3M40G (Alibaba Cloud 99 yuan), suggested 4c8g-50G-5M. Both FastGPT and Dify need stable resources; otherwise, operational pressure will increase.
-
-## ✨ One-click Deployment
-
-* Thanks @peterwillcn for contributing one-click deployment code, please see [One-click Deployment Readme](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/blob/main/src/README.md).
-* The model part takes 01.AI as an example and can be modified as needed. Moonshot/StepFun/Glm-4 series recommended; OpenAI not recommended.
-* Embedding recommended domestic large models, such as qwen's text-embedding-v2 or Zhipu's Embedding model.
-
-## 📚 Knowledge Base Project
-
-Thanks @Xu Yuchao for providing the knowledge base project for OpenCare, facilitating non-technical contributors to summarize knowledge. [Project Address:](https://xycjscs.github.io/KnowledgeBase-xiaoyibao/)
-
----
 
 ## Contact Information
 
-* Author Email: <sam.qin@xiaoyibao.com.cn>
 * Glimmer to Greatness Plan: <sam.qin@xiaoyibao.com.cn>
 * Public Welfare Organization Lead: hx.Huang, WeChat `hhxdeweixinxin`
 * Legal Counsel: @JudyLU
