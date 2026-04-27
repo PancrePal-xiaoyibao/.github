@@ -101,7 +101,7 @@
 * 😊  **社区任务：**  [梦想项目](https://task.xiaoyibao.com.cn) 全透明，等你来创建！
 * 👌  **首个贡献：**  辅导员助您完成 [First Good Issue](https://myfirst.xiaoyibao.com.cn)
 
-<img width="345" alt="image" src="https://github.com/user-attachments/assets/cdfb2fb4-ddf6-42c3-b5cf-30296bf5e76a" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/cdfb2fb4-ddf6-42c3-b5cf-30296bf5e76a" />
 
 ### 🌟 欢迎体验 Demo
 
@@ -192,7 +192,7 @@
 <img width="400" alt="image" src="http://pic.xiaoyibao.com.cn/images/20251209181705334.png" />
 > **2025年，小x宝公益AI开源社区，不仅通过积极创新和实干发展，在社区化基础上，推动了10+新AI项目上线，高效服务患者家属，更在AI时代开源公益理念的坚定践行中，找到了适合AI时代开源社区和小x宝自己的发展方法和体系。**
 > | **2026-1   社区首届黑客松开始筹备** <br>
-> | **2026-1   社区首次发布自有 A-C-T 发展框架，明确社区发展战略要素，并发布病情管理目标及
+> | **2026-1   社区首次发布自有 A-C-T 发展框架，明确社区发展战略要素，并发布病情管理目标** <br>
 
    [推荐工具](https://mp.weixin.qq.com/s/85PonZxFdXc1ihdNv5gUgA)** <br>
 
