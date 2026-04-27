@@ -16,11 +16,11 @@
 
 历经 **24** 个月的迭代与进化，小胰宝在开源的基石上，获得了基金会的鼎力支持。我们坚信，开源的力量能够汇聚更多智慧，让技术真正服务于人。
 
-**现在，我们以【核心 RAG 技术研发、公益癌种知识库、公益 RAG 应用微孵化（"微光成炬"合作计划）】为核心，推动 RAG 和 AI 技术在公益领域的创新应用。**
+**现在，我们以【核心 RAG 技术研发、患者病情管理Skills-hub，病情管理开源工具库，并发症管理工具开源库，知识库及工具库、以及捐赠公益 RAG 应用微孵化（"微光成炬"合作计划）】为核心，推动 RAG 和 AI 技术在公益领域的创新应用。** 
 
 更令人振奋的是，我们已经成功：
 
-*   **[上线并推进 38+ 个社区贡献项目：](https://github.com/orgs/PancrePal-xiaoyibao/repositories)**
+*   **[上线并推进 90+ 个社区贡献项目：](https://github.com/orgs/PancrePal-xiaoyibao/repositories)**
     *   🎉 **小X宝社区 [AI 探宝计划](https://wiki.xiao-x-bao.com.cn)：**  推广患者自主构建智能体，赋能患者群体。
     *   💗 **并发症应对-[小红卡项目](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git):** 呼吁肿瘤患者家属扫盲，重视和执行并发症第一管理人角色！
       
