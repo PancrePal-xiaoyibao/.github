@@ -30,7 +30,7 @@
 
 ### 社区已经开源的子项目群和项目已近100个，展现出社区开发者和开源社区的力量
 
-* [RAG和病情管理应用仓库](https://github.com/PancrePal-xiaoyibao/): 围绕RAG应用和工具箱提供的社区病情管理仓库。
+#### [RAG和病情管理应用仓库](https://github.com/PancrePal-xiaoyibao/): 围绕RAG应用和工具箱提供的社区病情管理仓库
 
 * 推荐1 [小图宝](https://github.com/PancrePal-xiaoyibao/ca199_toolbox_donated_by_lihb/)，一款本地管理个人隐私数据的肿瘤标志物/病情可视化工具包。
 
@@ -38,7 +38,7 @@
 * 推荐3 [小胰宝RAG应用](https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao)
 **更多发现请进仓库自行探索。感谢所有贡献者！期待您的加入**
 
-* [OpenCare病情管理技能仓库](https://github.com/opencare-skillhub/)
+#### [OpenCare病情管理技能仓库](https://github.com/opencare-skillhub/)
 
 * 推荐1 [llm-wiki](https://github.com/opencare-skillhub/graphify-xiaoyibao): 基于graphify二次开发应用，输入本地病情资料（文档/PDF/图片/视频/DICOM）→ 抽取关系 → 构建知识图谱 → 输出报告与多种导出格式。
 
@@ -46,38 +46,29 @@
 * 推荐3 [胰腺癌日报](https://github.com/opencare-skillhub/pancreatic-cancer-dailynews-skill)：由社区志愿者开发，提供胰腺癌治疗技术，临床试验的日报。
 **也期待您的加入和贡献！**
 
-更多有趣的应用，体现了工具 **小而美**的特点：
-    * **七色卡**计划
-    - 小绿卡：基因解读应用
-    - 小红卡：[并发症管理应用](https://xhk.xiaoyibao.com.cn/)
-    - 小青卡：患者品质生活社区应用
+#### 更多有趣的应用，体现了工具 **小而美**的特点
 
-    <img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/iShot_2026-04-27_10.35.14.png" />
+* **七色卡**计划
+>
+> * 小绿卡：基因解读应用
+> * 小红卡：[并发症管理应用](https://xhk.xiaoyibao.com.cn/)
+> * 小青卡：患者品质生活社区应用
+<img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/iShot_2026-04-27_10.35.14.png" />
+> * 小白卡：营养支持应用
+<img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/eff325f187091b42f876602b02ca6812.png" />
+> * 小蓝卡：医患沟通应用
+> * 小紫卡：[心理关怀应用](https://my-google-ai-studio-applet-425817031228.us-west1.run.app/)
+<img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427104012254.png" />
+> * 小橙卡：康复管理应用
+> 🎉 **[AI 探宝计划](https://wiki.xiao-x-bao.com.cn)：**  推广患者自主构建智能体，赋能患者群体。
+> 💗 **[并发症应对](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git)**：呼吁肿瘤患者家属扫盲，重视和执行并发症第一管理人角色。
 
-    - 小白卡：营养支持应用
+### 多种生态 & 活动
 
-    <img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/eff325f187091b42f876602b02ca6812.png" />
+鼓励参与社区的开发者不仅收获公益价值，也能不断成长和汲取更多专业能力，并搭建舞台，让年轻人发声，成为社区主力！
 
-    - 小蓝卡：医患沟通应用
-    - 小紫卡：[心理关怀应用](https://my-google-ai-studio-applet-425817031228.us-west1.run.app/)
+**社区发展，特别欢迎年轻力量的加入**，从志愿者到社区管理者的成长路线，清晰且有效！
 
-    <img width="200" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427104012254.png" />
-
-    - 小橙卡：康复管理应用
-
-### 社区积极推动多种生态活动，鼓励参与社区的开发者不仅收获公益价值，也能不断成长和汲取更多专业能力，并搭建舞台，让年轻人发声，成为社区主力
-
-**特别欢迎年轻力量的加入**，从志愿者到社区管理者的成长路线，清晰有效！
-
-    *   🎉 **小X宝社区 [AI 探宝计划](https://wiki.xiao-x-bao.com.cn)：**  推广患者自主构建智能体，赋能患者群体。
-    *   💗 **并发症应对-[小红卡项目](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git):** 呼吁肿瘤患者家属扫盲，重视和执行并发症第一管理人角色！
-      
-    *   🎉 **GitHub/GitCode 代码贡献：**  开源是我们的 DNA！  我们已开源 3 个项目仓库：
-        *   [小胰宝](https://github.com/PancrePal-xiaoyibao/miniapp-uniapp)
-        *   [MinerU-xyb](https://github.com/PancrePal-xiaoyibao/miniapp-uniapp)
-        *   [fastgpt-on-wechat](https://github.com/hanfangyuan4396/fastgpt-on-wechat)
-        *   [Gemini-2.0病情demo](https://github.com/PancrePal-xiaoyibao/gemini2.0-xiaoyibao)
-     
 * 👏 **开源医疗模型摸索和实践** [Google_Medgemma3测试](https://github.com/PancrePal-xiaoyibao/MedGemma3_test_xyb)
 
     期待更多开发者加入，共同完善社区，贡献开源力量！
