@@ -313,7 +313,7 @@ COSCon'24上，小胰宝项目被评选为首届OpenGood公益项目。![](https
 ## 微光成炬开发者伙伴
 
 * [开发者Vinlic](https://github.com/Vinlic): 提供了企业微信客服解决方案应用，支持 1v1 的隐私沟通，以及提供了对话中的图片解析等功能，极大改善了用户体验，丰富了应用端生态；
-* [开发者方圆 Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat):是一个非常蓬勃发展，基于COW改造的项目，提供了和Dify流畅对接能力，适配了Fastgpt，因此成为小胰宝，小萌宝，小肺宝的主流技术栈之一，非常感谢该项目的努力！
+* [开发者方圆 Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat):是一个非常蓬勃发展，基于COW改造的项目，提供了和Dify流畅对接能力，适配了Fastgpt，因此成为小胰宝，小萌宝，小肺宝的bot技术栈之一，非常感谢该项目的努力！
 * [开发者Francis](https://github.com/Tishon1532/chatgpt-on-wechat-win):感谢 @Tishon1532 提供了微信机器人解决方案，极大改善了微信群病友的使用和体验，拓展了小胰宝在卡片消息使用场景的应用思路，我们成功的加入了密塔搜索，点歌台等病友高频使用场景；
 * [Dify](https://github.com/langgenius/dify):  小肺宝使用了DIFY开源框架，支持提供了肺癌助手 RAG 的扩展空间，包括 LLMs 的一站式接入，KB 的体系扩展，以及最为重要的和全球化 RAG 能力对齐. Dify目前未加入生态，于此表示感谢！
 
@@ -354,9 +354,9 @@ COSCon'24上，小胰宝项目被评选为首届OpenGood公益项目。![](https
 ## 联系方式
 
 * 作者邮箱：<sam.qin@xiaoyibao.com.cn>
-* 微光成炬计划：<huanhuan.liu@xiaoyibao.com.cn>
-* 公益组织负责人：RichardLin，微信 `OPQRichard`
-* 法律顾问：JudyLU 律师
+* 微光成炬计划：<sam.qin@xiaoyibao.com.cn>
+* 公益组织负责人：hx.Huang，微信 `hhxdeweixinxin`
+* 法律顾问：@JudyLU
 
 ## 贡献者们
 
@@ -367,3 +367,6 @@ COSCon'24上，小胰宝项目被评选为首届OpenGood公益项目。![](https
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+---
+*Contributed by OPC-driven power ❤️ fully capable AI-cli/bots/llms & ❤️ community members*

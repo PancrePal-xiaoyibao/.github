@@ -161,12 +161,20 @@ OpenCare（オープンケア）コミュニティとそのサブコミュニテ
 ---
 
 ## お問い合わせ
-* 著者：<sam.qin@xiaoyibao.com.cn>
-* 法務：JudyLU 弁護士
 
-## 貢献者
+* 著者メール / 小さな輝きから大きな希望へ計画：<sam.qin@xiaoyibao.com.cn>
+* 公益団体リーダー：hx.Huang、WeChat `hhxdeweixinxin`
+* 法務：@JudyLU
+
+## 貢献者の皆様
+
 プロジェクトに貢献してくださったすべての方々に感謝します！
 
 <a href="https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PancrePal-xiaoyibao/PancrePal-xiaoyibao" />
 </a>
+
+[contrib.rocks](https://contrib.rocks) で作成。
+
+---
+*Contributed by OPC-driven power ❤️ fully capable AI-cli/bots/llms & ❤️ community members*

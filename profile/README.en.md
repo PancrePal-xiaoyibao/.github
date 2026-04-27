@@ -318,7 +318,7 @@ Using the community project open-source framework, including the technology fram
 ## Glimmer to Greatness Developer Partners
 
 * [Developer Vinlic](https://github.com/Vinlic): Provided an enterprise WeChat customer service solution application, supporting 1v1 private communication and image parsing in dialogue, significantly improving user experience and enriching the application ecosystem.
-* [Developer Fangyuan Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat): A thriving project based on COW, providing smooth docking with Dify and adapted to Fastgpt, thus becoming one of the mainstream tech stacks for PancrePal, AnusPal, and LungPal. Many thanks for the project's efforts!
+* [Developer Fangyuan Dify-on-Wechat](https://github.com/hanfangyuan4396/dify-on-wechat): A thriving project based on COW, providing smooth docking with Dify and adapted to Fastgpt, thus becoming one of the bot tech stacks for PancrePal, AnusPal, and LungPal. Many thanks for the project's efforts!
 * [Developer Francis](https://github.com/Tishon1532/chatgpt-on-wechat-win): Thanks @Tishon1532 for providing the WeChat robot solution, which significantly improved the use and experience for patient groups in WeChat groups, expanding the application ideas of PancrePal in card message scenarios; we successfully added MetaSo search, song request station, and other high-frequency scenes for patients.
 * [Dify](https://github.com/langgenius/dify): LungPal used the DIFY open-source framework, supporting the expansion space for Lung Cancer Assistant RAG, including one-stop access for LLMs, KB system expansion, and most importantly, alignment with global RAG capabilities. Dify has not joined the ecosystem yet; many thanks here!
 * Meanwhile, thanks to other open-source community members @ -China Red Hacker Alliance @wangzhitao-JDHealth @linan-Lawyer for providing key resources and protection for PancrePal's development.
@@ -359,16 +359,20 @@ Thanks @Xu Yuchao for providing the knowledge base project for OpenCare, facilit
 ## Contact Information
 
 * Author Email: <sam.qin@xiaoyibao.com.cn>
-* Glimmer to Greatness Plan: <huanhuan.liu@xiaoyibao.com.cn>
-* Public Welfare Organization Lead: RichardLin, WeChat `OPQRichard`
-* Legal Counsel: Lawyer JudyLU
+* Glimmer to Greatness Plan: <sam.qin@xiaoyibao.com.cn>
+* Public Welfare Organization Lead: hx.Huang, WeChat `hhxdeweixinxin`
+* Legal Counsel: @JudyLU
 
 ## Contributors
 
-Thanks to all who have contributed to the project!
+Thank you to everyone who has and will contributed to the project!
 
 <a href="https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PancrePal-xiaoyibao/PancrePal-xiaoyibao" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+---
+
+*Contributed by OPC-driven power ❤️ fully capable AI-cli/bots/llms & ❤️ community members*

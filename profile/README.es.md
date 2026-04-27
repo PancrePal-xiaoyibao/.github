@@ -29,7 +29,7 @@ Lo que es aún más emocionante es que hemos logrado con éxito:
 
     <img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/ae6d9adc2c1edc7f7cdae5bc47e6a049.jpg" />
 
-### La comunidad ha liberado casi 100 subproyectos, demostrando el poder de los desarrolladores y la comunidad de código abierto.
+### La comunidad ha liberado casi 100 subproyectos, demostrando el poder de los desarrolladores y la comunidad de código abierto
 
 * [Repositorio de RAG y aplicaciones de gestión de pacientes](https://github.com/PancrePal-xiaoyibao/): Un centro comunitario centrado en aplicaciones y herramientas RAG.
 
@@ -59,7 +59,7 @@ Otras aplicaciones interesantes que reflejan las características de herramienta
     - Tarjeta Púrpura: [Aplicación de Cuidado Psicológico](https://my-google-ai-studio-applet-425817031228.us-west1.run.app/)
     - Tarjeta Naranja: Aplicación de Gestión de Rehabilitación
 
-### La comunidad promueve activamente actividades del ecosistema, alentando a los desarrolladores a ganar valor social y crecer profesionalmente. Construimos un escenario para que los jóvenes sean la fuerza principal.
+### La comunidad promueve activamente actividades del ecosistema, alentando a los desarrolladores a ganar valor social y crecer profesionalmente. Construimos un escenario para que los jóvenes sean la fuerza principal
 
 **El poder joven es especialmente bienvenido**, con un camino de crecimiento claro de voluntario a administrador de la comunidad.
 
@@ -141,6 +141,7 @@ Tienen como objetivo ayudar a **cientos de miles** de pacientes cada año a cerr
 ## 🔥 8ª Ola de Reclutamiento de Otoño
 
 Buscamos:
+
 * **Expertos en Bases de Conocimiento:** Formación médica o farmacéutica.
 * **Líderes de Comunidad:** Para práctica de bienestar público con IA.
 * **Expertos en RAG:** Experiencia en diseño de aplicaciones RAG.
@@ -161,12 +162,21 @@ Contacto: (<service@xiaoyibao.com.cn>, <sam.qin@xiaoyibao.com.cn>)
 ---
 
 ## Información de Contacto
-* Autor: <sam.qin@xiaoyibao.com.cn>
-* Asesoría Legal: Abogada JudyLU
 
-## Colaboradores
+* Autor: <sam.qin@xiaoyibao.com.cn>
+* Plan de cooperación 'De destello a grandeza': <sam.qin@xiaoyibao.com.cn>
+* Líder de la organización de bienestar público: hx.Huang, WeChat `hhxdeweixinxin`
+* Asesoría Legal: @JudyLU
+
+## Contribuidores
+
 ¡Gracias a todos los que han contribuido al proyecto!
 
 <a href="https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PancrePal-xiaoyibao/PancrePal-xiaoyibao" />
 </a>
+
+Hecho con [contrib.rocks](https://contrib.rocks).
+
+---
+*Contributed by Antigravity Gemini 3 Flash*
