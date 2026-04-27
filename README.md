@@ -50,53 +50,11 @@
 
 欢迎联系我们 (service@xiaoyibao.com.cn, sam.qin@xiaoyibao.com.cn) 交流信息，携手公益！  也希望您能传播本项目，让更多开发者参与到这项有价值、有温度的事业中来。
 
----
-
-*   **一句话介绍：**
-
-#小胰宝 是一个由病友发起的公益项目，现已发展成为由天工开物基金会和社区管理委员会 (CMC) 共同管理的纯血 AI 类公益开源项目 – #小X宝社区。  **我们的目标是普及 AI 技术和 RAG 应用，集合社区力量，助力 25+ 癌种患者，消除医患信息差，减轻患者/家属的焦虑。**  目前已推出小胰宝助手、小肺宝助手、小萌宝助手、小粉宝助手、小胃宝、小妍宝助手等项目。
-
-## 🔑 新增功能：API Key 系统
-
-### ✨ 特性亮点
-- **双重认证**: 支持JWT令牌和API Key两种认证方式
-- **权限控制**: 只有管理员和高级用户才能创建API Key
-- **过期管理**: 支持设置自定义过期时间，自动失效
-- **使用统计**: 详细的调用次数和时间统计
-- **安全存储**: 使用SHA-256哈希存储，无法逆向还原
-- **清晰分离**: JWT用于用户管理，API Key用于API访问
-
-### 🔄 标准业务流程
-```
-用户登录 → 获取JWT令牌 → 使用JWT创建API Key → 使用API Key访问API接口
-```
-
-### 🚀 快速开始
-
-```bash
-# 克隆项目
-git clone https://github.com/PancrePal-xiaoyibao/PancrePal-xiaoyibao.git
-cd PancrePal-xiaoyibao
-
-# 设置环境
-make setup-auth
-
-# 启动服务
-make run
-
-# 测试API Key功能
-make test-api-keys
-```
-
-### 📚 详细文档
-- [API Key 使用说明](docs/api_keys.md)
-- [用户认证系统说明](docs/用户认证系统说明.md)
-- [API 文档](http://localhost:8000/docs)
 
 ### 🤝 了解社区
 
 *   **社区属性：** 公益 x 开源，AI 社区的创新力量。
-*   👀  **了解社区：** [点击](https://hi.xiao-x-bao.com.cn)
+*   👀  **了解社区：** [点击](https://info.xiao-x-bao.com.cn)
 *   ‼️  **志愿者责任：** [点击](https://faq.xiao-x-bao.com.cn)
 *   ❤️  **加入我们：**  [点击](https://iamin.xiao-x-bao.com.cn)
 *   😊  **社区任务：**  [梦想项目](https://task.xiaoyibao.com.cn) 全透明，等你来创建！
@@ -112,9 +70,9 @@ make test-api-keys
 *   [Pro 版](https://pro.xiaoyibao.com.cn)
 *   [Deepseek 版](https://deepseek.xiaoyibao.com.cn)
 
-#### ⭐️ 小肺宝 (LungPal):  [https://chat.xiaofeibao.com.cn](https://chat.xiaofeibao.com.cn)
+#### ⭐️ 小肺宝 (LungPal):  社区首个面向大癌种项目 [https://chat.xiaofeibao.com.cn](https://chat.xiaofeibao.com.cn)
 
-#### ⭐️ 小萌宝 (AnusPal):  [https://pro.xiaomengbao.cn](https://pro.xiaomengbao.cn)
+#### ⭐️ 小萌宝 (AnusPal):  社区首个复制项目，[https://pro.xiaomengbao.cn](https://pro.xiaomengbao.cn)面向肛管癌患者。
 
 #### ⭐️ 小粉宝 (BreastPal):  [https://xfb.xiaoyibao.com.cn](https://xfb.xiaoyibao.com.cn)
 
@@ -126,19 +84,13 @@ make test-api-keys
 
 #### ⭐️ 小粉宝 (PinkPal):  首个社区乳腺内科AI助手合作项目：[小粉宝PRO版](http://xfb.xiaoyibao.com.cn)
 
-#### ⭐️ 小妍宝 (复旦肿瘤-妍康e随访合作):  首个社区乳腺肿瘤外科AI助手合作项目：内部使用。
+#### ⭐️ 小妍宝 (复旦肿瘤-妍康e随访合作):  首个社区乳腺肿瘤外科AI助手合作项目。
 
-#### ⭐️ 小铃铛（山西白求恩医院肿瘤内科合作）：首个社区助力，医生主导运营的AI淋巴癌助手。开发中。
+#### ⭐️ 小铃铛（山西白求恩医院肿瘤内科合作）：首个社区助力，医生主导运营的AI淋巴癌助手。
 
+#### ⭐️ 胰小助（复旦肿瘤医院胰腺综合治疗科专用助手）：首个社区助力，科室主导运营的社区AI助手项目。
 
----
-
-### 🌱 正在成长中的项目
-
-*   **小胰宝：** 由病友 SamQin 创立，现由 **小胰宝开源社区 CMC x 天工开物基金会** 管理。  我们聚集了 110+ 生态团队成员，40+ 执行团队成员，构建规范化组织管理。  **感谢所有默默奉献的志愿者伙伴们！**  💗👏
-*   **小肺宝：**  由晓乐/吴老师/DaiJW 发起，面向肺癌患者提供 RAG 公益助手。  期待他们的应用为更多患者所知，发挥公益价值。  [https://chat.xiaofeibao.com.cn](https://chat.xiaofeibao.com.cn)
-*   **小萌宝：**  由病友 Tina 和她的伙伴发起，面向肛管癌患者，提供 AI RAG 公益助手，用乐观和热情点燃治疗信心。
-*   **小胃宝：**  由新团队主导，面向胃癌患者。  应用已上线 ([https://chat.xiaoweibao.com.cn](https://chat.xiaoweibao.com.cn))，正在寻找和推动全新 RAG 技术栈设计和运营合作。
+#### ⭐️ 胰关键（江苏省人民医院胰腺中心专用助手）：首个社区助力，江苏省胰腺一线科室主导运营的社区AI助手项目。
 
 ### 🎯 所有的小X宝，和小胰宝一样：
 
@@ -162,7 +114,7 @@ make test-api-keys
 
 ### 💖 加入我们
 
-## 🔥 第 8 波秋季招募：
+## 🔥 第 12 波招募：
 
 围绕小X宝和现有项目，我们招募：
 
@@ -178,6 +130,10 @@ make test-api-keys
 ---
 
 **我们的最近动态** <br>
+
+> |**2026-4   YIXI x 通义实验室活动中介绍社区** <br>
+<img width="345" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/935c9ece163ef194b17c0c4516380375.jpg" />
+
 > |**2025-10  4大筹资通道，开始推动 ｜社区新定位：以AI能力+蓝马甲社群+垂直应用app，支持患者和家属的全病程自我管理需求，减少信息差，规范治疗，延长生命** <br>
 > |**2025-9   参加上海的外滩大会，2周年返场，携手复旦肿瘤医院乳腺外科护士长，介绍新的AI助手和应用经验 ｜ 携手瑞金医院金院长，建立第一个AI+蓝马甲试点社群** <br>
 > |**2025-8   和山西白求恩医院-王刚刚医生配合，开始构建淋巴瘤AI助手，包括知识库全面开源** <br>
