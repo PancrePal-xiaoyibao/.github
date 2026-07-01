@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       org:
-        description: 'GitHub org to aggregate (defaults to this repo owner)'
+        description: 'Comma-separated orgs to aggregate (default: PancrePal-xiaoyibao,opencare-skillhub)'
         required: false
         default: ''
       branch:
@@ -48,16 +48,22 @@ jobs:
 
       - name: Print run context
         run: |
-          echo "org=${ORG}"
+          echo "orgs=${ORGS}"
+          echo "includePrivate=${INCLUDE_PRIVATE}"
           echo "ref=${GITHUB_REF}"
           echo "actor=${GITHUB_ACTOR}"
         env:
-          ORG: ${{ github.event.inputs.org != '' && github.event.inputs.org || github.repository_owner }}
+          ORGS: ${{ github.event.inputs.org != '' && github.event.inputs.org || vars.CONTRIBUTOR_SYNC_ORGS || 'PancrePal-xiaoyibao,opencare-skillhub' }}
+          INCLUDE_PRIVATE: ${{ vars.CONTRIBUTOR_SYNC_INCLUDE_PRIVATE || 'true' }}
 
       - name: Aggregate contributors
         env:
-          ORG: ${{ github.event.inputs.org != '' && github.event.inputs.org || github.repository_owner }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORGS: ${{ github.event.inputs.org != '' && github.event.inputs.org || vars.CONTRIBUTOR_SYNC_ORGS || 'PancrePal-xiaoyibao,opencare-skillhub' }}
+          INCLUDE_PRIVATE: ${{ vars.CONTRIBUTOR_SYNC_INCLUDE_PRIVATE || 'true' }}
+          # Use CONTRIBUTOR_SYNC_TOKEN (a fine-grained PAT with read:org + repo
+          # on target orgs) if set — required for cross-org and private repo
+          # access. Fall back to GITHUB_TOKEN (this repo's own org only, public).
+          TOKEN: ${{ secrets.CONTRIBUTOR_SYNC_TOKEN || secrets.GITHUB_TOKEN }}
         run: node .github/scripts/aggregate-contributors.mjs
 
       - name: Render markdown / csv
@@ -69,7 +75,7 @@ jobs:
           git diff --stat >> $GITHUB_STEP_SUMMARY || true
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Aggregate stats" >> $GITHUB_STEP_SUMMARY
-          node -e "const d=require('./profile/contributors.json'); console.log('- org:', d.org); console.log('- repos:', d.repoCount); console.log('- contributors:', d.contributorCount); console.log('- generated:', d.generatedAt); console.log('- top 5:', d.contributors.slice(0,5).map(c=>c.login+' ('+c.score+')').join(', '));" >> $GITHUB_STEP_SUMMARY
+          node -e "const d=require('./profile/contributors.json'); console.log('- orgs:', (d.orgs||[d.org]).join(', ')); console.log('- repos:', d.repoCount, '(', d.publicRepoCount||d.repoCount, 'public +', d.privateRepoCount||0, 'private)'); console.log('- contributors:', d.contributorCount); console.log('- generated:', d.generatedAt); console.log('- top 5:', d.contributors.slice(0,5).map(c=>c.login+' ('+c.score+')').join(', '));" >> $GITHUB_STEP_SUMMARY
 
       - name: Commit and push
         run: |

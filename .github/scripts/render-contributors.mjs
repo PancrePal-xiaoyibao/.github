@@ -37,6 +37,7 @@ const LOCALE = {
       repos: '个仓库',
       commits: '次提交',
       lines: '行代码变更',
+      orgs: '个组织',
     },
   },
   'profile/README.en.md': {
@@ -53,6 +54,7 @@ const LOCALE = {
       repos: 'repositories',
       commits: 'commits',
       lines: 'lines changed',
+      orgs: 'organizations',
     },
   },
   'profile/README.es.md': {
@@ -69,6 +71,7 @@ const LOCALE = {
       repos: 'repositorios',
       commits: 'commits',
       lines: 'líneas modificadas',
+      orgs: 'organizaciones',
     },
   },
   'profile/README.ja.md': {
@@ -85,6 +88,7 @@ const LOCALE = {
       repos: 'リポジトリ',
       commits: 'コミット',
       lines: '行の変更',
+      orgs: '組織',
     },
   },
   'profile/README.ko.md': {
@@ -101,6 +105,7 @@ const LOCALE = {
       repos: '개 저장소',
       commits: '커밋',
       lines: '줄 변경',
+      orgs: '개 조직',
     },
   },
   'profile/README.ru.md': {
@@ -117,6 +122,7 @@ const LOCALE = {
       repos: 'репозиториев',
       commits: 'коммитов',
       lines: 'строк изменено',
+      orgs: 'организаций',
     },
   },
 }
@@ -150,13 +156,22 @@ function cell(c, opts = {}) {
   const size = opts.size || 80
   const width = opts.width || '14%'
   const medal = opts.medal ? `${opts.medal} ` : ''
-  const title = `${c.login} · score ${c.score} · ${c.commits} commits · ${c.prs} PRs · ${c.reviews} reviews · first ${c.firstContribution ?? '—'} · last ${c.lastContribution ?? '—'}`
+  const orgBadge = (c.orgs && c.orgs.length > 1) ? ' 🔗' : ''
+  const privateNote = c.privateRepoCount ? ` +${c.privateRepoCount}🔒` : ''
+  const title = [
+    `${c.login} · score ${c.score}`,
+    `${c.commits} commits · ${c.prs} PRs · ${c.reviews} reviews`,
+    c.privateRepoCount ? `+${c.privateCommits} commits in ${c.privateRepoCount} private repo(s)` : null,
+    `first ${c.firstContribution ?? '—'} · last ${c.lastContribution ?? '—'}`,
+    (c.orgs && c.orgs.length > 1) ? `orgs: ${c.orgs.join(', ')}` : null,
+  ].filter(Boolean).join(' · ')
   return (
     `<td align="center" valign="top" width="${width}">` +
     `<a href="${c.htmlUrl}" title="${title.replace(/"/g, '&quot;')}">` +
     `<img src="${c.avatarUrl}&s=${size * 2}" width="${size}" height="${size}" alt="${c.login}" style="border-radius:50%"/>` +
-    `<br/><sub><b>${medal}${c.login}</b></sub></a>` +
+    `<br/><sub><b>${medal}${c.login}${orgBadge}</b></sub></a>` +
     `<br/><img src="${scoreBadge(c.score)}" alt="score ${c.score}"/>` +
+    (privateNote ? `<br/><sub>${privateNote}</sub>` : '') +
     `</td>`
   )
 }
@@ -181,35 +196,37 @@ function tableRows(list, opts) {
 function totalsFrom(contributors) {
   return contributors.reduce((acc, c) => {
     acc.commits += c.commits
+    acc.privateCommits += c.privateCommits || 0
     acc.additions += c.additions
     acc.deletions += c.deletions
     acc.prs += c.prs
     acc.reviews += c.reviews
     for (const r of c.repos) acc.repoSet.add(r)
     return acc
-  }, { commits: 0, additions: 0, deletions: 0, prs: 0, reviews: 0, repoSet: new Set() })
+  }, { commits: 0, privateCommits: 0, additions: 0, deletions: 0, prs: 0, reviews: 0, repoSet: new Set() })
 }
 
 function renderStatsBanner(data, locale) {
   const t = totalsFrom(data.contributors)
   const lines = t.additions + t.deletions
   const s = locale.stats
+  const orgCount = data.orgs?.length || 1
+  const repoLine = data.privateRepoCount
+    ? `<h3>${data.repoCount}</h3><sub>${s.repos} <span title="包含 ${data.privateRepoCount} 个私有仓库">🔒${data.privateRepoCount}</span></sub>`
+    : `<h3>${data.repoCount}</h3><sub>${s.repos}</sub>`
+  const orgLine = orgCount > 1
+    ? `<td align="center" width="20%"><h3>${orgCount}</h3><sub>${s.orgs}</sub></td>`
+    : ''
+  const colWidth = orgCount > 1 ? '20%' : '25%'
   return [
     `<table align="center"><tr>`,
-    `<td align="center" width="25%">`,
-    `<h3>${data.contributorCount}</h3><sub>${s.contributors}</sub>`,
-    `</td>`,
-    `<td align="center" width="25%">`,
-    `<h3>${t.repoSet.size}</h3><sub>${s.repos}</sub>`,
-    `</td>`,
-    `<td align="center" width="25%">`,
-    `<h3>${formatNumber(t.commits)}</h3><sub>${s.commits}</sub>`,
-    `</td>`,
-    `<td align="center" width="25%">`,
-    `<h3>${formatNumber(lines)}</h3><sub>${s.lines}</sub>`,
-    `</td>`,
+    orgLine,
+    `<td align="center" width="${colWidth}"><h3>${data.contributorCount}</h3><sub>${s.contributors}</sub></td>`,
+    `<td align="center" width="${colWidth}">${repoLine}</td>`,
+    `<td align="center" width="${colWidth}"><h3>${formatNumber(t.commits)}</h3><sub>${s.commits}</sub></td>`,
+    `<td align="center" width="${colWidth}"><h3>${formatNumber(lines)}</h3><sub>${s.lines}</sub></td>`,
     `</tr></table>`,
-  ].join('\n')
+  ].filter(Boolean).join('\n')
 }
 
 function renderAvatarWall(data, locale) {
@@ -280,17 +297,26 @@ function replaceBlock(md, block) {
 
 function renderContributorsMd(data) {
   const lines = []
-  lines.push(`# ${data.org} 贡献者名单 / Contributors`)
+  const orgList = (data.orgs || [data.org]).join(', ')
+  lines.push(`# ${orgList} 贡献者名单 / Contributors`)
   lines.push('')
   lines.push(`> 自动生成于 ${data.generatedAt}`)
-  lines.push(`> 覆盖 ${data.repoCount} 个仓库，${data.contributorCount} 位贡献者`)
+  lines.push(`> 覆盖组织 / Orgs: **${orgList}**`)
+  lines.push(`> 仓库总数 / Repos: **${data.repoCount}** (${data.publicRepoCount ?? data.repoCount} public${data.privateRepoCount ? ` + ${data.privateRepoCount} 私有 🔒` : ''})`)
+  lines.push(`> 贡献者 / Contributors: **${data.contributorCount}**`)
   lines.push(`> 评分公式 / Scoring: \`${data.scoringFormula}\``)
   lines.push('')
   lines.push('本文件由 GitHub Actions 自动生成，用于向基金会报送定期贡献者名单及作为公益感谢信的基础数据。')
+  if (data.privateRepoCount) {
+    lines.push('')
+    lines.push('> 🔒 = 私有仓库贡献。为保护未开源项目信息，仓库名称不在此文件中列出，仅统计贡献总量。')
+  }
   lines.push('')
-  lines.push('| # | 用户 / User | 综合分 / Score | 提交 / Commits | 增行 / Additions | 删行 / Deletions | 净行 / Net | PR | Reviews | 参与仓库 / Repos | 首次贡献 / First | 最近贡献 / Last |')
-  lines.push('|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|')
+  lines.push('| # | 用户 / User | 综合分 / Score | 提交 / Commits | 增行 / Additions | 删行 / Deletions | 净行 / Net | PR | Reviews | 参与仓库 / Repos | 私有 🔒 | 组织 / Orgs | 首次贡献 / First | 最近贡献 / Last |')
+  lines.push('|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|')
   data.contributors.forEach((c, i) => {
+    const privCell = c.privateRepoCount ? `${c.privateRepoCount} repo · ${c.privateCommits} commits` : '—'
+    const orgsCell = (c.orgs || []).join(', ') || '—'
     lines.push(
       `| ${i + 1} ` +
       `| [${c.login}](${c.htmlUrl}) ` +
@@ -302,6 +328,8 @@ function renderContributorsMd(data) {
       `| ${c.prs} ` +
       `| ${c.reviews} ` +
       `| ${c.repoCount} ` +
+      `| ${privCell} ` +
+      `| ${orgsCell} ` +
       `| ${c.firstContribution ?? '—'} ` +
       `| ${c.lastContribution ?? '—'} |`
     )
@@ -309,10 +337,12 @@ function renderContributorsMd(data) {
   lines.push('')
   lines.push('---')
   lines.push('')
-  lines.push('## 参与仓库明细 / Per-user repo breakdown')
+  lines.push('## 参与仓库明细 / Per-user repo breakdown (public only)')
   lines.push('')
   for (const c of data.contributors) {
-    lines.push(`- **[${c.login}](${c.htmlUrl})** — ${c.repos.join(', ')}`)
+    const publicRepos = (c.repos || []).join(', ') || '—'
+    const priv = c.privateRepoCount ? ` _(+ ${c.privateRepoCount} 私有仓库)_` : ''
+    lines.push(`- **[${c.login}](${c.htmlUrl})** — ${publicRepos}${priv}`)
   }
   lines.push('')
   return lines.join('\n')
@@ -320,8 +350,8 @@ function renderContributorsMd(data) {
 
 function renderCsv(data) {
   const header = [
-    'login', 'html_url', 'score', 'commits', 'additions', 'deletions', 'net',
-    'prs', 'reviews', 'repo_count', 'repos', 'first_contribution', 'last_contribution',
+    'login', 'html_url', 'score', 'commits', 'private_commits', 'additions', 'deletions', 'net',
+    'prs', 'reviews', 'repo_count', 'public_repo_count', 'private_repo_count', 'orgs', 'repos', 'first_contribution', 'last_contribution',
   ]
   const rows = [header.join(',')]
   for (const c of data.contributors) {
@@ -330,13 +360,17 @@ function renderCsv(data) {
       c.htmlUrl,
       c.score,
       c.commits,
+      c.privateCommits ?? 0,
       c.additions,
       c.deletions,
       c.net,
       c.prs,
       c.reviews,
       c.repoCount,
-      `"${c.repos.join('; ')}"`,
+      c.publicRepoCount ?? c.repoCount,
+      c.privateRepoCount ?? 0,
+      `"${(c.orgs || []).join('; ')}"`,
+      `"${(c.repos || []).join('; ')}"`,
       c.firstContribution ?? '',
       c.lastContribution ?? '',
     ]
