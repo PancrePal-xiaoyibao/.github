@@ -46,11 +46,14 @@ function isBot(login, type) {
 }
 
 async function ghFetch(url, opts = {}) {
-  for (let attempt = 0; attempt < 5; attempt++) {
+  const maxAttempts = opts.maxAttempts ?? 8
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const res = await fetch(url, { ...opts, headers: { ...HEADERS, ...(opts.headers || {}) } })
     if (res.status === 202) {
-      // stats endpoint is computing; back off and retry
-      await sleep(2000 * (attempt + 1))
+      // stats endpoint is computing; back off progressively (2, 4, 8, ... seconds)
+      const wait = Math.min(2000 * Math.pow(2, attempt), 30000)
+      console.warn(`  [202] ${url} — waiting ${Math.round(wait / 1000)}s (attempt ${attempt + 1}/${maxAttempts})`)
+      await sleep(wait)
       continue
     }
     if (res.status === 403 || res.status === 429) {
@@ -66,7 +69,7 @@ async function ghFetch(url, opts = {}) {
     }
     return res
   }
-  throw new Error(`gave up on ${url} after 5 attempts`)
+  throw new Error(`STATS_TIMEOUT: ${url}`)
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -124,6 +127,9 @@ async function repoContributors(owner, repo) {
 
 async function repoStats(owner, repo) {
   // Returns array of { author: {login,id,...}, total, weeks: [{w,a,d,c},...] }
+  // Stats endpoint requires GitHub to compute cache; may 202 for a long time.
+  // If it stays 202 after max retries, degrade gracefully — the repo will
+  // lack additions/deletions/first/last but commits from /contributors still count.
   try {
     const res = await ghFetch(`${API}/repos/${owner}/${repo}/stats/contributors`)
     if (res.status === 204) return []
@@ -131,8 +137,14 @@ async function repoStats(owner, repo) {
     if (!text) return []
     return JSON.parse(text)
   } catch (e) {
-    if (String(e).includes('404') || String(e).includes('403') || String(e).includes('422')) return []
-    throw e
+    const s = String(e)
+    if (s.includes('STATS_TIMEOUT')) {
+      console.warn(`  stats unavailable for ${repo} (still computing after retries)`)
+      return []
+    }
+    if (s.includes('404') || s.includes('403') || s.includes('422')) return []
+    console.warn(`  stats error for ${repo}: ${s.split('\n')[0]} — continuing without stats`)
+    return []
   }
 }
 
