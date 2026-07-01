@@ -1,0 +1,90 @@
+name: Sync organization contributors
+
+on:
+  schedule:
+    # Every Sunday 03:17 UTC (11:17 Beijing time). Off-peak, off-round-minute.
+    - cron: '17 3 * * 0'
+  push:
+    # Preview trigger — runs the sync on the dev branch so we can review
+    # the rendered avatar wall before merging to main. Remove this block
+    # once dev is merged; the schedule + workflow_dispatch are enough.
+    branches:
+      - dev-contributors-sync
+    paths:
+      - '.github/workflows/sync-contributors.yml'
+      - '.github/scripts/**'
+  workflow_dispatch:
+    inputs:
+      org:
+        description: 'Comma-separated orgs to aggregate (default: PancrePal-xiaoyibao,opencare-skillhub)'
+        required: false
+        default: ''
+      branch:
+        description: 'Branch to commit to (default: current branch)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-contributors-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch != '' && github.event.inputs.branch || github.ref }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Print run context
+        run: |
+          echo "orgs=${ORGS}"
+          echo "includePrivate=${INCLUDE_PRIVATE}"
+          echo "ref=${GITHUB_REF}"
+          echo "actor=${GITHUB_ACTOR}"
+        env:
+          ORGS: ${{ github.event.inputs.org != '' && github.event.inputs.org || vars.CONTRIBUTOR_SYNC_ORGS || 'PancrePal-xiaoyibao,opencare-skillhub' }}
+          INCLUDE_PRIVATE: ${{ vars.CONTRIBUTOR_SYNC_INCLUDE_PRIVATE || 'true' }}
+
+      - name: Aggregate contributors
+        env:
+          ORGS: ${{ github.event.inputs.org != '' && github.event.inputs.org || vars.CONTRIBUTOR_SYNC_ORGS || 'PancrePal-xiaoyibao,opencare-skillhub' }}
+          INCLUDE_PRIVATE: ${{ vars.CONTRIBUTOR_SYNC_INCLUDE_PRIVATE || 'true' }}
+          # Use CONTRIBUTOR_SYNC_TOKEN (a fine-grained PAT with read:org + repo
+          # on target orgs) if set — required for cross-org and private repo
+          # access. Fall back to GITHUB_TOKEN (this repo's own org only, public).
+          TOKEN: ${{ secrets.CONTRIBUTOR_SYNC_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/aggregate-contributors.mjs
+
+      - name: Render markdown / csv
+        run: node .github/scripts/render-contributors.mjs
+
+      - name: Show diff summary
+        run: |
+          echo "### Files changed" >> $GITHUB_STEP_SUMMARY
+          git diff --stat >> $GITHUB_STEP_SUMMARY || true
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Aggregate stats" >> $GITHUB_STEP_SUMMARY
+          node -e "const d=require('./profile/contributors.json'); console.log('- orgs:', (d.orgs||[d.org]).join(', ')); console.log('- repos:', d.repoCount, '(', d.publicRepoCount||d.repoCount, 'public +', d.privateRepoCount||0, 'private)'); console.log('- contributors:', d.contributorCount); console.log('- generated:', d.generatedAt); console.log('- top 5:', d.contributors.slice(0,5).map(c=>c.login+' ('+c.score+')').join(', '));" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md profile/README.*.md profile/CONTRIBUTORS.md profile/contributors.json profile/contributors.csv
+          if git diff --cached --quiet; then
+            echo "no contributor changes"
+            exit 0
+          fi
+          git commit -m "chore: sync contributors ($(date -u +%Y-%m-%d))"
+          git push
