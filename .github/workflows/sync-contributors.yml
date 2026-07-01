@@ -1,0 +1,75 @@
+name: Sync organization contributors
+
+on:
+  schedule:
+    # Every Sunday 03:17 UTC (11:17 Beijing time). Off-peak, off-round-minute.
+    - cron: '17 3 * * 0'
+  workflow_dispatch:
+    inputs:
+      org:
+        description: 'GitHub org to aggregate (defaults to this repo owner)'
+        required: false
+        default: ''
+      branch:
+        description: 'Branch to commit to (default: current branch)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-contributors-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch != '' && github.event.inputs.branch || github.ref }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Print run context
+        run: |
+          echo "org=${ORG}"
+          echo "ref=${GITHUB_REF}"
+          echo "actor=${GITHUB_ACTOR}"
+        env:
+          ORG: ${{ github.event.inputs.org != '' && github.event.inputs.org || github.repository_owner }}
+
+      - name: Aggregate contributors
+        env:
+          ORG: ${{ github.event.inputs.org != '' && github.event.inputs.org || github.repository_owner }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/aggregate-contributors.mjs
+
+      - name: Render markdown / csv
+        run: node .github/scripts/render-contributors.mjs
+
+      - name: Show diff summary
+        run: |
+          echo "### Files changed" >> $GITHUB_STEP_SUMMARY
+          git diff --stat >> $GITHUB_STEP_SUMMARY || true
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Aggregate stats" >> $GITHUB_STEP_SUMMARY
+          node -e "const d=require('./profile/contributors.json'); console.log('- org:', d.org); console.log('- repos:', d.repoCount); console.log('- contributors:', d.contributorCount); console.log('- generated:', d.generatedAt); console.log('- top 5:', d.contributors.slice(0,5).map(c=>c.login+' ('+c.score+')').join(', '));" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md profile/README.*.md profile/CONTRIBUTORS.md profile/contributors.json profile/contributors.csv
+          if git diff --cached --quiet; then
+            echo "no contributor changes"
+            exit 0
+          fi
+          git commit -m "chore: sync contributors ($(date -u +%Y-%m-%d))"
+          git push
