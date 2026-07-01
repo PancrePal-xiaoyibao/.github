@@ -149,41 +149,82 @@ function contributorTitle(c) {
   ].filter(Boolean).join(' · ')
 }
 
-function avatarLink(c, size) {
-  const title = contributorTitle(c).replace(/"/g, '&quot;')
-  const url = `${c.avatarUrl}${c.avatarUrl.includes('?') ? '&' : '?'}s=${size * 2}`
-  return `<a href="${c.htmlUrl}" title="${title}"><img src="${url}" width="${size}" alt="${c.login}"/></a>`
+function avatarUrl(c, size) {
+  const sep = c.avatarUrl.includes('?') ? '&' : '?'
+  return `${c.avatarUrl}${sep}s=${size * 2}`
 }
 
-function renderPodium(top3) {
-  // Top 3: bigger avatars, medal + score label under each. Uses simple
-  // whitespace layout so GitHub markdown does not wrap them into a table.
-  const cells = top3.map((c, i) => {
-    const medal = MEDAL[i]
-    const orgTag = (c.orgs && c.orgs.length > 1) ? ' 🔗' : ''
-    return [
-      `<a href="${c.htmlUrl}" title="${contributorTitle(c).replace(/"/g, '&quot;')}">`,
-      `<img src="${c.avatarUrl}${c.avatarUrl.includes('?') ? '&' : '?'}s=240" width="120" alt="${c.login}"/>`,
-      `<br/>`,
-      `<sub><b>${medal} ${c.login}${orgTag}</b></sub>`,
-      `</a>`,
-      `<br/>`,
-      `<sub><code>${c.score}</code> · ${c.commits} commits · ${c.prs} PR</sub>`,
-    ].join('')
-  })
-
-  // Render with non-breaking space separators to keep them on one line where
-  // width allows, otherwise GitHub will wrap naturally without table cells.
-  return `<p align="center">\n  ${cells.join('\n  &nbsp;&nbsp;&nbsp;\n  ')}\n</p>`
+// Pick a per-row count that fills rows evenly, no empty cells.
+// Look ±2 around the preferred value for a divisor of count; otherwise
+// try slightly wider to avoid a nearly-empty final row.
+function pickPerRow(count, preferred) {
+  if (count <= preferred) return count
+  const candidates = [
+    preferred, preferred + 1, preferred - 1, preferred + 2, preferred - 2,
+  ].filter((n) => n >= 3)
+  for (const n of candidates) {
+    if (count % n === 0) return n
+  }
+  // No exact fit — pick the value that leaves the largest remainder
+  // (fewest empty-looking last-row cells relative to full rows).
+  let best = preferred
+  let bestRemainder = count % preferred
+  for (const n of candidates) {
+    const r = count % n
+    if (r > bestRemainder || r === 0) {
+      best = n
+      bestRemainder = r
+    }
+  }
+  return best
 }
 
-function renderGrid(list, size) {
+function renderTierWithLabels(list, size, preferred, medals = false) {
   if (!list.length) return ''
-  // Plain inline image stream — no <table>, no borders, no empty cells.
-  // GitHub's markdown renderer wraps images to next line when width overflows,
-  // so we don't need to pre-chunk into rows.
-  const items = list.map((c) => avatarLink(c, size))
-  return `<p align="center">\n  ${items.join('\n  ')}\n</p>`
+  const perRow = pickPerRow(list.length, preferred)
+  const w = `${Math.floor(100 / perRow)}%`
+  const rows = []
+  for (let i = 0; i < list.length; i += perRow) {
+    const chunk = list.slice(i, i + perRow)
+    const cells = chunk.map((c, j) => {
+      const medal = medals ? `${MEDAL[i + j] || ''} ` : ''
+      const orgTag = (c.orgs && c.orgs.length > 1) ? ' 🔗' : ''
+      const title = contributorTitle(c).replace(/"/g, '&quot;')
+      return (
+        `<td align="center" width="${w}">` +
+        `<a href="${c.htmlUrl}" title="${title}">` +
+        `<img src="${avatarUrl(c, size)}" width="${size}" alt="${c.login}"/>` +
+        `<br/><sub><b>${medal}${c.login}${orgTag}</b></sub>` +
+        `</a>` +
+        `<br/><sub><code>${c.score}</code></sub>` +
+        `</td>`
+      )
+    })
+    rows.push('<tr>' + cells.join('') + '</tr>')
+  }
+  return `<table border="0" cellspacing="0" cellpadding="10">\n${rows.join('\n')}\n</table>`
+}
+
+function renderTierIconsOnly(list, size, preferred) {
+  if (!list.length) return ''
+  const perRow = pickPerRow(list.length, preferred)
+  const w = `${Math.floor(100 / perRow)}%`
+  const rows = []
+  for (let i = 0; i < list.length; i += perRow) {
+    const chunk = list.slice(i, i + perRow)
+    const cells = chunk.map((c) => {
+      const title = contributorTitle(c).replace(/"/g, '&quot;')
+      return (
+        `<td align="center" width="${w}">` +
+        `<a href="${c.htmlUrl}" title="${title}">` +
+        `<img src="${avatarUrl(c, size)}" width="${size}" alt="${c.login}"/>` +
+        `</a>` +
+        `</td>`
+      )
+    })
+    rows.push('<tr>' + cells.join('') + '</tr>')
+  }
+  return `<table border="0" cellspacing="0" cellpadding="6">\n${rows.join('\n')}\n</table>`
 }
 
 function totalsFrom(contributors) {
@@ -210,22 +251,17 @@ function renderStatsBanner(data, locale) {
   cells.push({ n: data.repoCount, label: s.repos })
   cells.push({ n: formatNumber(t.commits), label: s.commits })
   cells.push({ n: formatNumber(lines), label: s.lines })
-
-  // Simple, borderless stats row using a single <table> but styled to feel
-  // like an inline caption strip. GitHub renders table borders subtly so we
-  // add align="center" and rely on whitespace.
   const w = Math.floor(100 / cells.length) + '%'
   const cellsHtml = cells.map((c) =>
-    `<td align="center" width="${w}"><b style="font-size:20px">${c.n}</b><br/><sub>${c.label}</sub></td>`
+    `<td align="center" width="${w}"><b>${c.n}</b><br/><sub>${c.label}</sub></td>`
   ).join('')
-  return `<table align="center" width="100%"><tr>${cellsHtml}</tr></table>`
+  return `<table border="0" cellspacing="0" cellpadding="12" width="100%"><tr>${cellsHtml}</tr></table>`
 }
 
 function renderAvatarWall(data, locale) {
   const all = data.contributors
-  const top3 = all.slice(0, 3)
-  const featured = all.slice(3).filter((c) => c.score >= CORE_THRESHOLD)
-  const rest = all.slice(3).filter((c) => c.score < CORE_THRESHOLD)
+  const core = all.filter((c) => c.score >= CORE_THRESHOLD)
+  const rest = all.filter((c) => c.score < CORE_THRESHOLD)
 
   const parts = [START, '']
   parts.push(`<div align="center">`)
@@ -239,18 +275,21 @@ function renderAvatarWall(data, locale) {
   parts.push(`</div>`)
   parts.push('')
 
-  if (top3.length) {
-    parts.push(renderPodium(top3))
+  if (core.length) {
+    parts.push(`<div align="center">`)
     parts.push('')
-  }
-
-  if (featured.length) {
-    parts.push(renderGrid(featured, 72))
+    parts.push(renderTierWithLabels(core, 64, 5, true))
+    parts.push('')
+    parts.push(`</div>`)
     parts.push('')
   }
 
   if (rest.length) {
-    parts.push(renderGrid(rest, 48))
+    parts.push(`<div align="center">`)
+    parts.push('')
+    parts.push(renderTierIconsOnly(rest, 40, 10))
+    parts.push('')
+    parts.push(`</div>`)
     parts.push('')
   }
 

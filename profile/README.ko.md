@@ -183,63 +183,7 @@ OpenCare(오픈케어) 커뮤니티와 그 하위 커뮤니티인 'PancrePal'(�
 프로젝트에 기여해주신 모든 분들께 감사드립니다! 아래 명단은 GitHub Actions가 매주 조직의 모든 저장소에서 자동으로 집계하고 중복을 제거하여 생성합니다. 전체 데이터는 [CONTRIBUTORS.md](./CONTRIBUTORS.md) 및 [contributors.csv](./contributors.csv)를 참조하세요.
 
 <!-- CONTRIBUTORS:START -->
-
-<div align="center">
-
-### 🌟 기여자 은하 · 미광성거
-
-*모든 기여자는 환자의 여정을 비추는 한 줄기 빛입니다*
-
-<table align="center" width="100%"><tr><td align="center" width="20%"><b style="font-size:20px">2</b><br/><sub>개 조직</sub></td><td align="center" width="20%"><b style="font-size:20px">27</b><br/><sub>명의 기여자</sub></td><td align="center" width="20%"><b style="font-size:20px">94</b><br/><sub>개 저장소</sub></td><td align="center" width="20%"><b style="font-size:20px">1.6k</b><br/><sub>커밋</sub></td><td align="center" width="20%"><b style="font-size:20px">4085.8k</b><br/><sub>줄 변경</sub></td></tr></table>
-
-</div>
-
-<p align="center">
-  <a href="https://github.com/samqin123" title="samqin123 · 903 pts · 854 commits · 13 PRs · 5 reviews · 2024-05-05 → 2026-06-28 · orgs: PancrePal-xiaoyibao, opencare-skillhub"><img src="https://avatars.githubusercontent.com/u/103937568?v=4&s=240" width="120" alt="samqin123"/><br/><sub><b>🥇 samqin123 🔗</b></sub></a><br/><sub><code>903</code> · 854 commits · 13 PR</sub>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/liueic" title="liueic · 244 pts · 217 commits · 9 PRs · 0 reviews · 2025-06-29 → 2026-06-21"><img src="https://avatars.githubusercontent.com/u/69223323?v=4&s=240" width="120" alt="liueic"/><br/><sub><b>🥈 liueic</b></sub></a><br/><sub><code>244</code> · 217 commits · 9 PR</sub>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/NanSsye" title="NanSsye · 171 pts · 171 commits · 0 PRs · 0 reviews · 2025-04-06 → 2025-05-04"><img src="https://avatars.githubusercontent.com/u/169164040?v=4&s=240" width="120" alt="NanSsye"/><br/><sub><b>🥉 NanSsye</b></sub></a><br/><sub><code>171</code> · 171 commits · 0 PR</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/safishamsi" title="safishamsi · 138 pts · 138 commits · 0 PRs · 0 reviews · 2026-03-29 → 2026-04-12"><img src="https://avatars.githubusercontent.com/u/216348667?v=4&s=144" width="72" alt="safishamsi"/></a>
-  <a href="https://github.com/hhx465453939" title="hhx465453939 · 105 pts · 75 commits · 10 PRs · 0 reviews · 2025-08-24 → 2026-06-07"><img src="https://avatars.githubusercontent.com/u/32251718?v=4&s=144" width="72" alt="hhx465453939"/></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/elinawang626-design" title="elinawang626-design · 70 pts · 43 commits · 9 PRs · 0 reviews · 2026-04-19 → 2026-05-24"><img src="https://avatars.githubusercontent.com/u/245901821?v=4&s=96" width="48" alt="elinawang626-design"/></a>
-  <a href="https://github.com/peterwillcn" title="peterwillcn · 47 pts · 17 commits · 10 PRs · 0 reviews · 2024-06-30 → 2025-03-23"><img src="https://avatars.githubusercontent.com/u/323794?v=4&s=96" width="48" alt="peterwillcn"/></a>
-  <a href="https://github.com/williamdeve" title="williamdeve · 34 pts · 7 commits · 9 PRs · 0 reviews · 2025-08-03 → 2025-08-03"><img src="https://avatars.githubusercontent.com/u/755935?v=4&s=96" width="48" alt="williamdeve"/></a>
-  <a href="https://github.com/seven1240" title="seven1240 · 20 pts · 5 commits · 5 PRs · 0 reviews · 2024-06-16 → 2024-06-16"><img src="https://avatars.githubusercontent.com/u/31364?v=4&s=96" width="48" alt="seven1240"/></a>
-  <a href="https://github.com/gaochen0" title="gaochen0 · 19 pts · 13 commits · 2 PRs · 0 reviews · 2025-08-03 → 2025-10-19"><img src="https://avatars.githubusercontent.com/u/113162961?v=4&s=96" width="48" alt="gaochen0"/></a>
-  <a href="https://github.com/Handsome5201314" title="Handsome5201314 · 9 pts · 9 commits · 0 PRs · 0 reviews · 2025-09-14 → 2025-09-28"><img src="https://avatars.githubusercontent.com/u/212555158?v=4&s=96" width="48" alt="Handsome5201314"/></a>
-  <a href="https://github.com/zhuangbiaowei" title="zhuangbiaowei · 7 pts · 7 commits · 0 PRs · 0 reviews · 2024-06-16 → 2024-06-16"><img src="https://avatars.githubusercontent.com/u/93194?v=4&s=96" width="48" alt="zhuangbiaowei"/></a>
-  <a href="https://github.com/dapaohou" title="dapaohou · 5 pts · 2 commits · 1 PRs · 0 reviews · 2025-08-03 → 2025-08-03"><img src="https://avatars.githubusercontent.com/u/28423718?v=4&s=96" width="48" alt="dapaohou"/></a>
-  <a href="https://github.com/yaqi0510" title="yaqi0510 · 5 pts · 2 commits · 1 PRs · 0 reviews · 2024-08-25 → 2024-08-25"><img src="https://avatars.githubusercontent.com/u/95968830?v=4&s=96" width="48" alt="yaqi0510"/></a>
-  <a href="https://github.com/xurui-wuzhi" title="xurui-wuzhi · 4 pts · 4 commits · 0 PRs · 0 reviews · 2025-08-03 → 2025-08-03"><img src="https://avatars.githubusercontent.com/u/146501890?v=4&s=96" width="48" alt="xurui-wuzhi"/></a>
-  <a href="https://github.com/Asunfly" title="Asunfly · 4 pts · 1 commits · 1 PRs · 0 reviews · 2026-02-08 → 2026-02-08"><img src="https://avatars.githubusercontent.com/u/34542913?v=4&s=96" width="48" alt="Asunfly"/></a>
-  <a href="https://github.com/hazamarek" title="hazamarek · 2 pts · 2 commits · 0 PRs · 0 reviews · — → —"><img src="https://avatars.githubusercontent.com/u/14955735?v=4&s=96" width="48" alt="hazamarek"/></a>
-  <a href="https://github.com/rhoggs-bot-test-account" title="rhoggs-bot-test-account · 2 pts · 2 commits · 0 PRs · 0 reviews · — → —"><img src="https://avatars.githubusercontent.com/u/22551806?v=4&s=96" width="48" alt="rhoggs-bot-test-account"/></a>
-  <a href="https://github.com/tian-xiaobo" title="tian-xiaobo · 2 pts · 2 commits · 0 PRs · 0 reviews · 2025-03-23 → 2025-03-23"><img src="https://avatars.githubusercontent.com/u/10395157?v=4&s=96" width="48" alt="tian-xiaobo"/></a>
-  <a href="https://github.com/wspzf" title="wspzf · 2 pts · 2 commits · 0 PRs · 0 reviews · 2025-04-20 → 2025-04-20"><img src="https://avatars.githubusercontent.com/u/43857401?v=4&s=96" width="48" alt="wspzf"/></a>
-  <a href="https://github.com/azizur100389" title="azizur100389 · 1 pts · 1 commits · 0 PRs · 0 reviews · 2026-04-05 → 2026-04-05"><img src="https://avatars.githubusercontent.com/u/180941991?v=4&s=96" width="48" alt="azizur100389"/></a>
-  <a href="https://github.com/eltociear" title="eltociear · 1 pts · 1 commits · 0 PRs · 0 reviews · 2026-04-05 → 2026-04-05"><img src="https://avatars.githubusercontent.com/u/22633385?v=4&s=96" width="48" alt="eltociear"/></a>
-  <a href="https://github.com/gdesai23" title="gdesai23 · 1 pts · 1 commits · 0 PRs · 0 reviews · 2026-04-05 → 2026-04-05"><img src="https://avatars.githubusercontent.com/u/261704224?v=4&s=96" width="48" alt="gdesai23"/></a>
-  <a href="https://github.com/ljinshuan" title="ljinshuan · 1 pts · 1 commits · 0 PRs · 0 reviews · 2026-04-05 → 2026-04-05"><img src="https://avatars.githubusercontent.com/u/5707101?v=4&s=96" width="48" alt="ljinshuan"/></a>
-  <a href="https://github.com/lvzhaobo-ai" title="lvzhaobo-ai · 1 pts · 1 commits · 0 PRs · 0 reviews · 2025-05-04 → 2025-05-04"><img src="https://avatars.githubusercontent.com/u/250967639?v=4&s=96" width="48" alt="lvzhaobo-ai"/></a>
-  <a href="https://github.com/Minidoracat" title="Minidoracat · 1 pts · 1 commits · 0 PRs · 0 reviews · 2026-04-05 → 2026-04-05"><img src="https://avatars.githubusercontent.com/u/11269639?v=4&s=96" width="48" alt="Minidoracat"/></a>
-  <a href="https://github.com/Vinlic" title="Vinlic · 1 pts · 1 commits · 0 PRs · 0 reviews · 2024-07-07 → 2024-07-07"><img src="https://avatars.githubusercontent.com/u/20235341?v=4&s=96" width="48" alt="Vinlic"/></a>
-</p>
-
-<p align="center">
-  <sub>
-    <code>점수 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 업데이트 <b>2026-07-01</b>
-    <br/>
-    <a href="./CONTRIBUTORS.md">전체 명단과 상세 데이터</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
-  </sub>
-</p>
-
+<!-- Auto-generated by .github/workflows/sync-contributors.yml — do not edit manually -->
 <!-- CONTRIBUTORS:END -->
 
 
