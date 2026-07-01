@@ -4,6 +4,15 @@ on:
   schedule:
     # Every Sunday 03:17 UTC (11:17 Beijing time). Off-peak, off-round-minute.
     - cron: '17 3 * * 0'
+  push:
+    # Preview trigger — runs the sync on the dev branch so we can review
+    # the rendered avatar wall before merging to main. Remove this block
+    # once dev is merged; the schedule + workflow_dispatch are enough.
+    branches:
+      - dev-contributors-sync
+    paths:
+      - '.github/workflows/sync-contributors.yml'
+      - '.github/scripts/**'
   workflow_dispatch:
     inputs:
       org:
