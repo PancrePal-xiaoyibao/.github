@@ -27,7 +27,7 @@ parent: 00-billboard
 | **M7.3** | **第 8 波秋季招募** 深化：临床/RAG/病友主理人/运营/微光成炬 5 大角色扩招 | 🟡 中 | 持续 | 🟡 招募中 |
 | **M7.4** | **DKU 学生实践项目扩展**：见 [DKU-Programs-Hub](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Hub) | 🟢 中 | 每学期 | 🔵 待认领 |
 | **M7.5** | **医院/科室合作模板**：把小铃铛 / 胰小助 / 胰管家的合作协议、部署流程、运营 SOP 开源出来 | 🟢 中 | 2 周 | 🔵 待认领 |
-| **M7.6** | **微光成炬企业伙伴 onboarding**：Token 捐赠 / 算力捐赠 / 联合品牌的标准流程 | 🟢 低 | 1 周 | 🟢 好上手 |
+| **M7.6** | ★ **[hackathon2026](https://github.com/PancrePal-xiaoyibao/hackathon2026) 社区黑客松**：旗舰招生活动，与 [魔搭社区 ModelScope](https://www.modelscope.cn/organization/Opencare) 联合举办（[活动页](https://www.modelscope.cn/events/265/summary)），微光成炬企业伙伴联合赞助 · [hackathon 官网](https://hackathon.xiao-x-bao.com.cn/) · hackathon → 社区志愿者 → 长期贡献者转化管道 | 🟡 中 | 4-6 周 | 🟡 招募中 |
 | **M7.7** | **社区志愿者积分平台**：见 2025-5 志愿者积分注册项目 | 🔴 高 | 4-6 周 | 🔵 招募主理人 |
 | **M7.8** | **国际化 & 出海**：pbs 无国界小组 + pancan.org 合作 + 海外社交媒体矩阵 | 🔴 高 | 长期 | 🔵 招募国际 SIG |
 
@@ -73,9 +73,13 @@ parent: 00-billboard
 ## 🔗 相关资源
 
 - **主仓库**：
-  - [hackathon2026](https://github.com/PancrePal-xiaoyibao/hackathon2026) · ★ **2026 社区黑客松**，M7.3 第 8 波招募与跨病种复制的旗舰活动
+  - [hackathon2026](https://github.com/PancrePal-xiaoyibao/hackathon2026) · ★ **2026 社区黑客松**，与 [魔搭社区 ModelScope](https://www.modelscope.cn/organization/Opencare) 联合举办（[活动页](https://www.modelscope.cn/events/265/summary)）· [hackathon 官网](https://hackathon.xiao-x-bao.com.cn/)
   - [DKU-Programs-Hub](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Hub) · [DKU-Programs-Wiki](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Wiki)
   - [MedGemma3 测试](https://github.com/PancrePal-xiaoyibao/MedGemma3_test_xyb)
+  - [3d-openclaw](https://github.com/PancrePal-xiaoyibao/3d-openclaw) · OpenClaw 3D 版本（仓库待创建，社区已在使用）
+  - [openclaw](https://github.com/PancrePal-xiaoyibao/openclaw) · OpenClaw 基础 skill S0 + 快速手柄（仓库待创建，社区已在使用）
+- **合作方**：
+  - ★ [魔搭社区 ModelScope](https://www.modelscope.cn/organization/Opencare) · 国内最大开源模型社区，与社区联合举办 hackathon · [活动详情](https://www.modelscope.cn/events/265/summary)
 - **参考项目**：pancan.org SPARK · Rare Disease Alliance · Linux Foundation Public Health
 - **推荐 skill**：`/executive-consultant` `/nsfc-proposal-advisor`（VitaForge · 战略维度）
 - **社区文档**：
