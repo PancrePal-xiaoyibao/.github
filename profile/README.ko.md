@@ -10,6 +10,75 @@
 
 <img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427092121634.png" />
 
+---
+
+## 🎯 커뮤니티에 참여하는 두 가지 경로
+
+> **코드는 다리, 연구는 등대입니다.** 개발자든 연구자든, 한 문장으로 자신의 역량을 AI 에이전트에 담아 함께 암·희귀질환·만성질환 환자들에게 희망의 빛을 밝힐 수 있습니다 ✨
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+
+### 🔨 [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge)
+
+**개발자 기여 진입점**
+
+커뮤니티 기여 엔진 · Community Contribution Engine
+
+오픈소스 초보자를 위해 설계된 AI 개발 스캐폴드. **16개 개발 skill + deep-research 심층 조사 엔진**을 한 문장으로 배포 가능한 툴셋으로 패키징합니다.
+
+> **이슈를 발견 → 한 문장으로 CodeForge 배포 → 한 문장으로 Agent가 완료 → PR 제출**
+
+**다음과 같은 분께 추천:**
+- 🌱 첫 오픈소스 기여를 하고 싶다 (**브라우저에서 15분 완료**)
+- 💻 이미 개발자로서 AI로 커뮤니티 프로젝트를 가속화하고 싶다
+- 🇨🇳 중국산 LLM으로 Agent를 구동하고 싶다 (GLM-5.2 / DeepSeek / Kimi / MiMo 모두 호환)
+- 🚀 자신의 코드 작품을 커뮤니티에 남기고, 기술로 실제로 사람을 살리고 싶다
+
+**스킬 매트릭스:** `/ai-spec` `/deep-research` `/api-first` `/debug` `/code-review` `/gh-actions` `/ralph` … 16+ 명령어
+
+<a href="https://github.com/PancrePal-xiaoyibao/CodeForge"><img src="https://img.shields.io/badge/🚀_기여_시작하기-CodeForge-blue?style=for-the-badge" alt="기여 시작하기" /></a>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
+
+**의학 임상 및 연구자 진입점**
+
+의학·생명과학용 AI4S 드라이랩 엔진
+
+원클릭 배포 가능한 스킬 팩. **28개 skill + 오케스트레이터**를 융합하여 의학·생명과학 AI4S의 **연구 라이프사이클 전체**를 커버 — 시퀀싱 데이터에서 논문 발표까지, 근거중심의학에서 연구비 신청까지.
+
+> **Forge your AI scientist. From single cell to bedside.**
+
+**다음과 같은 분께 추천:**
+- 🩺 당신이 **임상 의사 또는 전문 간호사**이며, 근거 지원, 복잡 증례 분석, 임상 연구 지원이 필요
+- 🔬 scRNA-seq / 공간전사체학을 다루고 표준화된 파이프라인(8-Phase)이 필요
+- 📚 문헌 리뷰, 논문 작성, SCI 투고, 심사자 답변 등 반복 노동에 시달림
+- 💰 국가자연과학기금(NSFC) 신청서를 작성 중이며 시니어 심사자 관점의 지도가 필요
+- 🎓 의대생 · 대학원생이며 15분 안에 첫 AI4S 드라이랩 워크플로우를 실행해 보고 싶다
+- 📝 연구 성과를 커뮤니티에 남겨 더 많은 환자에게 전문 지식이 전달되기를 희망
+
+**스킬 매트릭스:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skill
+
+<a href="https://github.com/PancrePal-xiaoyibao/VitaForge"><img src="https://img.shields.io/badge/🔬_AI_연구_시작-VitaForge-green?style=for-the-badge" alt="AI 연구 시작" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**💎 당신의 작품을 커뮤니티에 남겨 · 작은 불꽃에서 큰 희망으로**
+
+<sub>✍️ 코드 프로젝트 → CodeForge 생태계에 PR로 안착 &nbsp;·&nbsp; 🧪 연구 성과 → VitaForge를 통해 라이선스·전파 &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">라이선싱 / 협력 문의</a></sub>
+
+</div>
+
+---
+
 ## 🚀 프로젝트 소개
 
 OpenCare(오픈케어) 커뮤니티와 그 하위 커뮤니티인 'PancrePal'(판크레팔)은 암 환자를 위한 AI 공익 플랫폼입니다. 우리는 최첨단 AI 기술을 활용하여 '공동 의사결정(Shared Decision Management)' 프레임워크와 커뮤니티 자체 도구 세트인 'ACT (AI-Community-Toolkits)'를 기반으로 신뢰할 수 있는 'AI + 인류애' 커뮤니티를 구축하는 데 전념하고 있습니다. 환자와 가족에게 친숙하고 전문적인 케어 및 정보 지원을 제공하여 **정보의 격차를 해소하고 삶의 희망을 밝힙니다.**

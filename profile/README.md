@@ -9,6 +9,75 @@
 
 <img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427092121634.png" />
 
+---
+
+## 🎯 加入社区的两条路径
+
+> **代码是桥梁，研究是灯塔。** 无论您是开发者还是研究者，都可以用一句话把自己的能力装进 AI Agent，一起为肿瘤/罕见病/慢性病患者点亮希望之光 ✨
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+
+### 🔨 [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge)
+
+**开发者贡献入口**
+
+社区开源贡献引擎 · Community Contribution Engine
+
+一个为开源社区新手设计的 AI 开发脚手架。把 **16 个开发 skill + deep-research 深度调研引擎** 打包成一句话就能部署的工具集。
+
+> **看到 issue → 一句话装 CodeForge → 一句话让 Agent 完成 issue → 提 PR**
+
+**适合您，如果：**
+- 🌱 想给开源项目做第一次贡献（**15 分钟浏览器里就能完成**）
+- 💻 已是开发者，想用 AI 加速社区项目开发
+- 🇨🇳 用国产大模型驱动 Agent（GLM-5.2 / DeepSeek / Kimi / MiMo 全兼容）
+- 🚀 希望把自己的代码作品沉淀到社区，让技术真正救人
+
+**能力矩阵：** `/ai-spec` `/deep-research` `/api-first` `/debug` `/code-review` `/gh-actions` `/ralph` … 16+ 命令
+
+<a href="https://github.com/PancrePal-xiaoyibao/CodeForge"><img src="https://img.shields.io/badge/🚀_立即开始贡献-CodeForge-blue?style=for-the-badge" alt="开始贡献" /></a>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
+
+**医学临床与研究人员入口**
+
+面向医学与生命科学的 AI4S 干实验引擎
+
+一键部署的后平滑技能包，融合 **28 个 skill + 主调度**，覆盖医学-生命科学 AI4S 的**全研究生命周期** —— 从测序数据到论文发表、从循证医学到基金申请。
+
+> **Forge your AI scientist. From single cell to bedside.**
+
+**适合您，如果：**
+- 🩺 您是**临床医生 / 专科护士**，需要循证证据、复杂病例分析、临床科研支持
+- 🔬 做 scRNA-seq / 空间转录组，需要标准化 pipeline（8-Phase 自动化）
+- 📚 深陷文献综述、论文写作、SCI 投稿、审稿回复的重复劳动
+- 💰 正在写国自然基金本子，需要资深评审视角辅导
+- 🎓 医学生 / 研究生小白，想 15 分钟内跑通第一个 AI4S 干实验流程
+- 📝 希望把自己的研究成果沉淀到社区，让专业知识造福更多患者
+
+**能力矩阵：** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skill
+
+<a href="https://github.com/PancrePal-xiaoyibao/VitaForge"><img src="https://img.shields.io/badge/🔬_开启AI科研-VitaForge-green?style=for-the-badge" alt="开启研究" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**💎 把您的作品沉淀到社区 · 让微光成炬**
+
+<sub>✍️ 代码项目 → 通过 CodeForge 生态 PR 沉淀 &nbsp;·&nbsp; 🧪 研究成果 → 通过 VitaForge 授权社区传播 &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">联系我们授权 / 合作</a></sub>
+
+</div>
+
+---
+
 ## 🚀 项目简介
 
 小X宝社区 & 子社区代表“小胰宝”，是一个面向肿瘤患者的AI公益社区平台。我们致力于利用前沿 AI 技术，基于“共同决策”（shared Decision Management）框架，按照社区自己的ACT（AI-Community-Toolkits）简构建可信赖的“AI+人文”社区，为患者、家属，提供触手可及的专业关怀和信息支撑，**消除信息鸿沟，点亮生命希望**。

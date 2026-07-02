@@ -10,6 +10,75 @@ Creemos profundamente que el código no son solo caracteres fríos, sino un puen
 
 <img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427092121634.png" />
 
+---
+
+## 🎯 Dos caminos para unirse a la comunidad
+
+> **El código es el puente, la investigación es el faro.** Ya seas desarrollador o investigador, puedes empaquetar tus capacidades en un Agente de IA con una sola frase y, juntos, encender la esperanza para pacientes con cáncer, enfermedades raras y crónicas ✨
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+
+### 🔨 [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge)
+
+**Entrada para desarrolladores**
+
+Motor de contribución comunitaria · Community Contribution Engine
+
+Un andamio de desarrollo con IA diseñado para principiantes en open source. Empaqueta **16 skills de desarrollo + motor deep-research** en un conjunto de herramientas desplegable con una sola frase.
+
+> **Ves un issue → despliegas CodeForge en una frase → dejas que el Agente lo complete → abres un PR**
+
+**Esto es para ti si:**
+- 🌱 Quieres hacer tu primera contribución open source (**en 15 minutos, todo en el navegador**)
+- 💻 Ya eres desarrollador y quieres acelerar proyectos comunitarios con IA
+- 🇨🇳 Quieres impulsar Agentes con LLMs chinos (GLM-5.2 / DeepSeek / Kimi / MiMo compatibles)
+- 🚀 Deseas aportar tu código a la comunidad — donde la tecnología realmente salva vidas
+
+**Matriz de habilidades:** `/ai-spec` `/deep-research` `/api-first` `/debug` `/code-review` `/gh-actions` `/ralph` … 16+ comandos
+
+<a href="https://github.com/PancrePal-xiaoyibao/CodeForge"><img src="https://img.shields.io/badge/🚀_Empezar_a_contribuir-CodeForge-blue?style=for-the-badge" alt="Empezar a contribuir" /></a>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
+
+**Entrada para clínicos e investigadores**
+
+Motor de laboratorio seco AI4S para medicina y ciencias de la vida
+
+Un pack de skills desplegable con un clic que fusiona **28 skills + un orquestador**, cubriendo **todo el ciclo de vida de la investigación** en AI4S médico/biológico — desde datos de secuenciación hasta publicación, desde medicina basada en evidencia hasta solicitudes de subvenciones.
+
+> **Forge your AI scientist. From single cell to bedside.**
+
+**Esto es para ti si:**
+- 🩺 Eres **médico clínico o enfermero/a especialista** y necesitas evidencia, análisis de casos complejos o soporte de investigación clínica
+- 🔬 Trabajas con scRNA-seq / transcriptómica espacial y necesitas un pipeline estandarizado (8 fases)
+- 📚 Estás abrumado con revisiones de literatura, redacción de artículos, envíos SCI, respuestas a revisores
+- 💰 Estás escribiendo una solicitud de NSFC y necesitas asesoría de revisores senior
+- 🎓 Eres estudiante de medicina / posgrado y quieres ejecutar tu primer flujo AI4S de laboratorio seco en 15 minutos
+- 📝 Deseas aportar tus resultados de investigación a la comunidad — para beneficiar a más pacientes
+
+**Matriz de habilidades:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skills
+
+<a href="https://github.com/PancrePal-xiaoyibao/VitaForge"><img src="https://img.shields.io/badge/🔬_Iniciar_investigación-VitaForge-green?style=for-the-badge" alt="Iniciar investigación" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**💎 Aporta tu trabajo a la comunidad · Del destello a la grandeza**
+
+<sub>✍️ Proyectos de código → integrar en el ecosistema CodeForge vía PR &nbsp;·&nbsp; 🧪 Resultados de investigación → licenciar y difundir vía VitaForge &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">Contáctanos para licencias / alianzas</a></sub>
+
+</div>
+
+---
+
 ## 🚀 Introducción al Proyecto
 
 La Comunidad OpenCare y su subcomunidad "PancrePal" es una plataforma de IA para el bienestar público de pacientes con cáncer. Estamos comprometidos con el uso de tecnología de IA de vanguardia, basada en el marco de "Gestión de Decisiones Compartidas" y los propios ACT (AI-Community-Toolkits) de la comunidad, para construir una comunidad confiable de "IA + Humanidad". Brindamos atención profesional accesible y apoyo informativo para los pacientes y sus familias, **cerrando la brecha de información e iluminando la esperanza de vida.**
