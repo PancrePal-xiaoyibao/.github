@@ -73,6 +73,7 @@ parent: 00-billboard
 ## 🔗 相关资源
 
 - **主仓库**：
+  - [hackathon2026](https://github.com/PancrePal-xiaoyibao/hackathon2026) · ★ **2026 社区黑客松**，M7.3 第 8 波招募与跨病种复制的旗舰活动
   - [DKU-Programs-Hub](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Hub) · [DKU-Programs-Wiki](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Wiki)
   - [MedGemma3 测试](https://github.com/PancrePal-xiaoyibao/MedGemma3_test_xyb)
 - **参考项目**：pancan.org SPARK · Rare Disease Alliance · Linux Foundation Public Health

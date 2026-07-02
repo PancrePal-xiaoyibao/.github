@@ -38,25 +38,25 @@ maintainer: @samqin123 (CMC) · 更新周期: 季度 review
 
 ### 🔬 技术 · 数据 · 基建（1-4）
 
-| Pillar | 一句话 | Issue | 现有抓手 |
+| Pillar | 一句话 | Issue | 现有抓手（点 ★ 为旗舰项目） |
 |:---:|---|:---:|---|
-| **1️⃣ 开源癌症基因图谱** | 让全球任何肿瘤病友都能查到自己突变的循证解读 | [#16](https://github.com/PancrePal-xiaoyibao/.github/issues/16) | [openpancan](https://github.com/PancrePal-xiaoyibao/openpancan) · TCGA/COSMIC/OncoKB 9-phase |
-| **2️⃣ 患者数据主权与隐私安全** | 数据在患者自己手里，而不是任何第三方 | [#17](https://github.com/PancrePal-xiaoyibao/.github/issues/17) | [小图宝](https://github.com/PancrePal-xiaoyibao/ca199_toolbox_donated_by_lihb) · Aura Health Profile |
-| **3️⃣ 循证开源知识图谱** | 打通 PubMed / OpenAlex / 指南 / 病历，让医患共享同一份证据基础 | [#18](https://github.com/PancrePal-xiaoyibao/.github/issues/18) | [graphify-xiaoyibao](https://github.com/opencare-skillhub/graphify-xiaoyibao) · PubMed/OpenAlex/KnowS MCP |
-| **4️⃣ AI 基建支柱** | 让所有 x 宝、蓝马甲、志愿者都能站在同一套 AI 基础设施上 | [#19](https://github.com/PancrePal-xiaoyibao/.github/issues/19) | [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge) · [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge) |
+| **1️⃣ 开源癌症基因图谱** | 让全球任何肿瘤病友都能查到自己突变的循证解读 | [#16](https://github.com/PancrePal-xiaoyibao/.github/issues/16) | ★ [openpancan](https://github.com/PancrePal-xiaoyibao/openpancan) · [ctg-rag-genie](https://github.com/PancrePal-xiaoyibao/ctg-rag-genie)（临床试验 RAG）|
+| **2️⃣ 患者数据主权与隐私安全** | 数据在患者自己手里，而不是任何第三方 | [#17](https://github.com/PancrePal-xiaoyibao/.github/issues/17) | ★ [小图宝](https://github.com/PancrePal-xiaoyibao/ca199_toolbox_donated_by_lihb) · [Aura Health Profile](https://github.com/opencare-skillhub/aura_health_profile) · [medical-desensitization](https://github.com/PancrePal-xiaoyibao/medical-desensitization) |
+| **3️⃣ 循证开源知识图谱** | 打通 PubMed / OpenAlex / 指南 / 病历，让医患共享同一份证据基础 | [#18](https://github.com/PancrePal-xiaoyibao/.github/issues/18) | ★ [osintel-pancrepal](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal) · [graphify-xiaoyibao](https://github.com/opencare-skillhub/graphify-xiaoyibao) · [NCCN_guideline_download](https://github.com/PancrePal-xiaoyibao/NCCN_guideline_download) · [fastgpt-rag-kb-automation](https://github.com/PancrePal-xiaoyibao/fastgpt-rag-kb-automation) · [pancreapal-osintel](https://github.com/PancrePal-xiaoyibao/pancreapal-osintel) |
+| **4️⃣ AI 基建支柱** | 让所有 x 宝、蓝马甲、志愿者都能站在同一套 AI 基础设施上 | [#19](https://github.com/PancrePal-xiaoyibao/.github/issues/19) | ★ [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge) · ★ [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge) · [Genie-X-PAL-prompts-center](https://github.com/PancrePal-xiaoyibao/Genie-X-PAL-prompts-center) · [fastgpt-kb-automation](https://github.com/PancrePal-xiaoyibao/fastgpt-kb-automation) |
 
 ### 🩺 服务 · 传播 · 生态（5-8）
 
-| Pillar | 一句话 | Issue | 现有抓手 |
+| Pillar | 一句话 | Issue | 现有抓手（点 ★ 为旗舰项目） |
 |:---:|---|:---:|---|
-| **5️⃣ AI+蓝马甲全病程陪伴** | 确诊 → 治疗 → 康复 → 临终，每一步都有 AI + 志愿者在身边 | [#20](https://github.com/PancrePal-xiaoyibao/.github/issues/20) | 小X宝矩阵 · 蓝马甲 SIG · 心理小组 |
-| **6️⃣ 并发症与生活支持库** | 患者不是只需要治疗，还需要吃得下、睡得着、活下去 | [#21](https://github.com/PancrePal-xiaoyibao/.github/issues/21) | 七色卡计划 · [小红卡](https://xhk.xiaoyibao.com.cn) · FSHD 罕见病 |
-| **7️⃣ 跨癌种/罕见病方法学复制** | 把 3 年积累的 ACT 框架复制到每一个需要它的病种社区 | [#22](https://github.com/PancrePal-xiaoyibao/.github/issues/22) | ACT 框架 · 微光成炬 · 第 8 波招募 |
-| **8️⃣ 学术共建：综述 · 生信 · 患者向科普桥梁** | 让医学生 / 研究生 / 临床科研工作者的每一份研究都在社区沉淀、传播、桥接到病友 | [#23](https://github.com/PancrePal-xiaoyibao/.github/issues/23) | [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge) 学术流程 · 复旦 9A 论文范式 |
+| **5️⃣ AI+蓝马甲全病程陪伴** | 确诊 → 治疗 → 康复 → 临终，每一步都有 AI + 志愿者在身边 | [#20](https://github.com/PancrePal-xiaoyibao/.github/issues/20) | ★ [osintel-pancrepal](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal) · [xiaoxinbao_UI](https://github.com/PancrePal-xiaoyibao/xiaoxinbao_UI)（小馨宝前端）· 小X宝矩阵 · 蓝马甲 SIG |
+| **6️⃣ 并发症与生活支持库** | 患者不是只需要治疗，还需要吃得下、睡得着、活下去 | [#21](https://github.com/PancrePal-xiaoyibao/.github/issues/21) | ★ [tiny_red_card](https://github.com/PancrePal-xiaoyibao/tiny_red_card)（小红卡）· 七色卡计划 · FSHD 罕见病 |
+| **7️⃣ 跨癌种/罕见病方法学复制** | 把 3 年积累的 ACT 框架复制到每一个需要它的病种社区 | [#22](https://github.com/PancrePal-xiaoyibao/.github/issues/22) | ★ [hackathon2026](https://github.com/PancrePal-xiaoyibao/hackathon2026) · ACT 框架 · [DKU-Programs-Hub](https://github.com/PancrePal-xiaoyibao/DKU-Programs-Hub) · 微光成炬 |
+| **8️⃣ 学术共建：综述 · 生信 · 患者向科普桥梁** | 让医学生 / 研究生 / 临床科研工作者的每一份研究都在社区沉淀、传播、桥接到病友 | [#23](https://github.com/PancrePal-xiaoyibao/.github/issues/23) | ★ [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge) · [web-xyb-writer-pal](https://github.com/PancrePal-xiaoyibao/web-xyb-writer-pal)（写作服务）· [medical-desensitization](https://github.com/PancrePal-xiaoyibao/medical-desensitization) · 复旦 9A 论文范式 |
 
 ### ⛓️ 前沿 · 共治（9）
 
-| Pillar | 一句话 | Issue | 现有抓手 |
+| Pillar | 一句话 | Issue | 现有抓手（点 ★ 为旗舰项目） |
 |:---:|---|:---:|---|
 | **9️⃣ Web3 与区块链患者数据确权** | 让患者真正"拥有"自己的医疗数据 —— 智能合约、ZKP、DAO 治理，把数据归患者、收益归患者、治理归社区 | [#25](https://github.com/PancrePal-xiaoyibao/.github/issues/25) | [medical-desensitization](https://github.com/PancrePal-xiaoyibao/medical-desensitization) · MediBloc / Polygon ID 范式 |
 

@@ -71,6 +71,7 @@ parent: 00-billboard
   - 小馨宝 · 小铃铛 · 胰小助 · 胰管家
 - **社区仓库抓手**：
   - [osintel-pancrepal](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal) · **胰腺癌病程情报中心**，为病友/家属打通"看得懂 + 找得到 + 追得上"（见 [看得懂 issue #7](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/7)、[胰腺中心信息库 #9](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/9)、[视频学术活动整合 #8](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/8)）
+  - [xiaoxinbao_UI](https://github.com/PancrePal-xiaoyibao/xiaoxinbao_UI) · **小馨宝可部署前端**（文字聊天 + 语音对话），M5.2 心理助手能力扩展的直接载体
   - [tiny_red_card](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git) · 小红卡·并发症
   - [Genie-X-PAL-prompts-center](https://github.com/PancrePal-xiaoyibao/Genie-X-PAL-prompts-center) · 社区共建 prompts 中心
 - **社区导航图**：[小X宝社区"胰腺肿瘤并发症病友共创宝典"](https://bfz.xiao-x-bao.com.cn)

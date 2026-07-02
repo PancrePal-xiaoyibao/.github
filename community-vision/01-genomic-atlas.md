@@ -69,7 +69,9 @@ parent: 00-billboard
 
 ## 🔗 相关资源
 
-- **主仓库**：[PancrePal-xiaoyibao/openpancan](https://github.com/PancrePal-xiaoyibao/openpancan)（9 phase 全部有 issue 招募中）
+- **主仓库**：
+  - [openpancan](https://github.com/PancrePal-xiaoyibao/openpancan) · 9 phase 基因库集成（全部有 issue 招募中）
+  - [ctg-rag-genie](https://github.com/PancrePal-xiaoyibao/ctg-rag-genie) · **ClinicalTrials.gov + Chictr 临床试验自动抓取 + LLM 中文化 + FastGPT 上传**，M1.5 临床试验集成直接抓手
 - **参考项目**：[cBioPortal](https://www.cbioportal.org/) · [OncoKB](https://www.oncokb.org/) · [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
 - **推荐 skill**：`/deep-research` `/ai4s-lab` `/scrna-*`（VitaForge）· `/api-first` `/debug` `/code-review`（CodeForge）
 - **推荐 MCP**：PubMed · OpenAlex · GitHub

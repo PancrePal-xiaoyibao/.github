@@ -73,9 +73,13 @@ parent: 00-billboard
 ## 🔗 相关资源
 
 - **主仓库**：
+  - [osintel-pancrepal](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal) · ★ **胰腺癌开源情报中心**，Pillar 3 循证情报旗舰应用（正在生产化，见 [issue #3](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/3)、[#6](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/6)、[#7](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/7)、[#9](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/9)、[#10](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/10)）
   - [graphify-xiaoyibao](https://github.com/opencare-skillhub/graphify-xiaoyibao) · 病历 → 知识图谱抽取
-  - [osintel-pancrepal](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal) · **胰腺癌开源情报中心**，Pillar 3 循证情报的旗舰应用（正在生产化，见 [issue #3](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/3)、[#6](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/6)、[#7](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/7)、[#9](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/9)、[#10](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/10)）
-  - [fastgpt-rag-kb-automation](https://github.com/PancrePal-xiaoyibao/fastgpt-rag-kb-automation) · **RAG 知识库自动化 CLI 工具**（微信文章下载 / 清洗 / 上传）
+  - [NCCN_guideline_download](https://github.com/PancrePal-xiaoyibao/NCCN_guideline_download) · **NCCN 指南同步下载**，M3.3 指南结构化的数据源
+  - [ctg-rag-genie](https://github.com/PancrePal-xiaoyibao/ctg-rag-genie) · ClinicalTrials.gov + Chictr 抓取 + LLM 中文化，M3.4 临床试验图谱抓手
+  - [fastgpt-rag-kb-automation](https://github.com/PancrePal-xiaoyibao/fastgpt-rag-kb-automation) · **RAG 知识库自动化 CLI**（微信文章下载 / 清洗 / 上传）
+  - [fastgpt-kb-automation](https://github.com/PancrePal-xiaoyibao/fastgpt-kb-automation) · FastGPT 知识库自动化（另一版本）
+  - [pancreapal-osintel](https://github.com/PancrePal-xiaoyibao/pancreapal-osintel) · 全球胰腺癌治疗热点与医疗资源监控（osintel 数据库版）
   - [get-biji-skills](https://github.com/iswalle/getnote-openclaw) · Get 笔记知识星云集成
 - **参考项目**：[Wikidata](https://www.wikidata.org/) · [SNOMED CT](https://www.snomed.org/) · [Neo4j Life Sciences](https://neo4j.com/use-cases/life-sciences/)
 - **推荐 skill**：`/deep-research` `/paper-reader` `/pubmed-linker` `/extract`（VitaForge）
