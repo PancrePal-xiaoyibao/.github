@@ -30,6 +30,7 @@ parent: 00-billboard
 | **M5.6** | **无主要照护者家庭**帮扶：识别 → 主动介入 → 志愿者结对 | 🔴 高 | 长期 | 🔵 招募心理/社工 SIG |
 | **M5.7** | **医患沟通助手**：帮病友把复杂病情用医生能听懂的方式表达，30 秒讲清楚 | 🟡 中 | 2 周 | 🔵 待认领 |
 | **M5.8** | **家属支持专线**：家属才是决策主体，专为家属做的 AI 助手 | 🟡 中 | 3 周 | 🔵 待认领 |
+| **M5.9** | ★ **[CareBot](https://github.com/PancrePal-xiaoyibao/CareBot) 心理支持 agent**："比小馨宝更温暖的太阳"，部署上线 → 蓝马甲社群试用 → 抑郁/焦虑筛查 → 多语言扩展 | 🟡 中 | 4-6 周 | 🟡 招募中 |
 
 ## 🚪 不同人群怎么参与
 
@@ -70,6 +71,7 @@ parent: 00-billboard
   - [小粉宝](https://xfb.xiaoyibao.com.cn) · [小胃宝](https://chat.xiaoweibao.com.cn)
   - 小馨宝 · 小铃铛 · 胰小助 · 胰管家
 - **社区仓库抓手**：
+  - ★ [CareBot](https://github.com/PancrePal-xiaoyibao/CareBot) · **"比小馨宝更温暖的太阳"**，心理支持 agent 旗舰，M5.9 主抓手
   - [osintel-pancrepal](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal) · **胰腺癌病程情报中心**，为病友/家属打通"看得懂 + 找得到 + 追得上"（见 [看得懂 issue #7](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/7)、[胰腺中心信息库 #9](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/9)、[视频学术活动整合 #8](https://github.com/PancrePal-xiaoyibao/osintel-pancrepal/issues/8)）
   - [xiaoxinbao_UI](https://github.com/PancrePal-xiaoyibao/xiaoxinbao_UI) · **小馨宝可部署前端**（文字聊天 + 语音对话），M5.2 心理助手能力扩展的直接载体
   - [tiny_red_card](https://github.com/PancrePal-xiaoyibao/tiny_red_card.git) · 小红卡·并发症
