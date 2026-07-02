@@ -15,6 +15,8 @@ Creemos profundamente que el código no son solo caracteres fríos, sino un puen
 ## 🎯 Dos caminos para unirse a la comunidad
 
 > **El código es el puente, la investigación es el faro.** Ya seas desarrollador o investigador, puedes empaquetar tus capacidades en un Agente de IA con una sola frase y, juntos, encender la esperanza para pacientes con cáncer, enfermedades raras y crónicas ✨
+>
+> 🚦 **¿No quieres leer la versión larga?** Salta directamente al **[📋 Tablero de tareas de la comunidad · Project →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** para reclamar un hito, o abre el **[🌟 BillBoard de Visión 2026 #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** para ver la escala de lo que construye esta comunidad.
 
 <table>
 <tr>

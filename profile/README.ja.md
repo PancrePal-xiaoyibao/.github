@@ -15,6 +15,8 @@
 ## 🎯 コミュニティへの参加 · 2つの道
 
 > **コードは橋、研究は灯台。** 開発者でも研究者でも、あなたの能力を一言でAIエージェントに詰め込み、がん・希少疾患・慢性疾患の患者さんに希望の光を届けましょう ✨
+>
+> 🚦 **長文を読みたくない？** そのまま **[📋 コミュニティタスクボード · Project →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** に飛んでマイルストーンを引き受けるか、**[🌟 2026 ビジョン BillBoard #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** を開いてこのコミュニティが構築している規模を確認しよう。
 
 <table>
 <tr>

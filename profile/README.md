@@ -14,6 +14,8 @@
 ## 🎯 加入社区的两条路径
 
 > **代码是桥梁，研究是灯塔。** 无论您是开发者还是研究者，都可以用一句话把自己的能力装进 AI Agent，一起为肿瘤/罕见病/慢性病患者点亮希望之光 ✨
+>
+> 🚦 **不想看长文？** 直接跳到 **[📋 社区任务池 Project 看板 →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** 挑一个里程碑认领，或者点开 **[🌟 2026 愿景 BillBoard #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** 看社区在做什么级别的事。
 
 <table>
 <tr>

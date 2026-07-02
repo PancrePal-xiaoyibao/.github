@@ -15,6 +15,8 @@
 ## 🎯 커뮤니티에 참여하는 두 가지 경로
 
 > **코드는 다리, 연구는 등대입니다.** 개발자든 연구자든, 한 문장으로 자신의 역량을 AI 에이전트에 담아 함께 암·희귀질환·만성질환 환자들에게 희망의 빛을 밝힐 수 있습니다 ✨
+>
+> 🚦 **긴 글을 읽고 싶지 않다면?** 바로 **[📋 커뮤니티 태스크 보드 · Project →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** 로 가서 마일스톤을 맡거나, **[🌟 2026 비전 BillBoard #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** 를 열어 이 커뮤니티가 만들고 있는 규모를 확인해 보세요.
 
 <table>
 <tr>
