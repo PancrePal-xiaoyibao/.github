@@ -32,7 +32,7 @@ maintainer: @samqin123 (CMC) · 更新周期: 季度 review
 
 ---
 
-## 🌠 8 大 Vision Pillars · 我们的北极星
+## 🌠 9 大 Vision Pillars · 我们的北极星
 
 点击每个 Pillar 进入详细任务清单，找到你能贡献的那一个 ✨
 
@@ -54,6 +54,12 @@ maintainer: @samqin123 (CMC) · 更新周期: 季度 review
 | **7️⃣ 跨癌种/罕见病方法学复制** | 把 3 年积累的 ACT 框架复制到每一个需要它的病种社区 | [#22](https://github.com/PancrePal-xiaoyibao/.github/issues/22) | ACT 框架 · 微光成炬 · 第 8 波招募 |
 | **8️⃣ 学术共建：综述 · 生信 · 患者向科普桥梁** | 让医学生 / 研究生 / 临床科研工作者的每一份研究都在社区沉淀、传播、桥接到病友 | [#23](https://github.com/PancrePal-xiaoyibao/.github/issues/23) | [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge) 学术流程 · 复旦 9A 论文范式 |
 
+### ⛓️ 前沿 · 共治（9）
+
+| Pillar | 一句话 | Issue | 现有抓手 |
+|:---:|---|:---:|---|
+| **9️⃣ Web3 与区块链患者数据确权** | 让患者真正"拥有"自己的医疗数据 —— 智能合约、ZKP、DAO 治理，把数据归患者、收益归患者、治理归社区 | [#25](https://github.com/PancrePal-xiaoyibao/.github/issues/25) | [medical-desensitization](https://github.com/PancrePal-xiaoyibao/medical-desensitization) · MediBloc / Polygon ID 范式 |
+
 ---
 
 ## 🚪 如何参与 · 三条路径
@@ -62,7 +68,7 @@ maintainer: @samqin123 (CMC) · 更新周期: 季度 review
 
 **你不需要加飞书、不需要面试、不需要报备，就能开始贡献。**
 
-1. 从上面 8 个 Pillar 挑一个你感兴趣的方向，点进去
+1. 从上面 9 个 Pillar 挑一个你感兴趣的方向，点进去
 2. 找到里面标了 `good first issue` 或 `help wanted` 的具体任务
 3. 在对应 issue 下评论一句：`我想接手，预计 X 天内提 PR`（社区管理员会看到、认领生效）
 4. 打开 CodeForge / VitaForge 学会用 AI Agent 完成任务：
@@ -77,7 +83,7 @@ maintainer: @samqin123 (CMC) · 更新周期: 季度 review
 - 私域内部有更完整的项目、导师、资源匹配体系
 - 联系人：`sam.qin@xiaoyibao.com.cn` / `service@xiaoyibao.com.cn`
 
-> 💡 **关于公开 vs 私域的区别**：本 BillBoard 及其 8 个 Pillar issue 是**公开招募橱窗**，任何人都能直接认领任务开始贡献；成为飞书志愿者后可以接触到更深度的项目、内部知识库、导师制、以及有敏感度的合作项目。两条通道**并行独立、相互补充**。
+> 💡 **关于公开 vs 私域的区别**：本 BillBoard 及其 9 个 Pillar issue 是**公开招募橱窗**，任何人都能直接认领任务开始贡献；成为飞书志愿者后可以接触到更深度的项目、内部知识库、导师制、以及有敏感度的合作项目。两条通道**并行独立、相互补充**。
 
 ### 🌳 路径 C · 我是机构 / 医院 / 企业 / 学者，想合作
 
@@ -110,7 +116,7 @@ maintainer: @samqin123 (CMC) · 更新周期: 季度 review
 
 ## 📊 项目看板 · 实时追踪
 
-> 所有 8 个 Pillar issue 都会自动挂到组织级 Public Project 里，形成一张可视化看板：
+> 所有 9 个 Pillar issue 都会自动挂到组织级 Public Project 里，形成一张可视化看板：
 
 - 📋 **[Community BillBoard Project](https://github.com/orgs/PancrePal-xiaoyibao/projects)**（社区管理员日常维护）
 - 🟢 状态列：`Backlog → Claimed → In Progress → Review → Merged → Shipped`

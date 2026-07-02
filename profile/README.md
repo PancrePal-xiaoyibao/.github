@@ -76,7 +76,7 @@
 
 **不知道从哪开始？看看社区未来 12-24 个月要做的 8 件大事，直接认领一个里程碑。**
 
-<sub>🧬 基因图谱 · 🔒 数据主权 · 📚 循证图谱 · 🤖 AI 基建 · 🩺 病程陪伴 · 💊 生活支持 · 🌐 方法学复制 · 🎓 学术共建</sub>
+<sub>🧬 基因图谱 · 🔒 数据主权 · 📚 循证图谱 · 🤖 AI 基建 · 🩺 病程陪伴 · 💊 生活支持 · 🌐 方法学复制 · 🎓 学术共建 · ⛓️ Web3 确权</sub>
 
 <a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_浏览愿景任务池-BillBoard_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
 
