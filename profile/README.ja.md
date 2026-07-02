@@ -10,6 +10,74 @@
 
 <img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427092121634.png" />
 
+---
+
+## 🎯 コミュニティへの参加 · 2つの道
+
+> **コードは橋、研究は灯台。** 開発者でも研究者でも、あなたの能力を一言でAIエージェントに詰め込み、がん・希少疾患・慢性疾患の患者さんに希望の光を届けましょう ✨
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+
+### 🔨 [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge)
+
+**開発者コントリビューション入口**
+
+コミュニティコントリビューションエンジン · Community Contribution Engine
+
+オープンソース初心者のために設計されたAI開発足場。**16の開発 skill + deep-research 深掘り調査エンジン**を、一言でデプロイできるツールセットにパッケージ化しています。
+
+> **issueを見つける → 一言でCodeForgeをデプロイ → 一言でAgentに完成させる → PRを提出**
+
+**こんな方におすすめ:**
+- 🌱 初めてのオープンソース貢献をしたい（**ブラウザで15分完結**）
+- 💻 すでに開発者で、AIでコミュニティプロジェクトを加速したい
+- 🇨🇳 中国製LLMでAgentを動かしたい（GLM-5.2 / DeepSeek / Kimi / MiMo すべて対応）
+- 🚀 自分のコード作品をコミュニティに沈殿させ、技術で本当に人を救いたい
+
+**スキルマトリクス:** `/ai-spec` `/deep-research` `/api-first` `/debug` `/code-review` `/gh-actions` `/ralph` … 16+コマンド
+
+<a href="https://github.com/PancrePal-xiaoyibao/CodeForge"><img src="https://img.shields.io/badge/🚀_貢献を始める-CodeForge-blue?style=for-the-badge" alt="貢献を始める" /></a>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
+
+**研究者リサーチ入口**
+
+医学・生命科学のためのAI4S 干実験エンジン
+
+ワンクリックでデプロイ可能なスキルパック。**28のskill + オーケストレータ**を融合し、医学・生命科学AI4Sの**研究ライフサイクル全体**をカバー — シーケンシングデータから論文発表まで、EBMから助成金申請まで。
+
+> **Forge your AI scientist. From single cell to bedside.**
+
+**こんな方におすすめ:**
+- 🔬 scRNA-seq / 空間トランスクリプトミクスを扱い、標準化パイプライン（8フェーズ）が必要
+- 📚 文献レビュー、論文執筆、SCI投稿、査読応答の反復作業に埋もれている
+- 💰 国自然基金（NSFC）本子を書いており、シニア査読者の視点でコーチングが欲しい
+- 🩺 EBM + 中医学の総合視点で複雑症例を分析したい
+- 📝 研究成果をコミュニティに沈殿させ、より多くの患者さんに専門知識を届けたい
+
+**スキルマトリクス:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skill
+
+<a href="https://github.com/PancrePal-xiaoyibao/VitaForge"><img src="https://img.shields.io/badge/🔬_AI研究を始める-VitaForge-green?style=for-the-badge" alt="AI研究を始める" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**💎 あなたの作品をコミュニティに沈殿させ · 小さな輝きを大きな希望へ**
+
+<sub>✍️ コードプロジェクト → CodeForgeエコシステムへPRで沈殿 &nbsp;·&nbsp; 🧪 研究成果 → VitaForgeでライセンス供与・普及 &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">ライセンス / 提携のご連絡</a></sub>
+
+</div>
+
+---
+
 ## 🚀 プロジェクト概要
 
 OpenCare（オープンケア）コミュニティとそのサブコミュニティ「PancrePal」（パンクレパル）は、がん患者のためのAI公共福祉プラットフォームです。私たちは、最先端のAI技術を駆使し、「共同意思決定（Shared Decision Management）」の枠組みと独自のコミュニティツール群「ACT (AI-Community-Toolkits)」に基づき、信頼できる「AI + 人間味」のコミュニティを構築することに尽力しています。患者とその家族に身近でプロフェッショナルなケアと情報サポートを提供し、**情報の格差を解消し、生きる希望を照らします。**

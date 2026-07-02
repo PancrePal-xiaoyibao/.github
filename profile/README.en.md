@@ -10,6 +10,74 @@ We deeply believe that code is not just cold characters, but a bridge connecting
 
 <img width="1000" height="583" alt="image" src="https://picgo-1302991947.cos.ap-guangzhou.myqcloud.com/images/20260427092121634.png" />
 
+---
+
+## 🎯 Two Paths to Join the Community
+
+> **Code is the bridge, research is the lighthouse.** Whether you're a developer or a researcher, you can package your capabilities into an AI Agent with a single sentence, and together light up hope for patients with cancer, rare diseases, and chronic conditions ✨
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+
+### 🔨 [CodeForge](https://github.com/PancrePal-xiaoyibao/CodeForge)
+
+**Developer Contribution Entry**
+
+Community Contribution Engine · Open Source Onboarding
+
+An AI development scaffold designed for open-source newcomers. It packages **16 dev skills + a deep-research engine** into a tool suite deployable with one sentence.
+
+> **See an issue → deploy CodeForge in one sentence → let the Agent complete it → open a PR**
+
+**This is for you if:**
+- 🌱 You want to make your first open-source contribution (**done in 15 minutes, all in the browser**)
+- 💻 You're already a developer looking to accelerate community projects with AI
+- 🇨🇳 You want to drive Agents with Chinese LLMs (GLM-5.2 / DeepSeek / Kimi / MiMo all supported)
+- 🚀 You hope to contribute your code work back to the community — where tech truly saves lives
+
+**Skill matrix:** `/ai-spec` `/deep-research` `/api-first` `/debug` `/code-review` `/gh-actions` `/ralph` … 16+ commands
+
+<a href="https://github.com/PancrePal-xiaoyibao/CodeForge"><img src="https://img.shields.io/badge/🚀_Start_Contributing-CodeForge-blue?style=for-the-badge" alt="Start Contributing" /></a>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
+
+**Researcher Science Entry**
+
+AI4S Dry-Lab Engine for Medicine & Life Sciences
+
+A one-click deployable skill pack merging **28 skills + an orchestrator**, covering the **entire research lifecycle** for medical / life-science AI4S — from sequencing data to publication, from evidence-based medicine to grant proposals.
+
+> **Forge your AI scientist. From single cell to bedside.**
+
+**This is for you if:**
+- 🔬 You run scRNA-seq / spatial transcriptomics and need a standardized 8-Phase pipeline
+- 📚 You're bogged down in literature reviews, paper writing, SCI submissions, review replies
+- 💰 You're writing an NSFC (National Science Foundation) grant and need senior reviewer coaching
+- 🩺 You need complex case analysis combining evidence-based medicine + traditional Chinese medicine
+- 📝 You hope to contribute your research back to the community — helping more patients benefit
+
+**Skill matrix:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skills
+
+<a href="https://github.com/PancrePal-xiaoyibao/VitaForge"><img src="https://img.shields.io/badge/🔬_Start_Research-VitaForge-green?style=for-the-badge" alt="Start Research" /></a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**💎 Contribute your work to the community · Let glimmers become a blaze**
+
+<sub>✍️ Code projects → merge into the CodeForge ecosystem via PRs &nbsp;·&nbsp; 🧪 Research outcomes → license & spread via VitaForge &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">Contact us for licensing / partnership</a></sub>
+
+</div>
+
+---
+
 ## 🚀 Project Introduction
 
 OpenCare Community & its sub-community "PancrePal" is an AI public welfare platform for cancer patients. We are committed to utilizing cutting-edge AI technology, based on the "Shared Decision Management" framework and the community's own ACT (AI-Community-Toolkits), to build a trustworthy "AI + Humanity" community. We provide accessible professional care and information support for patients and their families, **bridging the information gap and lighting the hope for life.**
