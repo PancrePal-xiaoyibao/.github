@@ -15,6 +15,8 @@
 ## 🎯 커뮤니티에 참여하는 두 가지 경로
 
 > **코드는 다리, 연구는 등대입니다.** 개발자든 연구자든, 한 문장으로 자신의 역량을 AI 에이전트에 담아 함께 암·희귀질환·만성질환 환자들에게 희망의 빛을 밝힐 수 있습니다 ✨
+>
+> 🚦 **긴 글을 읽고 싶지 않다면?** 바로 **[📋 커뮤니티 태스크 보드 · Project →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** 로 가서 마일스톤을 맡거나, **[🌟 2026 비전 BillBoard #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** 를 열어 이 커뮤니티가 만들고 있는 규모를 확인해 보세요.
 
 <table>
 <tr>
@@ -68,6 +70,18 @@
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+### 🌟 [커뮤니티 2026 비전 BillBoard · 공개 기여자 모집 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)
+
+**어디부터 시작해야 할지 모르겠다면? 커뮤니티가 향후 12-24개월 동안 할 8가지 큰일을 살펴보고, 직접 마일스톤을 맡아보세요.**
+
+<sub>🧬 유전체 지도 · 🔒 데이터 주권 · 📚 근거 그래프 · 🤖 AI 인프라 · 🩺 병정 동반 · 💊 생활 지원 · 🌐 방법론 복제 · 🎓 학술 다리</sub>
+
+<a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_BillBoard_보기-Vision_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
+
+</div>
 
 <div align="center">
 

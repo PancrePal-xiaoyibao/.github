@@ -15,6 +15,8 @@ We deeply believe that code is not just cold characters, but a bridge connecting
 ## 🎯 Two Paths to Join the Community
 
 > **Code is the bridge, research is the lighthouse.** Whether you're a developer or a researcher, you can package your capabilities into an AI Agent with a single sentence, and together light up hope for patients with cancer, rare diseases, and chronic conditions ✨
+>
+> 🚦 **Don't want to read the long version?** Jump straight to the **[📋 Community Task Board · Project →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** to claim a milestone, or open the **[🌟 2026 Vision BillBoard #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** to see the scale of what this community is building.
 
 <table>
 <tr>
@@ -68,6 +70,18 @@ A one-click deployable skill pack merging **28 skills + an orchestrator**, cover
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+### 🌟 [Community 2026 Vision BillBoard · Public Call for Contributors →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)
+
+**Not sure where to start? See the 8 big things this community is doing over the next 12-24 months — claim a milestone directly.**
+
+<sub>🧬 Genomic Atlas · 🔒 Data Sovereignty · 📚 Evidence Graph · 🤖 AI Infra · 🩺 Journey Companion · 💊 Life Support · 🌐 Methodology Replication · 🎓 Academic Bridge</sub>
+
+<a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_Browse_the_Vision_Board-BillBoard_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
+
+</div>
 
 <div align="center">
 

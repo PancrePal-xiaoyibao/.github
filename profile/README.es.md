@@ -15,6 +15,8 @@ Creemos profundamente que el código no son solo caracteres fríos, sino un puen
 ## 🎯 Dos caminos para unirse a la comunidad
 
 > **El código es el puente, la investigación es el faro.** Ya seas desarrollador o investigador, puedes empaquetar tus capacidades en un Agente de IA con una sola frase y, juntos, encender la esperanza para pacientes con cáncer, enfermedades raras y crónicas ✨
+>
+> 🚦 **¿No quieres leer la versión larga?** Salta directamente al **[📋 Tablero de tareas de la comunidad · Project →](https://github.com/orgs/PancrePal-xiaoyibao/projects/4)** para reclamar un hito, o abre el **[🌟 BillBoard de Visión 2026 #24 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)** para ver la escala de lo que construye esta comunidad.
 
 <table>
 <tr>
@@ -68,6 +70,18 @@ Un pack de skills desplegable con un clic que fusiona **28 skills + un orquestad
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+### 🌟 [Visión 2026 de la Comunidad · BillBoard · Convocatoria pública de contribuidores →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)
+
+**¿No sabes por dónde empezar? Mira las 8 grandes cosas que hace esta comunidad en los próximos 12-24 meses — reclama un hito directamente.**
+
+<sub>🧬 Atlas Genómico · 🔒 Soberanía de Datos · 📚 Grafo de Evidencia · 🤖 Infra IA · 🩺 Compañía · 💊 Soporte Vital · 🌐 Replicación Metodológica · 🎓 Puente Académico</sub>
+
+<a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_Explorar_BillBoard-Visión_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
+
+</div>
 
 <div align="center">
 
