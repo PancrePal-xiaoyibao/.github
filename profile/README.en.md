@@ -71,6 +71,18 @@ A one-click deployable skill pack merging **28 skills + an orchestrator**, cover
 
 <div align="center">
 
+### 🌟 [Community 2026 Vision BillBoard · Public Call for Contributors →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)
+
+**Not sure where to start? See the 8 big things this community is doing over the next 12-24 months — claim a milestone directly.**
+
+<sub>🧬 Genomic Atlas · 🔒 Data Sovereignty · 📚 Evidence Graph · 🤖 AI Infra · 🩺 Journey Companion · 💊 Life Support · 🌐 Methodology Replication · 🎓 Academic Bridge</sub>
+
+<a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_Browse_the_Vision_Board-BillBoard_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
+
+</div>
+
+<div align="center">
+
 **💎 Contribute your work to the community · Let glimmers become a blaze**
 
 <sub>✍️ Code projects → merge into the CodeForge ecosystem via PRs &nbsp;·&nbsp; 🧪 Research outcomes → license & spread via VitaForge &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">Contact us for licensing / partnership</a></sub>

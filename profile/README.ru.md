@@ -71,6 +71,18 @@ AI4S сухой лабораторный движок для медицины и
 
 <div align="center">
 
+### 🌟 [Видение сообщества 2026 · BillBoard · Публичный призыв к участию →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)
+
+**Не знаете, с чего начать? Посмотрите 8 больших дел, которые сообщество делает в ближайшие 12-24 месяца — возьмите на себя вехой.**
+
+<sub>🧬 Геномный атлас · 🔒 Суверенитет данных · 📚 Граф доказательств · 🤖 AI инфраструктура · 🩺 Сопровождение · 💊 Поддержка жизни · 🌐 Тиражирование методологии · 🎓 Академический мост</sub>
+
+<a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_Открыть_BillBoard-Vision_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
+
+</div>
+
+<div align="center">
+
 **💎 Передайте свою работу сообществу · От искры к пламени**
 
 <sub>✍️ Код-проекты → в экосистему CodeForge через PR &nbsp;·&nbsp; 🧪 Результаты исследований → лицензирование и распространение через VitaForge &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">Связаться для лицензирования / партнёрства</a></sub>

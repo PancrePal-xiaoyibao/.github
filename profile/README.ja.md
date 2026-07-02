@@ -71,6 +71,18 @@
 
 <div align="center">
 
+### 🌟 [コミュニティ 2026 ビジョン BillBoard · 貢献者公開募集 →](https://github.com/PancrePal-xiaoyibao/.github/issues/24)
+
+**どこから始めればいいか分からない？コミュニティが今後 12-24 ヶ月で取り組む 8 つの大きな仕事 — 直接マイルストーンを引き受けよう。**
+
+<sub>🧬 ゲノムアトラス · 🔒 データ主権 · 📚 エビデンスグラフ · 🤖 AI インフラ · 🩺 全病程サポート · 💊 生活支援 · 🌐 方法論複製 · 🎓 学術橋渡し</sub>
+
+<a href="https://github.com/PancrePal-xiaoyibao/.github/issues/24"><img src="https://img.shields.io/badge/🌟_BillBoard_を見る-Vision_%232026-purple?style=for-the-badge" alt="Community Vision BillBoard" /></a>
+
+</div>
+
+<div align="center">
+
 **💎 あなたの作品をコミュニティに沈殿させ · 小さな輝きを大きな希望へ**
 
 <sub>✍️ コードプロジェクト → CodeForgeエコシステムへPRで沈殿 &nbsp;·&nbsp; 🧪 研究成果 → VitaForgeでライセンス供与・普及 &nbsp;·&nbsp; 🤝 <a href="mailto:sam.qin@xiaoyibao.com.cn">ライセンス / 提携のご連絡</a></sub>
