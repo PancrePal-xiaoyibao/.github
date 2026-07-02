@@ -45,7 +45,7 @@ Un andamio de desarrollo con IA diseñado para principiantes en open source. Emp
 
 ### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
 
-**Entrada para investigadores**
+**Entrada para clínicos e investigadores**
 
 Motor de laboratorio seco AI4S para medicina y ciencias de la vida
 
@@ -54,10 +54,11 @@ Un pack de skills desplegable con un clic que fusiona **28 skills + un orquestad
 > **Forge your AI scientist. From single cell to bedside.**
 
 **Esto es para ti si:**
+- 🩺 Eres **médico clínico o enfermero/a especialista** y necesitas evidencia, análisis de casos complejos o soporte de investigación clínica
 - 🔬 Trabajas con scRNA-seq / transcriptómica espacial y necesitas un pipeline estandarizado (8 fases)
 - 📚 Estás abrumado con revisiones de literatura, redacción de artículos, envíos SCI, respuestas a revisores
 - 💰 Estás escribiendo una solicitud de NSFC y necesitas asesoría de revisores senior
-- 🩺 Necesitas análisis de casos complejos combinando medicina basada en evidencia + medicina tradicional china
+- 🎓 Eres estudiante de medicina / posgrado y quieres ejecutar tu primer flujo AI4S de laboratorio seco en 15 minutos
 - 📝 Deseas aportar tus resultados de investigación a la comunidad — para beneficiar a más pacientes
 
 **Matriz de habilidades:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skills

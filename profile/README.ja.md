@@ -45,7 +45,7 @@
 
 ### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
 
-**研究者リサーチ入口**
+**医学臨床・研究者入口**
 
 医学・生命科学のためのAI4S 干実験エンジン
 
@@ -54,10 +54,11 @@
 > **Forge your AI scientist. From single cell to bedside.**
 
 **こんな方におすすめ:**
+- 🩺 あなたが**臨床医・専門看護師**で、EBM根拠、複雑症例分析、臨床研究支援が必要
 - 🔬 scRNA-seq / 空間トランスクリプトミクスを扱い、標準化パイプライン（8フェーズ）が必要
 - 📚 文献レビュー、論文執筆、SCI投稿、査読応答の反復作業に埋もれている
 - 💰 国自然基金（NSFC）本子を書いており、シニア査読者の視点でコーチングが欲しい
-- 🩺 EBM + 中医学の総合視点で複雑症例を分析したい
+- 🎓 医学生・大学院生で、15分以内に初めてのAI4S 干実験フローを走らせたい
 - 📝 研究成果をコミュニティに沈殿させ、より多くの患者さんに専門知識を届けたい
 
 **スキルマトリクス:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skill

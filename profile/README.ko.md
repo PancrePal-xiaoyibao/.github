@@ -45,7 +45,7 @@
 
 ### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
 
-**연구자 연구 진입점**
+**의학 임상 및 연구자 진입점**
 
 의학·생명과학용 AI4S 드라이랩 엔진
 
@@ -54,10 +54,11 @@
 > **Forge your AI scientist. From single cell to bedside.**
 
 **다음과 같은 분께 추천:**
+- 🩺 당신이 **임상 의사 또는 전문 간호사**이며, 근거 지원, 복잡 증례 분석, 임상 연구 지원이 필요
 - 🔬 scRNA-seq / 공간전사체학을 다루고 표준화된 파이프라인(8-Phase)이 필요
 - 📚 문헌 리뷰, 논문 작성, SCI 투고, 심사자 답변 등 반복 노동에 시달림
 - 💰 국가자연과학기금(NSFC) 신청서를 작성 중이며 시니어 심사자 관점의 지도가 필요
-- 🩺 근거중심의학 + 중의학 통합 관점의 복잡 증례 분석이 필요
+- 🎓 의대생 · 대학원생이며 15분 안에 첫 AI4S 드라이랩 워크플로우를 실행해 보고 싶다
 - 📝 연구 성과를 커뮤니티에 남겨 더 많은 환자에게 전문 지식이 전달되기를 희망
 
 **스킬 매트릭스:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skill

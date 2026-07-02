@@ -45,7 +45,7 @@ An AI development scaffold designed for open-source newcomers. It packages **16 
 
 ### 🧬 [VitaForge](https://github.com/PancrePal-xiaoyibao/VitaForge)
 
-**Researcher Science Entry**
+**Clinical & Research Entry**
 
 AI4S Dry-Lab Engine for Medicine & Life Sciences
 
@@ -54,10 +54,11 @@ A one-click deployable skill pack merging **28 skills + an orchestrator**, cover
 > **Forge your AI scientist. From single cell to bedside.**
 
 **This is for you if:**
+- 🩺 You're a **clinician or specialist nurse** needing evidence, complex case analysis, or clinical research support
 - 🔬 You run scRNA-seq / spatial transcriptomics and need a standardized 8-Phase pipeline
 - 📚 You're bogged down in literature reviews, paper writing, SCI submissions, review replies
 - 💰 You're writing an NSFC (National Science Foundation) grant and need senior reviewer coaching
-- 🩺 You need complex case analysis combining evidence-based medicine + traditional Chinese medicine
+- 🎓 You're a medical / graduate student, and want to run your first AI4S dry-lab flow in 15 minutes
 - 📝 You hope to contribute your research back to the community — helping more patients benefit
 
 **Skill matrix:** `/ai4s-lab` `/scrna-bindlab-full-workflow` `/deep-research` `/medical-advisory` `/thesis-writing-mentor` `/sci-journal-submission-expert` `/nsfc-proposal-advisor` … 28 skills
