@@ -6,8 +6,8 @@
   "orgStats": [
     {
       "org": "PancrePal-xiaoyibao",
-      "total": 77,
-      "public": 77,
+      "total": 78,
+      "public": 78,
       "private": 0
     },
     {
@@ -18,9 +18,9 @@
     }
   ],
   "includePrivate": true,
-  "generatedAt": "2026-07-12T06:20:25.463Z",
-  "repoCount": 97,
-  "publicRepoCount": 97,
+  "generatedAt": "2026-07-19T06:09:11.780Z",
+  "repoCount": 98,
+  "publicRepoCount": 98,
   "privateRepoCount": 0,
   "contributorCount": 27,
   "scoringFormula": "score = commits * 1 + prs * 3 + reviews * 2",
@@ -41,6 +41,7 @@
         "PancrePal-xiaoyibao/Lymphoma_AI_assistant_xiaoyibao",
         "PancrePal-xiaoyibao/MedGemma3_test_xyb",
         "PancrePal-xiaoyibao/NCCN_guideline_download",
+        "PancrePal-xiaoyibao/PDAC-multi-agents-prompts",
         "PancrePal-xiaoyibao/PancrePal-xiaoyibao",
         "PancrePal-xiaoyibao/RAG-xiaofeibao-Lungcancer",
         "PancrePal-xiaoyibao/Xiaoxinbao_TTS",
@@ -103,19 +104,19 @@
         "opencare-skillhub/xyb-wechat-article-transcription",
         "opencare-skillhub/xyb_dicom_download_skills"
       ],
-      "repoCount": 68,
-      "publicRepoCount": 68,
+      "repoCount": 69,
+      "publicRepoCount": 69,
       "privateRepoCount": 0,
-      "commits": 886,
+      "commits": 891,
       "privateCommits": 0,
-      "additions": 1677070,
-      "deletions": 224107,
-      "net": 1452963,
+      "additions": 1695086,
+      "deletions": 224879,
+      "net": 1470207,
       "prs": 13,
       "reviews": 5,
-      "score": 935,
+      "score": 940,
       "firstContribution": "2024-05-05",
-      "lastContribution": "2026-07-05"
+      "lastContribution": "2026-07-12"
     },
     {
       "login": "liueic",

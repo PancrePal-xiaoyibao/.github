@@ -272,14 +272,14 @@ OpenCare（オープンケア）コミュニティとそのサブコミュニテ
 
 *一人ひとりの貢献者が、患者の旅路を照らす光です*
 
-<table border="0" cellspacing="0" cellpadding="12" width="100%"><tr><td align="center" width="20%"><b>2</b><br/><sub>組織</sub></td><td align="center" width="20%"><b>27</b><br/><sub>名の貢献者</sub></td><td align="center" width="20%"><b>97</b><br/><sub>リポジトリ</sub></td><td align="center" width="20%"><b>1.7k</b><br/><sub>コミット</sub></td><td align="center" width="20%"><b>4259.5k</b><br/><sub>行の変更</sub></td></tr></table>
+<table border="0" cellspacing="0" cellpadding="12" width="100%"><tr><td align="center" width="20%"><b>2</b><br/><sub>組織</sub></td><td align="center" width="20%"><b>27</b><br/><sub>名の貢献者</sub></td><td align="center" width="20%"><b>98</b><br/><sub>リポジトリ</sub></td><td align="center" width="20%"><b>1.7k</b><br/><sub>コミット</sub></td><td align="center" width="20%"><b>4278.3k</b><br/><sub>行の変更</sub></td></tr></table>
 
 </div>
 
 <div align="center">
 
 <table border="0" cellspacing="0" cellpadding="10">
-<tr><td align="center" width="20%"><a href="https://github.com/samqin123" title="samqin123 · 935 pts · 886 commits · 13 PRs · 5 reviews · 2024-05-05 → 2026-07-05 · orgs: PancrePal-xiaoyibao, opencare-skillhub"><img src="https://avatars.githubusercontent.com/u/103937568?v=4&s=128" width="64" alt="samqin123"/><br/><sub><b>🥇 samqin123 🔗</b></sub></a><br/><sub><code>935</code></sub></td><td align="center" width="20%"><a href="https://github.com/liueic" title="liueic · 256 pts · 226 commits · 10 PRs · 0 reviews · 2025-06-29 → 2026-07-05"><img src="https://avatars.githubusercontent.com/u/69223323?v=4&s=128" width="64" alt="liueic"/><br/><sub><b>🥈 liueic</b></sub></a><br/><sub><code>256</code></sub></td><td align="center" width="20%"><a href="https://github.com/NanSsye" title="NanSsye · 171 pts · 171 commits · 0 PRs · 0 reviews · 2025-04-06 → 2025-05-04"><img src="https://avatars.githubusercontent.com/u/169164040?v=4&s=128" width="64" alt="NanSsye"/><br/><sub><b>🥉 NanSsye</b></sub></a><br/><sub><code>171</code></sub></td><td align="center" width="20%"><a href="https://github.com/hhx465453939" title="hhx465453939 · 159 pts · 111 commits · 16 PRs · 0 reviews · 2025-08-24 → 2026-07-05"><img src="https://avatars.githubusercontent.com/u/32251718?v=4&s=128" width="64" alt="hhx465453939"/><br/><sub><b> hhx465453939</b></sub></a><br/><sub><code>159</code></sub></td><td align="center" width="20%"><a href="https://github.com/safishamsi" title="safishamsi · 138 pts · 138 commits · 0 PRs · 0 reviews · 2026-03-29 → 2026-04-12"><img src="https://avatars.githubusercontent.com/u/216348667?v=4&s=128" width="64" alt="safishamsi"/><br/><sub><b> safishamsi</b></sub></a><br/><sub><code>138</code></sub></td></tr>
+<tr><td align="center" width="20%"><a href="https://github.com/samqin123" title="samqin123 · 940 pts · 891 commits · 13 PRs · 5 reviews · 2024-05-05 → 2026-07-12 · orgs: PancrePal-xiaoyibao, opencare-skillhub"><img src="https://avatars.githubusercontent.com/u/103937568?v=4&s=128" width="64" alt="samqin123"/><br/><sub><b>🥇 samqin123 🔗</b></sub></a><br/><sub><code>940</code></sub></td><td align="center" width="20%"><a href="https://github.com/liueic" title="liueic · 256 pts · 226 commits · 10 PRs · 0 reviews · 2025-06-29 → 2026-07-05"><img src="https://avatars.githubusercontent.com/u/69223323?v=4&s=128" width="64" alt="liueic"/><br/><sub><b>🥈 liueic</b></sub></a><br/><sub><code>256</code></sub></td><td align="center" width="20%"><a href="https://github.com/NanSsye" title="NanSsye · 171 pts · 171 commits · 0 PRs · 0 reviews · 2025-04-06 → 2025-05-04"><img src="https://avatars.githubusercontent.com/u/169164040?v=4&s=128" width="64" alt="NanSsye"/><br/><sub><b>🥉 NanSsye</b></sub></a><br/><sub><code>171</code></sub></td><td align="center" width="20%"><a href="https://github.com/hhx465453939" title="hhx465453939 · 159 pts · 111 commits · 16 PRs · 0 reviews · 2025-08-24 → 2026-07-05"><img src="https://avatars.githubusercontent.com/u/32251718?v=4&s=128" width="64" alt="hhx465453939"/><br/><sub><b> hhx465453939</b></sub></a><br/><sub><code>159</code></sub></td><td align="center" width="20%"><a href="https://github.com/safishamsi" title="safishamsi · 138 pts · 138 commits · 0 PRs · 0 reviews · 2026-03-29 → 2026-04-12"><img src="https://avatars.githubusercontent.com/u/216348667?v=4&s=128" width="64" alt="safishamsi"/><br/><sub><b> safishamsi</b></sub></a><br/><sub><code>138</code></sub></td></tr>
 </table>
 
 </div>
@@ -295,7 +295,7 @@ OpenCare（オープンケア）コミュニティとそのサブコミュニテ
 
 <p align="center">
   <sub>
-    <code>スコア = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 更新日 <b>2026-07-12</b>
+    <code>スコア = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 更新日 <b>2026-07-19</b>
     <br/>
     <a href="./CONTRIBUTORS.md">完全なリストと詳細データ</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
   </sub>
