@@ -1,6 +1,6 @@
 # PancrePal-xiaoyibao, opencare-skillhub 贡献者名单 / Contributors
 
-> 自动生成于 2026-07-19T06:09:11.780Z
+> 自动生成于 2026-07-26T06:20:18.388Z
 > 覆盖组织 / Orgs: **PancrePal-xiaoyibao, opencare-skillhub**
 > 仓库总数 / Repos: **98** (98 public)
 > 贡献者 / Contributors: **27**
@@ -10,7 +10,7 @@
 
 | # | 用户 / User | 综合分 / Score | 提交 / Commits | 增行 / Additions | 删行 / Deletions | 净行 / Net | PR | Reviews | 参与仓库 / Repos | 私有 🔒 | 组织 / Orgs | 首次贡献 / First | 最近贡献 / Last |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|
-| 1 | [samqin123](https://github.com/samqin123) | 940 | 891 | 1695086 | 224879 | 1470207 | 13 | 5 | 69 | — | PancrePal-xiaoyibao, opencare-skillhub | 2024-05-05 | 2026-07-12 |
+| 1 | [samqin123](https://github.com/samqin123) | 944 | 895 | 1695120 | 225045 | 1470075 | 13 | 5 | 69 | — | PancrePal-xiaoyibao, opencare-skillhub | 2024-05-05 | 2026-07-19 |
 | 2 | [liueic](https://github.com/liueic) | 256 | 226 | 202651 | 55360 | 147291 | 10 | 0 | 16 | — | PancrePal-xiaoyibao | 2025-06-29 | 2026-07-05 |
 | 3 | [NanSsye](https://github.com/NanSsye) | 171 | 171 | 688455 | 270055 | 418400 | 0 | 0 | 1 | — | PancrePal-xiaoyibao | 2025-04-06 | 2025-05-04 |
 | 4 | [hhx465453939](https://github.com/hhx465453939) | 159 | 111 | 348620 | 22592 | 326028 | 16 | 0 | 19 | — | PancrePal-xiaoyibao | 2025-08-24 | 2026-07-05 |
