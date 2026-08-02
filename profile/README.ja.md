@@ -295,7 +295,7 @@ OpenCare（オープンケア）コミュニティとそのサブコミュニテ
 
 <p align="center">
   <sub>
-    <code>スコア = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 更新日 <b>2026-07-26</b>
+    <code>スコア = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 更新日 <b>2026-08-02</b>
     <br/>
     <a href="./CONTRIBUTORS.md">完全なリストと詳細データ</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
   </sub>
