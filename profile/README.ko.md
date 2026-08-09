@@ -296,7 +296,7 @@ OpenCare(오픈케어) 커뮤니티와 그 하위 커뮤니티인 'PancrePal'(�
 
 <p align="center">
   <sub>
-    <code>점수 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 업데이트 <b>2026-08-02</b>
+    <code>점수 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 업데이트 <b>2026-08-09</b>
     <br/>
     <a href="./CONTRIBUTORS.md">전체 명단과 상세 데이터</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
   </sub>

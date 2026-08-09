@@ -303,7 +303,7 @@ AI4S сухой лабораторный движок для медицины и
 
 <p align="center">
   <sub>
-    <code>Оценка = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; Обновлено <b>2026-08-02</b>
+    <code>Оценка = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; Обновлено <b>2026-08-09</b>
     <br/>
     <a href="./CONTRIBUTORS.md">Полный список и подробные данные</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
   </sub>

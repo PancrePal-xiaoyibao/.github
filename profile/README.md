@@ -479,7 +479,7 @@
 
 <p align="center">
   <sub>
-    <code>综合分 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 数据更新于 <b>2026-08-02</b>
+    <code>综合分 = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; 数据更新于 <b>2026-08-09</b>
     <br/>
     <a href="./CONTRIBUTORS.md">完整名单与详细数据</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
   </sub>

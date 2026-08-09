@@ -469,7 +469,7 @@ Thank you to everyone who has and will contributed to the project! The list belo
 
 <p align="center">
   <sub>
-    <code>Score = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; Updated <b>2026-08-02</b>
+    <code>Score = commits × 1 + PRs × 3 + reviews × 2</code> &nbsp;·&nbsp; Updated <b>2026-08-09</b>
     <br/>
     <a href="./CONTRIBUTORS.md">Full list & detailed data</a> &nbsp;·&nbsp; <a href="./contributors.csv">CSV</a> &nbsp;·&nbsp; <a href="./contributors.json">JSON</a>
   </sub>
