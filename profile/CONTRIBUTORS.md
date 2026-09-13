@@ -1,6 +1,6 @@
 # PancrePal-xiaoyibao, opencare-skillhub 贡献者名单 / Contributors
 
-> 自动生成于 2026-09-06T07:55:08.215Z
+> 自动生成于 2026-09-13T08:30:18.608Z
 > 覆盖组织 / Orgs: **PancrePal-xiaoyibao, opencare-skillhub**
 > 仓库总数 / Repos: **103** (103 public)
 > 贡献者 / Contributors: **27**
@@ -12,7 +12,7 @@
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|
 | 1 | [samqin123](https://github.com/samqin123) | 963 | 914 | 1712060 | 227306 | 1484754 | 13 | 5 | 72 | — | PancrePal-xiaoyibao, opencare-skillhub | 2024-05-05 | 2026-08-30 |
 | 2 | [liueic](https://github.com/liueic) | 256 | 226 | 202651 | 55360 | 147291 | 10 | 0 | 16 | — | PancrePal-xiaoyibao | 2025-06-29 | 2026-07-05 |
-| 3 | [hhx465453939](https://github.com/hhx465453939) | 179 | 131 | 434605 | 24146 | 410459 | 16 | 0 | 21 | — | PancrePal-xiaoyibao, opencare-skillhub | 2025-08-24 | 2026-08-23 |
+| 3 | [hhx465453939](https://github.com/hhx465453939) | 196 | 148 | 442480 | 26796 | 415684 | 16 | 0 | 21 | — | PancrePal-xiaoyibao, opencare-skillhub | 2025-08-24 | 2026-09-06 |
 | 4 | [NanSsye](https://github.com/NanSsye) | 171 | 171 | 688455 | 270055 | 418400 | 0 | 0 | 1 | — | PancrePal-xiaoyibao | 2025-04-06 | 2025-05-04 |
 | 5 | [safishamsi](https://github.com/safishamsi) | 138 | 138 | 48466 | 9611 | 38855 | 0 | 0 | 1 | — | PancrePal-xiaoyibao | 2026-03-29 | 2026-04-12 |
 | 6 | [elinawang626-design](https://github.com/elinawang626-design) | 70 | 43 | 12775 | 1432 | 11343 | 9 | 0 | 2 | — | PancrePal-xiaoyibao | 2026-04-19 | 2026-05-24 |
