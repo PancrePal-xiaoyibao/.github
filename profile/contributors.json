@@ -6,8 +6,8 @@
   "orgStats": [
     {
       "org": "PancrePal-xiaoyibao",
-      "total": 80,
-      "public": 80,
+      "total": 81,
+      "public": 81,
       "private": 0
     },
     {
@@ -18,9 +18,9 @@
     }
   ],
   "includePrivate": true,
-  "generatedAt": "2026-09-20T08:41:36.817Z",
-  "repoCount": 104,
-  "publicRepoCount": 104,
+  "generatedAt": "2026-09-27T09:21:03.968Z",
+  "repoCount": 105,
+  "publicRepoCount": 105,
   "privateRepoCount": 0,
   "contributorCount": 27,
   "scoringFormula": "score = commits * 1 + prs * 3 + reviews * 2",
@@ -184,6 +184,7 @@
         "PancrePal-xiaoyibao/VibeWheel_xiaoyibao",
         "PancrePal-xiaoyibao/VitaForge",
         "PancrePal-xiaoyibao/Xiaoxinbao_TTS",
+        "PancrePal-xiaoyibao/agent-math-seed-system",
         "PancrePal-xiaoyibao/mcp-pubmed-server-pancrpal",
         "PancrePal-xiaoyibao/medical-desensitization",
         "PancrePal-xiaoyibao/osintel-pancrepal",
@@ -192,19 +193,19 @@
         "PancrePal-xiaoyibao/xiaoxinbao_UI",
         "opencare-skillhub/openclaw_skills_pool"
       ],
-      "repoCount": 21,
-      "publicRepoCount": 21,
+      "repoCount": 22,
+      "publicRepoCount": 22,
       "privateRepoCount": 0,
-      "commits": 148,
+      "commits": 150,
       "privateCommits": 0,
-      "additions": 442480,
-      "deletions": 26796,
-      "net": 415684,
+      "additions": 449992,
+      "deletions": 26810,
+      "net": 423182,
       "prs": 16,
       "reviews": 0,
-      "score": 196,
+      "score": 198,
       "firstContribution": "2025-08-24",
-      "lastContribution": "2026-09-06"
+      "lastContribution": "2026-09-20"
     },
     {
       "login": "NanSsye",
