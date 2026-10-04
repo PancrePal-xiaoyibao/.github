@@ -6,25 +6,49 @@
   "orgStats": [
     {
       "org": "PancrePal-xiaoyibao",
-      "total": 81,
-      "public": 81,
+      "total": 83,
+      "public": 83,
       "private": 0
     },
     {
       "org": "opencare-skillhub",
-      "total": 24,
-      "public": 24,
+      "total": 25,
+      "public": 25,
       "private": 0
     }
   ],
   "includePrivate": true,
-  "generatedAt": "2026-09-27T09:21:03.968Z",
-  "repoCount": 105,
-  "publicRepoCount": 105,
+  "generatedAt": "2026-10-04T09:53:55.272Z",
+  "repoCount": 108,
+  "publicRepoCount": 108,
   "privateRepoCount": 0,
-  "contributorCount": 27,
+  "contributorCount": 89,
   "scoringFormula": "score = commits * 1 + prs * 3 + reviews * 2",
   "contributors": [
+    {
+      "login": "vastsa",
+      "htmlUrl": "https://github.com/vastsa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48862574?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3442,
+      "privateCommits": 0,
+      "additions": 743358,
+      "deletions": 254879,
+      "net": 488479,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3442,
+      "firstContribution": "2026-07-19",
+      "lastContribution": "2026-09-27"
+    },
     {
       "login": "samqin123",
       "htmlUrl": "https://github.com/samqin123",
@@ -84,12 +108,14 @@
         "PancrePal-xiaoyibao/xiaoxbao_community_edgeone_publish",
         "PancrePal-xiaoyibao/xiaoyibao-clinical-trials-mcp-server",
         "PancrePal-xiaoyibao/xxxbot-GetWeather",
+        "PancrePal-xiaoyibao/xyb-pi-agent",
         "PancrePal-xiaoyibao/xyb_wx_articles",
         "opencare-skillhub/.github",
         "opencare-skillhub/Medical-Record-Organizer",
         "opencare-skillhub/RAG-content-processor",
         "opencare-skillhub/awesome_research_writter_xiaoyibao",
         "opencare-skillhub/chictr-trials-collector",
+        "opencare-skillhub/chinadurgtrials",
         "opencare-skillhub/clinicaltrials-intel-skill",
         "opencare-skillhub/clinicaltrials-query-analysis",
         "opencare-skillhub/feishu-lark-cli-message-process-skills",
@@ -108,19 +134,19 @@
         "opencare-skillhub/xyb-whitepaper-writer",
         "opencare-skillhub/xyb_dicom_download_skills"
       ],
-      "repoCount": 73,
-      "publicRepoCount": 73,
+      "repoCount": 75,
+      "publicRepoCount": 75,
       "privateRepoCount": 0,
-      "commits": 927,
+      "commits": 993,
       "privateCommits": 0,
-      "additions": 1715429,
-      "deletions": 227528,
-      "net": 1487901,
+      "additions": 1748287,
+      "deletions": 229011,
+      "net": 1519276,
       "prs": 13,
       "reviews": 5,
-      "score": 976,
+      "score": 1042,
       "firstContribution": "2024-05-05",
-      "lastContribution": "2026-09-13"
+      "lastContribution": "2026-10-04"
     },
     {
       "login": "liueic",
@@ -256,6 +282,30 @@
       "lastContribution": "2026-04-12"
     },
     {
+      "login": "Tioit-Wang",
+      "htmlUrl": "https://github.com/Tioit-Wang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104554654?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 103,
+      "privateCommits": 0,
+      "additions": 84541,
+      "deletions": 8915,
+      "net": 75626,
+      "prs": 0,
+      "reviews": 0,
+      "score": 103,
+      "firstContribution": "2026-07-26",
+      "lastContribution": "2026-09-27"
+    },
+    {
       "login": "elinawang626-design",
       "htmlUrl": "https://github.com/elinawang626-design",
       "avatarUrl": "https://avatars.githubusercontent.com/u/245901821?v=4",
@@ -279,6 +329,78 @@
       "score": 70,
       "firstContribution": "2026-04-19",
       "lastContribution": "2026-05-24"
+    },
+    {
+      "login": "yuxino",
+      "htmlUrl": "https://github.com/yuxino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12481935?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 65,
+      "privateCommits": 0,
+      "additions": 5929,
+      "deletions": 465,
+      "net": 5464,
+      "prs": 0,
+      "reviews": 0,
+      "score": 65,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "muzimu217",
+      "htmlUrl": "https://github.com/muzimu217",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/201334833?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 55,
+      "privateCommits": 0,
+      "additions": 8489,
+      "deletions": 679,
+      "net": 7810,
+      "prs": 0,
+      "reviews": 0,
+      "score": 55,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "zszz3",
+      "htmlUrl": "https://github.com/zszz3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91608029?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 55,
+      "privateCommits": 0,
+      "additions": 14382,
+      "deletions": 2965,
+      "net": 11417,
+      "prs": 0,
+      "reviews": 0,
+      "score": 55,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-27"
     },
     {
       "login": "peterwillcn",
@@ -308,6 +430,30 @@
       "lastContribution": "2025-03-23"
     },
     {
+      "login": "hui455",
+      "htmlUrl": "https://github.com/hui455",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/162908380?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 42,
+      "privateCommits": 0,
+      "additions": 15123,
+      "deletions": 1442,
+      "net": 13681,
+      "prs": 0,
+      "reviews": 0,
+      "score": 42,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-27"
+    },
+    {
       "login": "williamdeve",
       "htmlUrl": "https://github.com/williamdeve",
       "avatarUrl": "https://avatars.githubusercontent.com/u/755935?v=4",
@@ -331,6 +477,126 @@
       "score": 34,
       "firstContribution": "2025-08-03",
       "lastContribution": "2025-08-03"
+    },
+    {
+      "login": "zeroy1024",
+      "htmlUrl": "https://github.com/zeroy1024",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40199743?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 28,
+      "privateCommits": 0,
+      "additions": 12935,
+      "deletions": 1314,
+      "net": 11621,
+      "prs": 0,
+      "reviews": 0,
+      "score": 28,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "yg2224",
+      "htmlUrl": "https://github.com/yg2224",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/136247805?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 27,
+      "privateCommits": 0,
+      "additions": 2922,
+      "deletions": 372,
+      "net": 2550,
+      "prs": 0,
+      "reviews": 0,
+      "score": 27,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "xiaobaZeo",
+      "htmlUrl": "https://github.com/xiaobaZeo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79237158?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 24,
+      "privateCommits": 0,
+      "additions": 4584,
+      "deletions": 305,
+      "net": 4279,
+      "prs": 0,
+      "reviews": 0,
+      "score": 24,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "Blue-Berrys",
+      "htmlUrl": "https://github.com/Blue-Berrys",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75206464?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 21,
+      "privateCommits": 0,
+      "additions": 5922,
+      "deletions": 493,
+      "net": 5429,
+      "prs": 0,
+      "reviews": 0,
+      "score": 21,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "BioYue",
+      "htmlUrl": "https://github.com/BioYue",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133179025?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 20,
+      "privateCommits": 0,
+      "additions": 680,
+      "deletions": 366,
+      "net": 314,
+      "prs": 0,
+      "reviews": 0,
+      "score": 20,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
     },
     {
       "login": "seven1240",
@@ -382,28 +648,292 @@
       "lastContribution": "2025-10-19"
     },
     {
-      "login": "Handsome5201314",
-      "htmlUrl": "https://github.com/Handsome5201314",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/212555158?v=4",
+      "login": "ZxlDragonDoctor",
+      "htmlUrl": "https://github.com/ZxlDragonDoctor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/152901610?v=4",
       "orgs": [
         "PancrePal-xiaoyibao"
       ],
       "repos": [
-        "PancrePal-xiaoyibao/xiaoxuebao_AI_Project"
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 16,
+      "privateCommits": 0,
+      "additions": 790,
+      "deletions": 69,
+      "net": 721,
+      "prs": 0,
+      "reviews": 0,
+      "score": 16,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "molicherry",
+      "htmlUrl": "https://github.com/molicherry",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169963000?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 13,
+      "privateCommits": 0,
+      "additions": 2761,
+      "deletions": 344,
+      "net": 2417,
+      "prs": 0,
+      "reviews": 0,
+      "score": 13,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "Totopo27",
+      "htmlUrl": "https://github.com/Totopo27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35828647?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 12,
+      "privateCommits": 0,
+      "additions": 1334,
+      "deletions": 695,
+      "net": 639,
+      "prs": 0,
+      "reviews": 0,
+      "score": 12,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "Yi-111-a",
+      "htmlUrl": "https://github.com/Yi-111-a",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/153097222?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 12,
+      "privateCommits": 0,
+      "additions": 1862,
+      "deletions": 91,
+      "net": 1771,
+      "prs": 0,
+      "reviews": 0,
+      "score": 12,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "abiatarprado",
+      "htmlUrl": "https://github.com/abiatarprado",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53842349?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 10,
+      "privateCommits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "net": 0,
+      "prs": 0,
+      "reviews": 0,
+      "score": 10,
+      "firstContribution": null,
+      "lastContribution": null
+    },
+    {
+      "login": "aurorax-neo",
+      "htmlUrl": "https://github.com/aurorax-neo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83893968?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
       ],
       "repoCount": 1,
       "publicRepoCount": 1,
       "privateRepoCount": 0,
       "commits": 9,
       "privateCommits": 0,
-      "additions": 70762,
-      "deletions": 1222,
-      "net": 69540,
+      "additions": 2054,
+      "deletions": 1062,
+      "net": 992,
       "prs": 0,
       "reviews": 0,
       "score": 9,
-      "firstContribution": "2025-09-14",
-      "lastContribution": "2025-09-28"
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "Akshayxkill",
+      "htmlUrl": "https://github.com/Akshayxkill",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119729801?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 8,
+      "privateCommits": 0,
+      "additions": 1911,
+      "deletions": 286,
+      "net": 1625,
+      "prs": 0,
+      "reviews": 0,
+      "score": 8,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "zhangqingkun976",
+      "htmlUrl": "https://github.com/zhangqingkun976",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/286644156?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 8,
+      "privateCommits": 0,
+      "additions": 2519,
+      "deletions": 52,
+      "net": 2467,
+      "prs": 0,
+      "reviews": 0,
+      "score": 8,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "inorilzy",
+      "htmlUrl": "https://github.com/inorilzy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30362354?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 7,
+      "privateCommits": 0,
+      "additions": 2208,
+      "deletions": 313,
+      "net": 1895,
+      "prs": 0,
+      "reviews": 0,
+      "score": 7,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "L4XB",
+      "htmlUrl": "https://github.com/L4XB",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103962359?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 7,
+      "privateCommits": 0,
+      "additions": 925,
+      "deletions": 50,
+      "net": 875,
+      "prs": 0,
+      "reviews": 0,
+      "score": 7,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "MakkaPakka12138",
+      "htmlUrl": "https://github.com/MakkaPakka12138",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151150693?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 7,
+      "privateCommits": 0,
+      "additions": 779,
+      "deletions": 111,
+      "net": 668,
+      "prs": 0,
+      "reviews": 0,
+      "score": 7,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "yexisu",
+      "htmlUrl": "https://github.com/yexisu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134936161?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 7,
+      "privateCommits": 0,
+      "additions": 1336,
+      "deletions": 58,
+      "net": 1278,
+      "prs": 0,
+      "reviews": 0,
+      "score": 7,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
     },
     {
       "login": "zhuangbiaowei",
@@ -428,6 +958,150 @@
       "score": 7,
       "firstContribution": "2024-06-16",
       "lastContribution": "2024-06-16"
+    },
+    {
+      "login": "catDforD",
+      "htmlUrl": "https://github.com/catDforD",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/124801228?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 6,
+      "privateCommits": 0,
+      "additions": 1527,
+      "deletions": 182,
+      "net": 1345,
+      "prs": 0,
+      "reviews": 0,
+      "score": 6,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "iii8slee",
+      "htmlUrl": "https://github.com/iii8slee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/256252466?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 6,
+      "privateCommits": 0,
+      "additions": 1147,
+      "deletions": 183,
+      "net": 964,
+      "prs": 0,
+      "reviews": 0,
+      "score": 6,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "mazongYY",
+      "htmlUrl": "https://github.com/mazongYY",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150018138?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 6,
+      "privateCommits": 0,
+      "additions": 689,
+      "deletions": 39,
+      "net": 650,
+      "prs": 0,
+      "reviews": 0,
+      "score": 6,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "mkaros2025",
+      "htmlUrl": "https://github.com/mkaros2025",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197320386?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 6,
+      "privateCommits": 0,
+      "additions": 158,
+      "deletions": 33,
+      "net": 125,
+      "prs": 0,
+      "reviews": 0,
+      "score": 6,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "ct-jaryn",
+      "htmlUrl": "https://github.com/ct-jaryn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151006958?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 5,
+      "privateCommits": 0,
+      "additions": 604,
+      "deletions": 41,
+      "net": 563,
+      "prs": 0,
+      "reviews": 0,
+      "score": 5,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "mj931554665",
+      "htmlUrl": "https://github.com/mj931554665",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80467466?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 5,
+      "privateCommits": 0,
+      "additions": 903,
+      "deletions": 37,
+      "net": 866,
+      "prs": 0,
+      "reviews": 0,
+      "score": 5,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
     },
     {
       "login": "dapaohou",
@@ -478,6 +1152,30 @@
       "lastContribution": "2024-08-25"
     },
     {
+      "login": "onerentop",
+      "htmlUrl": "https://github.com/onerentop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21999426?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 4,
+      "privateCommits": 0,
+      "additions": 1197,
+      "deletions": 41,
+      "net": 1156,
+      "prs": 0,
+      "reviews": 0,
+      "score": 4,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
       "login": "xurui-wuzhi",
       "htmlUrl": "https://github.com/xurui-wuzhi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/146501890?v=4",
@@ -526,6 +1224,199 @@
       "lastContribution": "2026-02-08"
     },
     {
+      "login": "1sdv",
+      "htmlUrl": "https://github.com/1sdv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89129330?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 114,
+      "deletions": 0,
+      "net": 114,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "dajiaohuang",
+      "htmlUrl": "https://github.com/dajiaohuang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108231307?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 98,
+      "deletions": 34,
+      "net": 64,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "GISWLH",
+      "htmlUrl": "https://github.com/GISWLH",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93301293?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 1153,
+      "deletions": 152,
+      "net": 1001,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "Handsome5201314",
+      "htmlUrl": "https://github.com/Handsome5201314",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/212555158?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/aiyouth-personal-ip-website",
+        "PancrePal-xiaoyibao/xiaoxuebao_AI_Project"
+      ],
+      "repoCount": 2,
+      "publicRepoCount": 2,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 24792,
+      "deletions": 0,
+      "net": 24792,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-27",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "LectWolf",
+      "htmlUrl": "https://github.com/LectWolf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67421358?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 2179,
+      "deletions": 78,
+      "net": 2101,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "MrUncleXiang",
+      "htmlUrl": "https://github.com/MrUncleXiang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19760837?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 205,
+      "deletions": 10,
+      "net": 195,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "ushaio",
+      "htmlUrl": "https://github.com/ushaio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40263315?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 591,
+      "deletions": 301,
+      "net": 290,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "deqiying",
+      "htmlUrl": "https://github.com/deqiying",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/143953590?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 2,
+      "privateCommits": 0,
+      "additions": 2353,
+      "deletions": 512,
+      "net": 1841,
+      "prs": 0,
+      "reviews": 0,
+      "score": 2,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
       "login": "hazamarek",
       "htmlUrl": "https://github.com/hazamarek",
       "avatarUrl": "https://avatars.githubusercontent.com/u/14955735?v=4",
@@ -548,6 +1439,126 @@
       "score": 2,
       "firstContribution": null,
       "lastContribution": null
+    },
+    {
+      "login": "hxj04121-lab",
+      "htmlUrl": "https://github.com/hxj04121-lab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/245486830?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 2,
+      "privateCommits": 0,
+      "additions": 385,
+      "deletions": 90,
+      "net": 295,
+      "prs": 0,
+      "reviews": 0,
+      "score": 2,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "JoyaWang",
+      "htmlUrl": "https://github.com/JoyaWang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13715852?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 2,
+      "privateCommits": 0,
+      "additions": 230,
+      "deletions": 15,
+      "net": 215,
+      "prs": 0,
+      "reviews": 0,
+      "score": 2,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "lan",
+      "htmlUrl": "https://github.com/lan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19917306?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 2,
+      "privateCommits": 0,
+      "additions": 15,
+      "deletions": 3,
+      "net": 12,
+      "prs": 0,
+      "reviews": 0,
+      "score": 2,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "lenmei233",
+      "htmlUrl": "https://github.com/lenmei233",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/229471457?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 2,
+      "privateCommits": 0,
+      "additions": 482,
+      "deletions": 14,
+      "net": 468,
+      "prs": 0,
+      "reviews": 0,
+      "score": 2,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "QAyong",
+      "htmlUrl": "https://github.com/QAyong",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/131734913?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 2,
+      "privateCommits": 0,
+      "additions": 217,
+      "deletions": 22,
+      "net": 195,
+      "prs": 0,
+      "reviews": 0,
+      "score": 2,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
     },
     {
       "login": "rhoggs-bot-test-account",
@@ -623,6 +1634,54 @@
       "lastContribution": "2025-04-20"
     },
     {
+      "login": "aaskfuqw",
+      "htmlUrl": "https://github.com/aaskfuqw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/316313260?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 10,
+      "deletions": 1,
+      "net": 9,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-27",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "angeiv",
+      "htmlUrl": "https://github.com/angeiv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5135956?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 316,
+      "deletions": 1,
+      "net": 315,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
       "login": "azizur100389",
       "htmlUrl": "https://github.com/azizur100389",
       "avatarUrl": "https://avatars.githubusercontent.com/u/180941991?v=4",
@@ -645,6 +1704,30 @@
       "score": 1,
       "firstContribution": "2026-04-05",
       "lastContribution": "2026-04-05"
+    },
+    {
+      "login": "caulif",
+      "htmlUrl": "https://github.com/caulif",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93476809?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 1467,
+      "deletions": 8,
+      "net": 1459,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
     },
     {
       "login": "eltociear",
@@ -671,6 +1754,30 @@
       "lastContribution": "2026-04-05"
     },
     {
+      "login": "feeeeling",
+      "htmlUrl": "https://github.com/feeeeling",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75793722?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 261,
+      "deletions": 17,
+      "net": 244,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
       "login": "gdesai23",
       "htmlUrl": "https://github.com/gdesai23",
       "avatarUrl": "https://avatars.githubusercontent.com/u/261704224?v=4",
@@ -693,6 +1800,102 @@
       "score": 1,
       "firstContribution": "2026-04-05",
       "lastContribution": "2026-04-05"
+    },
+    {
+      "login": "hatricks",
+      "htmlUrl": "https://github.com/hatricks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33259992?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 171,
+      "deletions": 7,
+      "net": 164,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-27",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "KtzeAbyss",
+      "htmlUrl": "https://github.com/KtzeAbyss",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46898226?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 2493,
+      "deletions": 98,
+      "net": 2395,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "kuzen-so",
+      "htmlUrl": "https://github.com/kuzen-so",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116866149?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 4,
+      "deletions": 5,
+      "net": -1,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "liuxusummer",
+      "htmlUrl": "https://github.com/liuxusummer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/98018771?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 220,
+      "deletions": 14,
+      "net": 206,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
     },
     {
       "login": "ljinshuan",
@@ -767,6 +1970,150 @@
       "lastContribution": "2026-04-05"
     },
     {
+      "login": "MM8866-stock",
+      "htmlUrl": "https://github.com/MM8866-stock",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24933016?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 299,
+      "deletions": 7,
+      "net": 292,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-27",
+      "lastContribution": "2026-09-27"
+    },
+    {
+      "login": "nbb2025",
+      "htmlUrl": "https://github.com/nbb2025",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43722192?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 1142,
+      "deletions": 127,
+      "net": 1015,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "pow1035",
+      "htmlUrl": "https://github.com/pow1035",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71381697?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 114,
+      "deletions": 5,
+      "net": 109,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "ScottDeng114514",
+      "htmlUrl": "https://github.com/ScottDeng114514",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96806352?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 87,
+      "deletions": 4,
+      "net": 83,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "shylock-wu",
+      "htmlUrl": "https://github.com/shylock-wu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73875874?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 1991,
+      "deletions": 12,
+      "net": 1979,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "theluckystrike",
+      "htmlUrl": "https://github.com/theluckystrike",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51033404?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 7,
+      "deletions": 7,
+      "net": 0,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-27",
+      "lastContribution": "2026-09-27"
+    },
+    {
       "login": "Vinlic",
       "htmlUrl": "https://github.com/Vinlic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20235341?v=4",
@@ -789,6 +2136,150 @@
       "score": 1,
       "firstContribution": "2024-07-07",
       "lastContribution": "2024-07-07"
+    },
+    {
+      "login": "VMF-HIBIKI",
+      "htmlUrl": "https://github.com/VMF-HIBIKI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148671878?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 57,
+      "deletions": 0,
+      "net": 57,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-20",
+      "lastContribution": "2026-09-20"
+    },
+    {
+      "login": "wudi091",
+      "htmlUrl": "https://github.com/wudi091",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104723255?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 38,
+      "deletions": 3,
+      "net": 35,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-13",
+      "lastContribution": "2026-09-13"
+    },
+    {
+      "login": "xieshentoken",
+      "htmlUrl": "https://github.com/xieshentoken",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47736607?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 775,
+      "deletions": 100,
+      "net": 675,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "yibaiba",
+      "htmlUrl": "https://github.com/yibaiba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80941278?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 24,
+      "deletions": 18,
+      "net": 6,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "yokinanya",
+      "htmlUrl": "https://github.com/yokinanya",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30362789?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 6,
+      "deletions": 6,
+      "net": 0,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-06",
+      "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "Zhangyinglun",
+      "htmlUrl": "https://github.com/Zhangyinglun",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21053021?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 1,
+      "privateCommits": 0,
+      "additions": 194,
+      "deletions": 9,
+      "net": 185,
+      "prs": 0,
+      "reviews": 0,
+      "score": 1,
+      "firstContribution": "2026-09-27",
+      "lastContribution": "2026-09-27"
     }
   ]
 }
