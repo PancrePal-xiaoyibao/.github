@@ -6,23 +6,23 @@
   "orgStats": [
     {
       "org": "PancrePal-xiaoyibao",
-      "total": 83,
-      "public": 83,
+      "total": 85,
+      "public": 85,
       "private": 0
     },
     {
       "org": "opencare-skillhub",
-      "total": 27,
-      "public": 27,
+      "total": 30,
+      "public": 30,
       "private": 0
     }
   ],
   "includePrivate": true,
-  "generatedAt": "2026-10-11T10:06:26.915Z",
-  "repoCount": 110,
-  "publicRepoCount": 110,
+  "generatedAt": "2026-10-18T08:03:11.560Z",
+  "repoCount": 115,
+  "publicRepoCount": 115,
   "privateRepoCount": 0,
-  "contributorCount": 88,
+  "contributorCount": 89,
   "scoringFormula": "score = commits * 1 + prs * 3 + reviews * 2",
   "contributors": [
     {
@@ -119,6 +119,7 @@
         "opencare-skillhub/clinicaltrials-intel-skill",
         "opencare-skillhub/clinicaltrials-query-analysis",
         "opencare-skillhub/feishu-lark-cli-message-process-skills",
+        "opencare-skillhub/generic-image-gen-skills",
         "opencare-skillhub/graphify-xiaoyibao",
         "opencare-skillhub/inkstone-studio",
         "opencare-skillhub/llm-wiki-pancrepal",
@@ -130,25 +131,27 @@
         "opencare-skillhub/skill-HADS-accessment",
         "opencare-skillhub/unified-trial-search-mcp-service",
         "opencare-skillhub/wechat-article-downloader",
+        "opencare-skillhub/xyb-find-cn-pdac-doctors",
         "opencare-skillhub/xyb-humanizer",
+        "opencare-skillhub/xyb-md2pdf",
         "opencare-skillhub/xyb-wechat-article-generator",
         "opencare-skillhub/xyb-wechat-article-transcription",
         "opencare-skillhub/xyb-whitepaper-writer",
         "opencare-skillhub/xyb_dicom_download_skills"
       ],
-      "repoCount": 77,
-      "publicRepoCount": 77,
+      "repoCount": 80,
+      "publicRepoCount": 80,
       "privateRepoCount": 0,
-      "commits": 1068,
+      "commits": 1081,
       "privateCommits": 0,
-      "additions": 1875083,
-      "deletions": 233100,
-      "net": 1641983,
+      "additions": 1883572,
+      "deletions": 233275,
+      "net": 1650297,
       "prs": 18,
       "reviews": 5,
-      "score": 1132,
+      "score": 1145,
       "firstContribution": "2024-05-05",
-      "lastContribution": "2026-10-04"
+      "lastContribution": "2026-10-11"
     },
     {
       "login": "liueic",
@@ -208,6 +211,7 @@
         "PancrePal-xiaoyibao/MedicRAG",
         "PancrePal-xiaoyibao/MemoPal",
         "PancrePal-xiaoyibao/PubMed-Agent",
+        "PancrePal-xiaoyibao/QingNang",
         "PancrePal-xiaoyibao/Secondev-easy-datasets",
         "PancrePal-xiaoyibao/VibeWheel_xiaoyibao",
         "PancrePal-xiaoyibao/VitaForge",
@@ -221,19 +225,19 @@
         "PancrePal-xiaoyibao/xiaoxinbao_UI",
         "opencare-skillhub/openclaw_skills_pool"
       ],
-      "repoCount": 22,
-      "publicRepoCount": 22,
+      "repoCount": 23,
+      "publicRepoCount": 23,
       "privateRepoCount": 0,
-      "commits": 150,
+      "commits": 165,
       "privateCommits": 0,
-      "additions": 449992,
-      "deletions": 26810,
-      "net": 423182,
+      "additions": 1465719,
+      "deletions": 31021,
+      "net": 1434698,
       "prs": 16,
       "reviews": 0,
-      "score": 198,
+      "score": 213,
       "firstContribution": "2025-08-24",
-      "lastContribution": "2026-09-20"
+      "lastContribution": "2026-10-11"
     },
     {
       "login": "NanSsye",
@@ -1248,6 +1252,30 @@
       "score": 3,
       "firstContribution": "2026-09-06",
       "lastContribution": "2026-09-06"
+    },
+    {
+      "login": "dajiaohuang",
+      "htmlUrl": "https://github.com/dajiaohuang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108231307?v=4",
+      "orgs": [
+        "PancrePal-xiaoyibao"
+      ],
+      "repos": [
+        "PancrePal-xiaoyibao/xyb-pi-agent"
+      ],
+      "repoCount": 1,
+      "publicRepoCount": 1,
+      "privateRepoCount": 0,
+      "commits": 3,
+      "privateCommits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "net": 0,
+      "prs": 0,
+      "reviews": 0,
+      "score": 3,
+      "firstContribution": null,
+      "lastContribution": null
     },
     {
       "login": "GISWLH",
