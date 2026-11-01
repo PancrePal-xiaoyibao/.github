@@ -18,7 +18,7 @@
     }
   ],
   "includePrivate": true,
-  "generatedAt": "2026-10-25T08:31:17.947Z",
+  "generatedAt": "2026-11-01T10:33:50.991Z",
   "repoCount": 115,
   "publicRepoCount": 115,
   "privateRepoCount": 0,
@@ -125,6 +125,7 @@
         "opencare-skillhub/llm-wiki-pancrepal",
         "opencare-skillhub/nccn-guideline-downloader",
         "opencare-skillhub/openclaw-backup-restore-ops",
+        "opencare-skillhub/openclaw_skills_pool",
         "opencare-skillhub/pancreatic-cancer-dailynews-skill",
         "opencare-skillhub/pancrepal-wechat-news-board",
         "opencare-skillhub/renjianshi",
@@ -139,19 +140,19 @@
         "opencare-skillhub/xyb-whitepaper-writer",
         "opencare-skillhub/xyb_dicom_download_skills"
       ],
-      "repoCount": 80,
-      "publicRepoCount": 80,
+      "repoCount": 81,
+      "publicRepoCount": 81,
       "privateRepoCount": 0,
-      "commits": 1081,
+      "commits": 1082,
       "privateCommits": 0,
-      "additions": 1883572,
+      "additions": 1884923,
       "deletions": 233275,
-      "net": 1650297,
+      "net": 1651648,
       "prs": 18,
       "reviews": 5,
-      "score": 1145,
+      "score": 1146,
       "firstContribution": "2024-05-05",
-      "lastContribution": "2026-10-11"
+      "lastContribution": "2026-10-25"
     },
     {
       "login": "liueic",
