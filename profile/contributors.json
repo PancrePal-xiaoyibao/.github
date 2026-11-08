@@ -12,15 +12,15 @@
     },
     {
       "org": "opencare-skillhub",
-      "total": 30,
-      "public": 30,
+      "total": 31,
+      "public": 31,
       "private": 0
     }
   ],
   "includePrivate": true,
-  "generatedAt": "2026-11-01T10:33:50.991Z",
-  "repoCount": 115,
-  "publicRepoCount": 115,
+  "generatedAt": "2026-11-08T10:23:26.568Z",
+  "repoCount": 116,
+  "publicRepoCount": 116,
   "privateRepoCount": 0,
   "contributorCount": 89,
   "scoringFormula": "score = commits * 1 + prs * 3 + reviews * 2",
@@ -131,6 +131,7 @@
         "opencare-skillhub/renjianshi",
         "opencare-skillhub/skill-HADS-accessment",
         "opencare-skillhub/unified-trial-search-mcp-service",
+        "opencare-skillhub/web-publisher",
         "opencare-skillhub/wechat-article-downloader",
         "opencare-skillhub/xyb-find-cn-pdac-doctors",
         "opencare-skillhub/xyb-humanizer",
@@ -140,19 +141,19 @@
         "opencare-skillhub/xyb-whitepaper-writer",
         "opencare-skillhub/xyb_dicom_download_skills"
       ],
-      "repoCount": 81,
-      "publicRepoCount": 81,
+      "repoCount": 82,
+      "publicRepoCount": 82,
       "privateRepoCount": 0,
-      "commits": 1082,
+      "commits": 1083,
       "privateCommits": 0,
-      "additions": 1884923,
+      "additions": 1885048,
       "deletions": 233275,
-      "net": 1651648,
+      "net": 1651773,
       "prs": 18,
       "reviews": 5,
-      "score": 1146,
+      "score": 1147,
       "firstContribution": "2024-05-05",
-      "lastContribution": "2026-10-25"
+      "lastContribution": "2026-11-01"
     },
     {
       "login": "liueic",
@@ -235,9 +236,9 @@
       "additions": 1557968,
       "deletions": 31026,
       "net": 1526942,
-      "prs": 16,
+      "prs": 17,
       "reviews": 0,
-      "score": 217,
+      "score": 220,
       "firstContribution": "2025-08-24",
       "lastContribution": "2026-10-18"
     },
@@ -1040,8 +1041,8 @@
       "lastContribution": "2026-09-13"
     },
     {
-      "login": "mkaros2025",
-      "htmlUrl": "https://github.com/mkaros2025",
+      "login": "willhaveconsequences",
+      "htmlUrl": "https://github.com/willhaveconsequences",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197320386?v=4",
       "orgs": [
         "PancrePal-xiaoyibao"
@@ -1054,14 +1055,14 @@
       "privateRepoCount": 0,
       "commits": 6,
       "privateCommits": 0,
-      "additions": 158,
-      "deletions": 33,
-      "net": 125,
+      "additions": 0,
+      "deletions": 0,
+      "net": 0,
       "prs": 0,
       "reviews": 0,
       "score": 6,
-      "firstContribution": "2026-09-06",
-      "lastContribution": "2026-09-06"
+      "firstContribution": null,
+      "lastContribution": null
     },
     {
       "login": "ct-jaryn",
